@@ -1,0 +1,4 @@
+Version: 0.0.0
+Date: 2019-09-29
+  Info:
+    - First crack at a mod.

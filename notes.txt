@@ -1,0 +1,11 @@
+Notes
+=====
+
+
+Resources
+---------
+
+    -   Changelog tutorial:
+        -   https://wiki.factorio.com/Tutorial:Modding_tutorial/Gangsir
+    -   Changelog categories:  
+        -   https://forums.factorio.com/viewtopic.php?f=25&t=67140#p409587
