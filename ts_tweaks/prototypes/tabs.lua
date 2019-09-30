@@ -13,4 +13,11 @@ data:extend({
 		icon = "__base__/graphics/technology/mining-productivity.png",
 		icon_size = 128
 	},
+	{
+		type = "item-group",
+		name = "ts-tab-smelting",
+		order = "c",
+		icon = "__base__/graphics/technology/advanced-material-processing.png",
+		icon_size = 128
+	},
 })
