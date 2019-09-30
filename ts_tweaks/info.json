@@ -1,6 +1,6 @@
 {
-	"name": "ts-tweaks",
-	"version": "0.0.0",
+	"name": "ts_tweaks",
+	"version": "0.0.1",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
