@@ -20,4 +20,11 @@ data:extend({
 		icon = "__base__/graphics/technology/advanced-material-processing.png",
 		icon_size = 128
 	},
+	{
+		type = "item-group",
+		name = "ts-tab-production",
+		order = "d",
+		icon = "__base__/graphics/item-group/production.png",
+		icon_size = 64
+	},
 })
