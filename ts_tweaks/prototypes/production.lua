@@ -10,11 +10,13 @@ data:extend({
 	
 	{ type = "item-subgroup", group = g, name = "ts-prod-refineries", order = "b" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-smelting-furnaces", order = "c" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "c" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "f" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "d" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-prod-power", order = "g" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power", order = "e" },
+	
+	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "f" },
 })
 
 
@@ -30,7 +32,7 @@ subgroup = "ts-prod-refineries"
 place(subgroup, "oil-refinery", "a")
 place(subgroup, "centrifuge", "b")
 
-subgroup = "ts-smelting-furnaces"
+subgroup = "ts-prod-furnaces"
 place(subgroup, "stone-furnace", "a")
 place(subgroup, "steel-furnace", "b")
 place(subgroup, "electric-furnace", "c")
@@ -49,3 +51,16 @@ place(subgroup, "steam-engine", "d")
 place(subgroup, "nuclear-reactor", "e")
 place(subgroup, "heat-exchanger", "f")
 place(subgroup, "heat-pipe", "g")
+place(subgroup, "steam-turbine", "h")
+
+subgroup = "ts-prod-modules"
+place(subgroup, "beacon", "a")
+place(subgroup, "speed-module", "b")
+place(subgroup, "speed-module-2", "c")
+place(subgroup, "speed-module-3", "d")
+place(subgroup, "effectivity-module", "e")
+place(subgroup, "effectivity-module-2", "f")
+place(subgroup, "effectivity-module-3", "g")
+place(subgroup, "productivity-module", "h")
+place(subgroup, "productivity-module-2", "i")
+place(subgroup, "productivity-module-3", "j")

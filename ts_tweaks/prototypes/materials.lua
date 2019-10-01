@@ -11,6 +11,18 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-iron", order = "c" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-copper", order = "d" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "e" },
+	
+	{ type = "item-subgroup", group = g, name = "ts-mat-basic", order = "f" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "g" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "h" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ia" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chem-fluid", order = "ib" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-barreling", order = "ja" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-unbarreling", order = "jb" },
 })
 
 
@@ -37,3 +49,71 @@ subgroup = "ts-mat-uranium"
 place(subgroup, "uranium-ore", "a")
 place(subgroup, "uranium-238", "b")
 place(subgroup, "uranium-235", "c")
+place(subgroup, "uranium-processing", "d")
+place(subgroup, "kovarex-enrichment-process", "e")
+place(subgroup, "uranium-fuel-cell", "f")
+place(subgroup, "nuclear-fuel-reprocessing", "g")
+
+subgroup = "ts-mat-basic"
+place(subgroup, "iron-stick", "a")
+place(subgroup, "iron-gear-wheel", "b")
+place(subgroup, "empty-barrel", "c")
+place(subgroup, "engine-unit", "d")
+place(subgroup, "electric-engine-unit", "e")
+place(subgroup, "flying-robot-frame", "f")
+place(subgroup, "rocket-control-unit", "g")
+place(subgroup, "low-density-structure", "h")
+
+subgroup = "ts-mat-circuits"
+place(subgroup, "electronic-circuit", "a")
+place(subgroup, "advanced-circuit", "b")
+place(subgroup, "processing-unit", "c")
+
+subgroup = "ts-mat-fuel"
+place(subgroup, "solid-fuel", "a")
+place(subgroup, "solid-fuel-from-heavy-oil", "a-r1")
+place(subgroup, "solid-fuel-from-light-oil", "a-r2")
+place(subgroup, "solid-fuel-from-petroleum-gas", "a-r3")
+place(subgroup, "rocket-fuel", "b")
+place(subgroup, "nuclear-fuel", "c")
+
+subgroup = "ts-mat-chem-solid"
+place(subgroup, "plastic-bar", "a")
+place(subgroup, "sulfur", "b")
+place(subgroup, "battery", "c")
+place(subgroup, "explosives", "d")
+
+subgroup = "ts-mat-chem-fluid"
+place(subgroup, "basic-oil-processing", "a")
+place(subgroup, "advanced-oil-processing", "b")
+place(subgroup, "coal-liquefaction", "c")
+place(subgroup, "heavy-oil-cracking", "d")
+place(subgroup, "light-oil-cracking", "e")
+place(subgroup, "lubricant", "f")
+place(subgroup, "sulfuric-acid", "g")
+
+subgroup = "ts-mat-barreling"
+place(subgroup, "crude-oil-barrel", "a")
+place(subgroup, "fill-crude-oil-barrel", "a-r1")
+place(subgroup, "heavy-oil-barrel", "b")
+place(subgroup, "fill-heavy-oil-barrel", "b-r1")
+place(subgroup, "light-oil-barrel", "c")
+place(subgroup, "fill-light-oil-barrel", "c-r1")
+place(subgroup, "petroleum-gas-barrel", "d")
+place(subgroup, "fill-petroleum-gas-barrel", "d-r1")
+place(subgroup, "lubricant-barrel", "e")
+place(subgroup, "fill-lubricant-barrel", "e-r1")
+place(subgroup, "sulfuric-acid-barrel", "f")
+place(subgroup, "fill-sulfuric-acid-barrel", "f-r1")
+place(subgroup, "water-barrel", "g")
+place(subgroup, "fill-water-barrel", "g-r1")
+
+subgroup = "ts-mat-unbarreling"
+place(subgroup, "empty-crude-oil-barrel", "a")
+place(subgroup, "empty-heavy-oil-barrel", "b")
+place(subgroup, "empty-light-oil-barrel", "c")
+place(subgroup, "empty-petroleum-gas-barrel", "d")
+place(subgroup, "empty-lubricant-barrel", "e")
+place(subgroup, "empty-sulfuric-acid-barrel", "f")
+place(subgroup, "empty-water-barrel", "g")
+

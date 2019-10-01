@@ -25,7 +25,9 @@ data:extend({
 	
 	{ type = "item-subgroup", group = g, name = "ts-log-circuit", order = "i" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-log-tiles", order = "j" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots", order = "j" },
+
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles", order = "k" },
 })
 
 
@@ -82,6 +84,7 @@ place(subgroup, "logistic-chest-requester", "a")
 
 subgroup = "ts-log-rail"
 place(subgroup, "rail", "a")
+place(subgroup, "straight-rail", "a-r1")
 place(subgroup, "train-stop", "b")
 place(subgroup, "rail-signal", "c")
 place(subgroup, "rail-chain-signal", "d")
@@ -98,6 +101,11 @@ place(subgroup, "decider-combinator", "d")
 place(subgroup, "constant-combinator", "e")
 place(subgroup, "power-switch", "f")
 place(subgroup, "programmable-speaker", "d")
+
+subgroup = "ts-log-bots"
+place(subgroup, "roboport", "a")
+place(subgroup, "logistic-robot", "b")
+place(subgroup, "construction-robot", "c")
 
 subgroup = "ts-log-tiles"
 place(subgroup, "landfill", "a")
