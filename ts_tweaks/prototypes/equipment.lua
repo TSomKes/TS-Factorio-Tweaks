@@ -101,12 +101,14 @@ place(subgroup, "artillery-shell", "e")
 
 subgroup = "ts-equip-static-defense"
 place(subgroup, "stone-wall", "a")
-place(subgroup, "gate", "b")
-place(subgroup, "gun-turret", "c")
-place(subgroup, "laser-turret", "d")
-place(subgroup, "flamethrower-turret", "e")
-place(subgroup, "artillery-turret", "f")
-place(subgroup, "radar", "g")
+place(subgroup, "concrete-wall", "b")
+place(subgroup, "steel-wall", "c")
+place(subgroup, "gate", "d")
+place(subgroup, "gun-turret", "e")
+place(subgroup, "laser-turret", "f")
+place(subgroup, "flamethrower-turret", "g")
+place(subgroup, "artillery-turret", "h")
+place(subgroup, "radar", "i")
 
 subgroup = "ts-equip-remotes"
 place(subgroup, "discharge-defense-remote", "a")

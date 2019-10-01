@@ -12,7 +12,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-copper", order = "d" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "e" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-mat-basic", order = "f" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-basic", order = "fa" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-motor", order = "fb" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "g" },
 
@@ -33,7 +34,11 @@ place(subgroup, "coal", "a")
 
 subgroup = "ts-mat-stone"
 place(subgroup, "stone", "a")
-place(subgroup, "stone-brick", "b")
+place(subgroup, "sand", "b")
+place(subgroup, "sand-from-stone", "b-r1")
+place(subgroup, "stone-brick", "c")
+place(subgroup, "stone-tablet", "d")
+place(subgroup, "glass", "e")
 
 subgroup = "ts-mat-iron"
 place(subgroup, "iron-ore", "a")
@@ -56,8 +61,12 @@ place(subgroup, "nuclear-fuel-reprocessing", "g")
 
 subgroup = "ts-mat-basic"
 place(subgroup, "iron-stick", "a")
-place(subgroup, "iron-gear-wheel", "b")
-place(subgroup, "empty-barrel", "c")
+place(subgroup, "empty-barrel", "b")
+
+subgroup = "ts-mat-motor"
+place(subgroup, "iron-gear-wheel", "a")
+place(subgroup, "motor", "b")
+place(subgroup, "electric-motor", "c")
 place(subgroup, "engine-unit", "d")
 place(subgroup, "electric-engine-unit", "e")
 place(subgroup, "flying-robot-frame", "f")
@@ -85,12 +94,13 @@ place(subgroup, "explosives", "d")
 
 subgroup = "ts-mat-chem-fluid"
 place(subgroup, "basic-oil-processing", "a")
-place(subgroup, "advanced-oil-processing", "b")
-place(subgroup, "coal-liquefaction", "c")
-place(subgroup, "heavy-oil-cracking", "d")
-place(subgroup, "light-oil-cracking", "e")
-place(subgroup, "lubricant", "f")
-place(subgroup, "sulfuric-acid", "g")
+place(subgroup, "oil-processing-heavy", "b")
+place(subgroup, "advanced-oil-processing", "c")
+place(subgroup, "coal-liquefaction", "d")
+place(subgroup, "heavy-oil-cracking", "e")
+place(subgroup, "light-oil-cracking", "f")
+place(subgroup, "lubricant", "g")
+place(subgroup, "sulfuric-acid", "h")
 
 subgroup = "ts-mat-barreling"
 place(subgroup, "crude-oil-barrel", "a")

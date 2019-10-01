@@ -15,8 +15,9 @@ data:extend({
 local subgroup
 
 subgroup = "ts-research-labs"
-place(subgroup, "lab", "a")
-place(subgroup, "rocket-silo", "b")
+place(subgroup, "burner-lab", "a")
+place(subgroup, "lab", "b")
+place(subgroup, "rocket-silo", "c")
 
 subgroup = "ts-research-science-packs"
 place(subgroup, "automation-science-pack", "a")

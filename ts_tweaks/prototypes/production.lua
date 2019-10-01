@@ -38,20 +38,23 @@ place(subgroup, "steel-furnace", "b")
 place(subgroup, "electric-furnace", "c")
 
 subgroup = "ts-prod-assemblers"
-place(subgroup, "assembling-machine-1", "a")
-place(subgroup, "assembling-machine-2", "b")
-place(subgroup, "assembling-machine-3", "c")
-place(subgroup, "chemical-plant", "d")
+place(subgroup, "burner-assembling-machine", "a")
+place(subgroup, "assembling-machine-1", "b")
+place(subgroup, "assembling-machine-2", "c")
+place(subgroup, "assembling-machine-3", "d")
+place(subgroup, "chemical-plant", "e")
+place(subgroup, "fuel-processor", "f")
 
 subgroup = "ts-prod-power"
 place(subgroup, "accumulator", "a")
 place(subgroup, "solar-panel", "b")
-place(subgroup, "boiler", "c")
-place(subgroup, "steam-engine", "d")
-place(subgroup, "nuclear-reactor", "e")
-place(subgroup, "heat-exchanger", "f")
-place(subgroup, "heat-pipe", "g")
-place(subgroup, "steam-turbine", "h")
+place(subgroup, "burner-turbine", "c")
+place(subgroup, "boiler", "d")
+place(subgroup, "steam-engine", "e")
+place(subgroup, "nuclear-reactor", "f")
+place(subgroup, "heat-exchanger", "g")
+place(subgroup, "heat-pipe", "h")
+place(subgroup, "steam-turbine", "i")
 
 subgroup = "ts-prod-modules"
 place(subgroup, "beacon", "a")

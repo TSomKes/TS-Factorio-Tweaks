@@ -4,6 +4,9 @@
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
-	"dependencies": ["base >= 0.17"],
+	"dependencies": [
+		"base >= 0.17",
+		"? aai-industry >= 0.3.23"
+	],
 	"factorio_version": "0.17"
 }

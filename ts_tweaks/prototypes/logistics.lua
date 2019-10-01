@@ -59,10 +59,11 @@ place(subgroup, "stack-filter-inserter", "g")
 
 subgroup = "ts-log-power"
 place(subgroup, "small-electric-pole", "a")
-place(subgroup, "medium-electric-pole", "b")
-place(subgroup, "big-electric-pole", "c")
-place(subgroup, "substation", "d")
-place(subgroup, "small-lamp", "e")
+place(subgroup, "small-iron-electric-pole", "b")
+place(subgroup, "medium-electric-pole", "c")
+place(subgroup, "big-electric-pole", "d")
+place(subgroup, "substation", "e")
+place(subgroup, "small-lamp", "f")
 
 subgroup = "ts-log-pipes"
 place(subgroup, "pipe", "a")
