@@ -2,7 +2,8 @@
 Version: 0.0.2
 Date: 2019-09-30
   Changes:
-    - Added Logistics tab
+    - Created new tabs, populated with vanilla items
+	  - Tabs:  Logistics, Production, Materials, Equipment & Combat, Research, Miscellaneous
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 2019-09-29
