@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.13",
+	"version": "0.0.14",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -9,6 +9,7 @@
 		"? aai-industry >= 0.3.23",
 		"? AfraidOfTheDark >= 1.0.23",
 		"? Aircraft >= 1.6.11",
+		"? bobassembly >= 0.17.7",
 		"? bobenemies >= 0.17.7",
 		"? bobgreenhouse >= 0.17.1",
 		"? bobmining >= 0.17.5",

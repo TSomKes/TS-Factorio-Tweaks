@@ -18,14 +18,20 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "ca" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "cb" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-metal-mixing", order = "cc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-multi-purpose", order = "cd" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "d" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "da" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "db" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "dd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "de" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "e" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-power1", order = "fa" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-power2", order = "fb" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-power3", order = "fc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "fd" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "g" },
 })
@@ -78,32 +84,68 @@ place(subgroup, "void-pump", "e")
 
 subgroup = "ts-prod-refineries"
 place(subgroup, "oil-refinery", "a")
-place(subgroup, "centrifuge", "b")
+place(subgroup, "oil-refinery-2", "b")
+place(subgroup, "oil-refinery-3", "c")
+place(subgroup, "oil-refinery-4", "d")
+place(subgroup, "centrifuge", "e")
 
 subgroup = "ts-prod-furnaces"
 place(subgroup, "stone-furnace", "a")
 place(subgroup, "steel-furnace", "b")
-place(subgroup, "electric-furnace", "c")
+place(subgroup, "oil-steel-furnace", "c")
+place(subgroup, "electric-furnace", "d")
+place(subgroup, "electric-furnace-2", "e")
+place(subgroup, "electric-furnace-3", "f")
 
 subgroup = "ts-prod-furnaces-chemical"
 place(subgroup, "chemical-boiler", "a")
 place(subgroup, "chemical-steel-furnace", "b")
-place(subgroup, "chemical-furnace", "c")
+place(subgroup, "oil-chemical-steel-furnace", "c")
+place(subgroup, "chemical-furnace", "d")
 
 subgroup = "ts-prod-furnaces-metal-mixing"
 place(subgroup, "mixing-furnace", "a")
 place(subgroup, "mixing-steel-furnace", "b")
-place(subgroup, "electric-mixing-furnace", "c")
+place(subgroup, "oil-mixing-steel-furnace", "c")
+place(subgroup, "electric-mixing-furnace", "d")
+
+subgroup = "ts-prod-furnaces-multi-purpose"
+place(subgroup, "electric-chemical-mixing-furnace", "a")
+place(subgroup, "electric-chemical-mixing-furnace-2", "a")
 
 subgroup = "ts-prod-assemblers"
 place(subgroup, "burner-assembling-machine", "a")
-place(subgroup, "assembling-machine-1", "b")
-place(subgroup, "assembling-machine-2", "c")
-place(subgroup, "assembling-machine-3", "d")
-place(subgroup, "chemical-plant", "e")
-place(subgroup, "fuel-processor", "f")
-place(subgroup, "bob-distillery", "g")
-place(subgroup, "electrolyser", "h")
+place(subgroup, "steam-assembling-machine", "b")
+place(subgroup, "assembling-machine-1", "c")
+place(subgroup, "assembling-machine-2", "d")
+place(subgroup, "assembling-machine-3", "e")
+place(subgroup, "assembling-machine-4", "f")
+place(subgroup, "assembling-machine-5", "g")
+place(subgroup, "assembling-machine-6", "h")
+
+subgroup = "ts-prod-electronics-assemblers"
+place(subgroup, "electronics-machine-1", "a")
+place(subgroup, "electronics-machine-2", "b")
+place(subgroup, "electronics-machine-3", "c")
+
+subgroup = "ts-prod-chemical-plants"
+place(subgroup, "chemical-plant", "a")
+place(subgroup, "chemical-plant-2", "b")
+place(subgroup, "chemical-plant-3", "c")
+place(subgroup, "chemical-plant-4", "d")
+
+subgroup = "ts-prod-distilleries"
+place(subgroup, "bob-distillery", "a")
+place(subgroup, "bob-distillery-2", "b")
+place(subgroup, "bob-distillery-3", "c")
+place(subgroup, "bob-distillery-4", "d")
+place(subgroup, "bob-distillery-5", "e")
+
+subgroup = "ts-prod-electrolysers"
+place(subgroup, "electrolyser", "a")
+place(subgroup, "electrolyser-2", "b")
+place(subgroup, "electrolyser-3", "c")
+place(subgroup, "electrolyser-4", "d")
 
 subgroup = "ts-prod-botany"
 place(subgroup, "bob-greenhouse", "a")
@@ -127,6 +169,9 @@ place(subgroup, "nuclear-reactor", "f")
 place(subgroup, "heat-exchanger", "g")
 place(subgroup, "heat-pipe", "h")
 place(subgroup, "steam-turbine", "i")
+
+subgroup = "ts-prod-fuel"
+place(subgroup, "fuel-processor", "i")
 
 subgroup = "ts-prod-modules"
 place(subgroup, "beacon", "a")
