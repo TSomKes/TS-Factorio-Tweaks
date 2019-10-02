@@ -20,7 +20,8 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicles", order = "ea" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo", order = "eb" },
-	
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-util", order = "ec" },
+
 	{ type = "item-subgroup", group = g, name = "ts-equip-static-defense", order = "f" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-remotes", order = "g" },
@@ -50,6 +51,7 @@ place(subgroup, "rocket", "f")
 place(subgroup, "explosive-rocket", "g")
 place(subgroup, "atomic-bomb", "h")
 place(subgroup, "flamethrower-ammo", "i")
+place(subgroup, "napalm", "j")
 
 subgroup = "ts-equip-grenade"
 place(subgroup, "grenade", "a")
@@ -92,13 +94,22 @@ place(subgroup, "discharge-defense-equipment", "d")
 subgroup = "ts-equip-vehicles"
 place(subgroup, "car", "a")
 place(subgroup, "tank", "b")
+place(subgroup, "gunship", "c")
+place(subgroup, "cargo-plane", "d")
+place(subgroup, "jet", "e")
+place(subgroup, "flying-fortress", "f")
 
 subgroup = "ts-equip-vehicle-ammo"
 place(subgroup, "cannon-shell", "a")
 place(subgroup, "explosive-cannon-shell", "b")
-place(subgroup, "uranium-cannon-shell", "c")
-place(subgroup, "explosive-uranium-cannon-shell", "d")
-place(subgroup, "artillery-shell", "e")
+place(subgroup, "high-explosive-cannon-shell", "c")
+place(subgroup, "uranium-cannon-shell", "d")
+place(subgroup, "explosive-uranium-cannon-shell", "e")
+place(subgroup, "artillery-shell", "f")
+
+subgroup = "ts-equip-vehicle-util"
+place(subgroup, "aircraft-energy-shield", "a")
+place(subgroup, "aircraft-afterburner", "b")
 
 subgroup = "ts-equip-static-defense"
 place(subgroup, "stone-wall", "a")
