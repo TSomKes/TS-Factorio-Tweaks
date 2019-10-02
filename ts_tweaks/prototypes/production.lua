@@ -18,11 +18,13 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "d" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-power1", order = "ea" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-power2", order = "eb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-power3", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "e" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "f" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power1", order = "fa" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power2", order = "fb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power3", order = "fc" },
+
+	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "g" },
 })
 
 
@@ -75,6 +77,9 @@ place(subgroup, "chemical-plant", "e")
 place(subgroup, "fuel-processor", "f")
 place(subgroup, "bob-distillery", "g")
 place(subgroup, "electrolyser", "h")
+
+subgroup = "ts-prod-botany"
+place(subgroup, "bob-greenhouse", "a")
 
 subgroup = "ts-prod-power1"
 place(subgroup, "accumulator", "a")

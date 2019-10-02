@@ -38,7 +38,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-gems-cut", order = "dd" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-gems-polished", order = "de" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "e" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "ea" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-botany", order = "eb" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-gear-wheels", order = "fa" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bearing-balls", order = "fb" },
@@ -268,6 +269,14 @@ place(subgroup, "bob-resin-wood", "a-r1")
 place(subgroup, "bob-resin-oil", "a-r2")
 place(subgroup, "rubber", "b")
 place(subgroup, "bob-rubber", "b-r1")
+
+subgroup = "ts-mat-botany"
+place(subgroup, "seedling", "a")
+place(subgroup, "bob-seedling", "a-r1")
+place(subgroup, "bob-basic-greenhouse-cycle", "ba")
+place(subgroup, "bob-advanced-greenhouse-cycle", "bb")
+place(subgroup, "fertiliser", "c")
+place(subgroup, "bob-fertiliser", "c-r1")
 
 subgroup = "ts-mat-gear-wheels"
 place(subgroup, "iron-gear-wheel", "a")
