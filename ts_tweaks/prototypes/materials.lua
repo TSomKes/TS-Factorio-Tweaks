@@ -49,7 +49,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-containers", order = "ff" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-batteries", order = "ga" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "gb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-components", order = "ga" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-boards", order = "gb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "gc" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-frames", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-logistic", order = "hb" },
@@ -212,6 +214,8 @@ place(subgroup, "gunmetal-alloy", "e")
 place(subgroup, "invar-alloy", "f")
 place(subgroup, "nitinol-alloy", "g")
 place(subgroup, "cobalt-steel-alloy", "h")
+place(subgroup, "solder-alloy", "i")
+place(subgroup, "solder-alloy-lead", "j")
 
 subgroup = "ts-mat-gems-unsorted"
 place(subgroup, "gem-ore", "a")
@@ -327,6 +331,25 @@ subgroup = "ts-mat-batteries"
 place(subgroup, "battery", "a")
 place(subgroup, "lithium-ion-battery", "b")
 place(subgroup, "silver-zinc-battery", "c")
+
+subgroup = "ts-mat-circuit-components"
+place(subgroup, "tinned-copper-cable", "a")
+place(subgroup, "insulated-cable", "b")
+place(subgroup, "gilded-copper-cable", "c")
+place(subgroup, "solder", "d")
+place(subgroup, "basic-electronic-components", "e")
+place(subgroup, "electronic-components", "f")
+place(subgroup, "intergrated-electronics", "g")		-- sic
+place(subgroup, "processing-electronics", "h")
+
+subgroup = "ts-mat-circuit-boards"
+place(subgroup, "wooden-board", "a")
+place(subgroup, "phenolic-board", "b")
+place(subgroup, "fibreglass-board", "c")
+place(subgroup, "basic-circuit-board", "d")
+place(subgroup, "circuit-board", "e")
+place(subgroup, "superior-circuit-board", "f")
+place(subgroup, "multi-layer-circuit-board", "g")
 
 subgroup = "ts-mat-circuits"
 place(subgroup, "electronic-circuit", "a")
