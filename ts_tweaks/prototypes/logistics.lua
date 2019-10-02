@@ -14,10 +14,10 @@ data:extend({
 	
 	{ type = "item-subgroup", group = g, name = "ts-log-power", order = "c" },
 
-	{ type = "item-subgroup", group = g, name = "ts-log-pipes", order = "d" },
-		
-	{ type = "item-subgroup", group = g, name = "ts-pumps", order = "f" },
+	{ type = "item-subgroup", group = g, name = "ts-log-lamps", order = "d" },
 
+	{ type = "item-subgroup", group = g, name = "ts-log-pipes", order = "e" },
+		
 	{ type = "item-subgroup", group = g, name = "ts-log-storage", order = "ga" },
 	{ type = "item-subgroup", group = g, name = "ts-log-logistics-storage", order = "gb" },
 	
@@ -63,7 +63,11 @@ place(subgroup, "small-iron-electric-pole", "b")
 place(subgroup, "medium-electric-pole", "c")
 place(subgroup, "big-electric-pole", "d")
 place(subgroup, "substation", "e")
-place(subgroup, "small-lamp", "f")
+
+subgroup = "ts-log-lamps"
+place(subgroup, "small-lamp", "a")
+place(subgroup, "balloon-light", "b")
+place(subgroup, "short-balloon-light", "c")
 
 subgroup = "ts-log-pipes"
 place(subgroup, "pipe", "a")

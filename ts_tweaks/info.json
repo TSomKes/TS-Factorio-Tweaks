@@ -6,7 +6,8 @@
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
 	"dependencies": [
 		"base >= 0.17",
-		"? aai-industry >= 0.3.23"
+		"? aai-industry >= 0.3.23",
+		"? AfraidOfTheDark >= 1.0.23"
 	],
 	"factorio_version": "0.17"
 }

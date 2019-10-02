@@ -81,6 +81,7 @@ place(subgroup, "belt-immunity-equipment", "f")
 place(subgroup, "personal-roboport-equipment", "g")
 place(subgroup, "personal-roboport-mk2-equipment", "h")
 place(subgroup, "night-vision-equipment", "i")
+place(subgroup, "perfect-night-glasses", "j")
 
 subgroup = "ts-equip-armor-defense"
 place(subgroup, "energy-shield-equipment", "a")

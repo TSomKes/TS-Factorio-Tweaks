@@ -11,11 +11,11 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-refineries", order = "b" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "c" },
-	
+
 	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "d" },
-	
+
 	{ type = "item-subgroup", group = g, name = "ts-prod-power", order = "e" },
-	
+
 	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "f" },
 })
 
