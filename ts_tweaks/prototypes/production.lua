@@ -6,9 +6,12 @@ local g = "ts-tab-production"
 
 
 data:extend({
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners", order = "aa" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water", order = "ab" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-gas", order = "ac" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners-burner", order = "aa" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners", order = "ab" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners-area", order = "ac" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-oil", order = "ad" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water", order = "ae" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-gas", order = "af" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-refineries", order = "b" },
 	
@@ -30,17 +33,41 @@ data:extend({
 
 local subgroup
 
-subgroup = "ts-prod-extraction-miners"
+subgroup = "ts-prod-extraction-miners-burner"
 place(subgroup, "burner-mining-drill", "a")
+place(subgroup, "steam-mining-drill", "b")
+
+subgroup = "ts-prod-extraction-miners"
 place(subgroup, "electric-mining-drill", "a")
-place(subgroup, "pumpjack", "c")
+place(subgroup, "bob-mining-drill-1", "b")
+place(subgroup, "bob-mining-drill-2", "c")
+place(subgroup, "bob-mining-drill-3", "d")
+place(subgroup, "bob-mining-drill-4", "e")
+
+subgroup = "ts-prod-extraction-miners-area"
+place(subgroup, "bob-area-mining-drill-1", "b")
+place(subgroup, "bob-area-mining-drill-2", "c")
+place(subgroup, "bob-area-mining-drill-3", "d")
+place(subgroup, "bob-area-mining-drill-4", "e")
+
+subgroup = "ts-prod-extraction-oil"
+place(subgroup, "pumpjack", "a")
+place(subgroup, "bob-pumpjack-1", "b")
+place(subgroup, "bob-pumpjack-2", "c")
+place(subgroup, "bob-pumpjack-3", "d")
+place(subgroup, "bob-pumpjack-4", "e")
 
 subgroup = "ts-prod-extraction-water"
 place(subgroup, "offshore-pump", "a")
-place(subgroup, "water-pump", "b")
-place(subgroup, "water-pump-2", "c")
-place(subgroup, "water-pump-3", "d")
-place(subgroup, "water-pump-4", "e")
+place(subgroup, "water-miner-1", "b")
+place(subgroup, "water-miner-2", "c")
+place(subgroup, "water-miner-3", "d")
+place(subgroup, "water-miner-4", "e")
+place(subgroup, "water-miner-5", "f")
+place(subgroup, "water-pump", "g")
+place(subgroup, "water-pump-2", "h")
+place(subgroup, "water-pump-3", "i")
+place(subgroup, "water-pump-4", "j")
 
 subgroup = "ts-prod-extraction-gas"
 place(subgroup, "air-pump", "a")
