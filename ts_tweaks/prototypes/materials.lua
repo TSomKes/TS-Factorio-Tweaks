@@ -1,6 +1,7 @@
 local TSL = require("data-util")
 
 local place = TSL.place
+local place_all = TSL.place_all
 
 local g = "ts-tab-materials"
 
@@ -17,7 +18,8 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "g" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "h" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ha" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "hb" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ia" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-chem-fluid", order = "ib" },
@@ -85,6 +87,9 @@ place(subgroup, "solid-fuel-from-light-oil", "a-r2")
 place(subgroup, "solid-fuel-from-petroleum-gas", "a-r3")
 place(subgroup, "rocket-fuel", "b")
 place(subgroup, "nuclear-fuel", "c")
+
+subgroup = "ts-mat-fuel-processed"
+place_all(subgroup, "^vehicle%-fuel%-from%-", "a")
 
 subgroup = "ts-mat-chem-solid"
 place(subgroup, "plastic-bar", "a")
