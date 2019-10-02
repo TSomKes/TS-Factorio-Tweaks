@@ -24,8 +24,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ia" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-chem-fluid", order = "ib" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-barreling", order = "ja" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-unbarreling", order = "jb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "ja" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "jb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "jc" },
 })
 
 
@@ -106,24 +107,29 @@ place(subgroup, "heavy-oil-cracking", "e")
 place(subgroup, "light-oil-cracking", "f")
 place(subgroup, "lubricant", "g")
 place(subgroup, "sulfuric-acid", "h")
+place(subgroup, "diesel-fuel", "i")
 
-subgroup = "ts-mat-barreling"
+subgroup = "ts-mat-barrels"
 place(subgroup, "crude-oil-barrel", "a")
-place(subgroup, "fill-crude-oil-barrel", "a-r1")
 place(subgroup, "heavy-oil-barrel", "b")
-place(subgroup, "fill-heavy-oil-barrel", "b-r1")
 place(subgroup, "light-oil-barrel", "c")
-place(subgroup, "fill-light-oil-barrel", "c-r1")
 place(subgroup, "petroleum-gas-barrel", "d")
-place(subgroup, "fill-petroleum-gas-barrel", "d-r1")
 place(subgroup, "lubricant-barrel", "e")
-place(subgroup, "fill-lubricant-barrel", "e-r1")
 place(subgroup, "sulfuric-acid-barrel", "f")
-place(subgroup, "fill-sulfuric-acid-barrel", "f-r1")
 place(subgroup, "water-barrel", "g")
-place(subgroup, "fill-water-barrel", "g-r1")
+place(subgroup, "diesel-fuel-barrel", "h")
 
-subgroup = "ts-mat-unbarreling"
+subgroup = "ts-mat-barrels-fill"
+place(subgroup, "fill-crude-oil-barrel", "a")
+place(subgroup, "fill-heavy-oil-barrel", "b")
+place(subgroup, "fill-light-oil-barrel", "c")
+place(subgroup, "fill-petroleum-gas-barrel", "d")
+place(subgroup, "fill-lubricant-barrel", "e")
+place(subgroup, "fill-sulfuric-acid-barrel", "f")
+place(subgroup, "fill-water-barrel", "g")
+place(subgroup, "fill-diesel-fuel-barrel", "h")
+
+subgroup = "ts-mat-barrels-empty"
 place(subgroup, "empty-crude-oil-barrel", "a")
 place(subgroup, "empty-heavy-oil-barrel", "b")
 place(subgroup, "empty-light-oil-barrel", "c")
@@ -131,4 +137,5 @@ place(subgroup, "empty-petroleum-gas-barrel", "d")
 place(subgroup, "empty-lubricant-barrel", "e")
 place(subgroup, "empty-sulfuric-acid-barrel", "f")
 place(subgroup, "empty-water-barrel", "g")
+place(subgroup, "empty-diesel-fuel-barrel", "h")
 

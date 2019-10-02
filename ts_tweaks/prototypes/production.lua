@@ -14,7 +14,9 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "d" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-power", order = "e" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power1", order = "ea" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power2", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-power3", order = "ec" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "f" },
 })
@@ -45,10 +47,19 @@ place(subgroup, "assembling-machine-3", "d")
 place(subgroup, "chemical-plant", "e")
 place(subgroup, "fuel-processor", "f")
 
-subgroup = "ts-prod-power"
+subgroup = "ts-prod-power1"
 place(subgroup, "accumulator", "a")
-place(subgroup, "solar-panel", "b")
-place(subgroup, "burner-turbine", "c")
+place(subgroup, "wind-turbine-2", "b")
+place(subgroup, "solar-panel", "c")
+
+subgroup = "ts-prod-power2"
+place(subgroup, "burner-generator", "a")
+place(subgroup, "burner-turbine", "b")
+place(subgroup, "big-burner-generator", "c")
+place(subgroup, "petroleum-generator", "d")
+place(subgroup, "oil-steam-boiler", "e")
+
+subgroup = "ts-prod-power3"
 place(subgroup, "boiler", "d")
 place(subgroup, "steam-engine", "e")
 place(subgroup, "nuclear-reactor", "f")

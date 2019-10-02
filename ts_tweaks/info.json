@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -10,6 +10,7 @@
 		"? AfraidOfTheDark >= 1.0.23",
 		"? Aircraft >= 1.6.11",
 		"? color-coding >= 1.17.0",
+		"? KS_Power >= 0.3.5",
 		"? LogisticTrainNetwork >= 1.11.1"
 	],
 	"factorio_version": "0.17"
