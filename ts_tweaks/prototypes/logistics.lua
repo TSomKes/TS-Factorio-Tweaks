@@ -27,9 +27,11 @@ data:extend({
 	
 	{ type = "item-subgroup", group = g, name = "ts-log-bots", order = "j" },
 
-	{ type = "item-subgroup", group = g, name = "ts-log-tiles", order = "ka" },
-	{ type = "item-subgroup", group = g, name = "ts-log-tiles-colored-concrete", order = "kb" },
-	{ type = "item-subgroup", group = g, name = "ts-log-tiles-colored-refined-concrete", order = "kc" },
+	{ type = "item-subgroup", group = g, name = "ts-log-factorissimo", order = "k" },
+
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles", order = "la" },
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles-colored-concrete", order = "lb" },
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles-colored-refined-concrete", order = "lc" },
 })
 
 
@@ -145,3 +147,13 @@ place(subgroup, "refined-concrete-purple", "g")
 place(subgroup, "refined-concrete-magenta", "h")
 place(subgroup, "refined-concrete-white", "i")
 place(subgroup, "refined-concrete-black", "i")
+
+subgroup = "ts-log-factorissimo"
+place(subgroup, "factory-1", "a")
+place(subgroup, "factory-2", "b")
+place(subgroup, "factory-3", "c")
+place(subgroup, "factory-input-pipe", "d")
+place(subgroup, "factory-output-pipe", "e")
+place(subgroup, "factory-circuit-input", "f")
+place(subgroup, "factory-circuit-output", "g")
+place(subgroup, "factory-requester-chest", "h")
