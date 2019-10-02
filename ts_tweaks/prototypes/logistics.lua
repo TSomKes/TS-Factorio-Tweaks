@@ -20,7 +20,8 @@ data:extend({
 		
 	{ type = "item-subgroup", group = g, name = "ts-log-storage", order = "ga" },
 	{ type = "item-subgroup", group = g, name = "ts-log-logistics-storage", order = "gb" },
-	
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid", order = "gc" },
+
 	{ type = "item-subgroup", group = g, name = "ts-log-rail", order = "h" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-log-circuit", order = "i" },
@@ -82,7 +83,6 @@ subgroup = "ts-log-storage"
 place(subgroup, "wooden-chest", "a")
 place(subgroup, "iron-chest", "b")
 place(subgroup, "steel-chest", "c")
-place(subgroup, "storage-tank", "d")
 
 subgroup = "ts-log-logistics-storage"
 place(subgroup, "logistic-chest-active-provider", "a")
@@ -90,6 +90,11 @@ place(subgroup, "logistic-chest-passive-provider", "b")
 place(subgroup, "logistic-chest-storage", "a")
 place(subgroup, "logistic-chest-buffer", "a")
 place(subgroup, "logistic-chest-requester", "a")
+
+subgroup = "ts-log-storage-fluid"
+place(subgroup, "bob-small-inline-storage-tank", "a")
+place(subgroup, "bob-small-storage-tank", "b")
+place(subgroup, "storage-tank", "c")
 
 subgroup = "ts-log-rail"
 place(subgroup, "rail", "a")
