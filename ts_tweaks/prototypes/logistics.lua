@@ -12,7 +12,10 @@ data:extend({
 	
 	{ type = "item-subgroup", group = g, name = "ts-log-inserters", order = "b" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-log-power", order = "c" },
+	{ type = "item-subgroup", group = g, name = "ts-log-power-small", order = "ca" },
+	{ type = "item-subgroup", group = g, name = "ts-log-power-medium", order = "cb" },
+	{ type = "item-subgroup", group = g, name = "ts-log-power-big", order = "cc" },
+	{ type = "item-subgroup", group = g, name = "ts-log-power-substation", order = "cd" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-lamps", order = "d" },
 
@@ -62,12 +65,27 @@ place(subgroup, "filter-inserter", "e")
 place(subgroup, "stack-inserter", "f")
 place(subgroup, "stack-filter-inserter", "g")
 
-subgroup = "ts-log-power"
+subgroup = "ts-log-power-small"
 place(subgroup, "small-electric-pole", "a")
 place(subgroup, "small-iron-electric-pole", "b")
-place(subgroup, "medium-electric-pole", "c")
-place(subgroup, "big-electric-pole", "d")
-place(subgroup, "substation", "e")
+
+subgroup = "ts-log-power-medium"
+place(subgroup, "medium-electric-pole", "a")
+place(subgroup, "medium-electric-pole-2", "b")
+place(subgroup, "medium-electric-pole-3", "c")
+place(subgroup, "medium-electric-pole-4", "d")
+
+subgroup = "ts-log-power-big"
+place(subgroup, "big-electric-pole", "a")
+place(subgroup, "big-electric-pole-2", "b")
+place(subgroup, "big-electric-pole-3", "c")
+place(subgroup, "big-electric-pole-4", "d")
+
+subgroup = "ts-log-power-substation"
+place(subgroup, "substation", "a")
+place(subgroup, "substation-2", "b")
+place(subgroup, "substation-3", "c")
+place(subgroup, "substation-4", "d")
 
 subgroup = "ts-log-lamps"
 place(subgroup, "small-lamp", "a")

@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -15,6 +15,7 @@
 		"? bobmining >= 0.17.5",
 		"? bobores >= 0.17.5",
 		"? bobplates >= 0.17.11",
+		"? bobpower >= 0.17.10",
 		"? color-coding >= 1.17.0",
 		"? Factorissimo2 >= 2.3.7",
 		"? KS_Power >= 0.3.5",

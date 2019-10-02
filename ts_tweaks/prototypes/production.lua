@@ -28,10 +28,15 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "e" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-power1", order = "fa" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-power2", order = "fb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-power3", order = "fc" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "fd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-accumulators", order = "fa" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-solar-wind", order = "fb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-generators", order = "fc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-boilers", order = "fd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-steam-engines", order = "fe" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat", order = "ff" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat-reactor", order = "fg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "fh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "fi" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "g" },
 })
@@ -150,28 +155,85 @@ place(subgroup, "electrolyser-4", "d")
 subgroup = "ts-prod-botany"
 place(subgroup, "bob-greenhouse", "a")
 
-subgroup = "ts-prod-power1"
+subgroup = "ts-prod-accumulators"
 place(subgroup, "accumulator", "a")
-place(subgroup, "wind-turbine-2", "b")
-place(subgroup, "solar-panel", "c")
+place(subgroup, "slow-accumulator", "b")
+place(subgroup, "fast-accumulator", "c")
+place(subgroup, "large-accumulator", "d")
+place(subgroup, "slow-accumulator-2", "e")
+place(subgroup, "fast-accumulator-2", "f")
+place(subgroup, "large-accumulator-2", "g")
+place(subgroup, "slow-accumulator-3", "h")
+place(subgroup, "fast-accumulator-3", "i")
+place(subgroup, "large-accumulator-3", "j")
 
-subgroup = "ts-prod-power2"
+subgroup = "ts-prod-solar-wind"
+place(subgroup, "wind-turbine-2", "a")
+place(subgroup, "solar-panel-small", "b")
+place(subgroup, "solar-panel", "c")
+place(subgroup, "solar-panel-large", "d")
+place(subgroup, "solar-panel-small-2", "e")
+place(subgroup, "solar-panel-2", "f")
+place(subgroup, "solar-panel-large-2", "g")
+place(subgroup, "solar-panel-small-3", "h")
+place(subgroup, "solar-panel-3", "i")
+place(subgroup, "solar-panel-large-3", "j")
+
+subgroup = "ts-prod-generators"
 place(subgroup, "burner-generator", "a")
 place(subgroup, "burner-turbine", "b")
 place(subgroup, "big-burner-generator", "c")
 place(subgroup, "petroleum-generator", "d")
-place(subgroup, "oil-steam-boiler", "e")
+place(subgroup, "fluid-generator", "e")
+place(subgroup, "fluid-generator-2", "f")
+place(subgroup, "fluid-generator-3", "g")
 
-subgroup = "ts-prod-power3"
-place(subgroup, "boiler", "d")
-place(subgroup, "steam-engine", "e")
-place(subgroup, "nuclear-reactor", "f")
-place(subgroup, "heat-exchanger", "g")
-place(subgroup, "heat-pipe", "h")
-place(subgroup, "steam-turbine", "i")
+subgroup = "ts-prod-boilers"
+place(subgroup, "boiler", "a")
+place(subgroup, "boiler-2", "b")
+place(subgroup, "boiler-3", "c")
+place(subgroup, "boiler-4", "d")
+place(subgroup, "boiler-5", "e")
+place(subgroup, "oil-steam-boiler", "e")
+place(subgroup, "oil-boiler", "f")
+place(subgroup, "oil-boiler-2", "g")
+place(subgroup, "oil-boiler-3", "h")
+place(subgroup, "oil-boiler-4", "i")
+
+subgroup = "ts-prod-steam-engines"
+place(subgroup, "steam-engine", "a")
+place(subgroup, "steam-engine-2", "b")
+place(subgroup, "steam-engine-3", "c")
+place(subgroup, "steam-engine-4", "d")
+place(subgroup, "steam-engine-5", "e")
+
+subgroup = "ts-prod-heat"
+place(subgroup, "burner-reactor", "a")
+place(subgroup, "burner-reactor-2", "b")
+place(subgroup, "burner-reactor-3", "c")
+place(subgroup, "fluid-reactor", "d")
+place(subgroup, "fluid-reactor-from-oil-steel-furnace", "e")
+place(subgroup, "fluid-reactor-2", "f")
+place(subgroup, "fluid-reactor-3", "g")
+
+subgroup = "ts-prod-heat-reactor"
+place(subgroup, "nuclear-reactor", "a")
+place(subgroup, "nuclear-reactor-2", "b")
+place(subgroup, "nuclear-reactor-3", "c")
+place(subgroup, "heat-pipe", "d")
+place(subgroup, "heat-pipe-2", "e")
+place(subgroup, "heat-pipe-3", "f")
+
+subgroup = "ts-prod-heat-exhchangers-turbines"
+place(subgroup, "heat-exchanger", "a")
+place(subgroup, "heat-exchanger-2", "b")
+place(subgroup, "heat-exchanger-3", "c")
+place(subgroup, "steam-turbine", "d")
+place(subgroup, "steam-turbine-2", "e")
+place(subgroup, "steam-turbine-3", "f")
 
 subgroup = "ts-prod-fuel"
-place(subgroup, "fuel-processor", "i")
+place(subgroup, "fuel-processor", "a")
 
 subgroup = "ts-prod-modules"
 place(subgroup, "beacon", "a")
