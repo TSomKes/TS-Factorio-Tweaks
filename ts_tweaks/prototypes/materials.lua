@@ -51,27 +51,33 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-batteries", order = "ga" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "gb" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ha" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "hb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "hc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-frames", order = "ha" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-logistic", order = "hb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-construction", order = "hc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport1", order = "hd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport2", order = "he" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ia" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "ib" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "ic" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "id" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "ie" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ia" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "ib" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "ic" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "ja" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "jb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "jc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ja" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "jb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "jc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "jd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "je" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "ka" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "kb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "kc" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts1", order = "ka" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts2", order = "kb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts3", order = "kc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "kd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "ke" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts1", order = "la" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts2", order = "lb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts3", order = "lc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "ld" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "le" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "l" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "m" },
 })
 
 
@@ -309,9 +315,8 @@ place(subgroup, "motor", "b")
 place(subgroup, "electric-motor", "c")
 place(subgroup, "engine-unit", "d")
 place(subgroup, "electric-engine-unit", "e")
-place(subgroup, "flying-robot-frame", "f")
-place(subgroup, "rocket-control-unit", "g")
-place(subgroup, "low-density-structure", "h")
+place(subgroup, "rocket-control-unit", "f")
+place(subgroup, "low-density-structure", "g")
 
 subgroup = "ts-mat-containers"
 place(subgroup, "empty-barrel", "a")
@@ -328,6 +333,48 @@ place(subgroup, "electronic-circuit", "a")
 place(subgroup, "advanced-circuit", "b")
 place(subgroup, "processing-unit", "c")
 place(subgroup, "advanced-processing-unit", "d")
+
+subgroup = "ts-mat-bots-frames"
+place(subgroup, "flying-robot-frame", "a")
+place(subgroup, "flying-robot-frame-2", "b")
+place(subgroup, "flying-robot-frame-3", "c")
+place(subgroup, "flying-robot-frame-4", "d")
+
+subgroup = "ts-mat-bots-logistic"
+place(subgroup, "robot-brain-logistic", "a")
+place(subgroup, "robot-brain-logistic-2", "b")
+place(subgroup, "robot-brain-logistic-3", "c")
+place(subgroup, "robot-brain-logistic-4", "d")
+place(subgroup, "robot-tool-logistic", "e")
+place(subgroup, "robot-tool-logistic-2", "f")
+place(subgroup, "robot-tool-logistic-3", "g")
+place(subgroup, "robot-tool-logistic-4", "h")
+
+subgroup = "ts-mat-bots-construction"
+place(subgroup, "robot-brain-construction", "a")
+place(subgroup, "robot-brain-construction-2", "b")
+place(subgroup, "robot-brain-construction-3", "c")
+place(subgroup, "robot-brain-construction-4", "d")
+place(subgroup, "robot-tool-construction", "e")
+place(subgroup, "robot-tool-construction-2", "f")
+place(subgroup, "robot-tool-construction-3", "g")
+place(subgroup, "robot-tool-construction-4", "h")
+
+subgroup = "ts-mat-bots-roboport1"
+place(subgroup, "roboport-antenna-1", "a")
+place(subgroup, "roboport-antenna-2", "b")
+place(subgroup, "roboport-antenna-3", "c")
+place(subgroup, "roboport-antenna-4", "d")
+place(subgroup, "roboport-door-1", "e")
+place(subgroup, "roboport-door-2", "f")
+place(subgroup, "roboport-door-3", "g")
+place(subgroup, "roboport-door-4", "h")
+
+subgroup = "ts-mat-bots-roboport2"
+place(subgroup, "roboport-chargepad-1", "a")
+place(subgroup, "roboport-chargepad-2", "b")
+place(subgroup, "roboport-chargepad-3", "c")
+place(subgroup, "roboport-chargepad-4", "d")
 
 subgroup = "ts-mat-fuel"
 place(subgroup, "solid-fuel", "a")

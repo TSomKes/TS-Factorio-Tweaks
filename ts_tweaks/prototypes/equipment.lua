@@ -32,6 +32,10 @@ local subgroup
 
 subgroup = "ts-equip-repair"
 place(subgroup, "repair-pack", "a")
+place(subgroup, "repair-pack-2", "b")
+place(subgroup, "repair-pack-3", "c")
+place(subgroup, "repair-pack-4", "d")
+place(subgroup, "repair-pack-5", "e")
 
 subgroup = "ts-equip-weapon"
 place(subgroup, "pistol", "a")
