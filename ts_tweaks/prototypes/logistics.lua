@@ -27,7 +27,9 @@ data:extend({
 	
 	{ type = "item-subgroup", group = g, name = "ts-log-bots", order = "j" },
 
-	{ type = "item-subgroup", group = g, name = "ts-log-tiles", order = "k" },
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles", order = "ka" },
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles-colored-concrete", order = "kb" },
+	{ type = "item-subgroup", group = g, name = "ts-log-tiles-colored-refined-concrete", order = "kc" },
 })
 
 
@@ -118,3 +120,27 @@ place(subgroup, "concrete", "b")
 place(subgroup, "hazard-concrete", "c")
 place(subgroup, "refined-concrete", "d")
 place(subgroup, "refined-hazard-concrete", "e")
+
+subgroup = "ts-log-tiles-colored-concrete"
+place(subgroup, "concrete-red", "a")
+place(subgroup, "concrete-orange", "b")
+place(subgroup, "concrete-yellow", "c")
+place(subgroup, "concrete-green", "d")
+place(subgroup, "concrete-cyan", "e")
+place(subgroup, "concrete-blue", "f")
+place(subgroup, "concrete-purple", "g")
+place(subgroup, "concrete-magenta", "h")
+place(subgroup, "concrete-white", "i")
+place(subgroup, "concrete-black", "i")
+
+subgroup = "ts-log-tiles-colored-refined-concrete"
+place(subgroup, "refined-concrete-red", "a")
+place(subgroup, "refined-concrete-orange", "b")
+place(subgroup, "refined-concrete-yellow", "c")
+place(subgroup, "refined-concrete-green", "d")
+place(subgroup, "refined-concrete-cyan", "e")
+place(subgroup, "refined-concrete-blue", "f")
+place(subgroup, "refined-concrete-purple", "g")
+place(subgroup, "refined-concrete-magenta", "h")
+place(subgroup, "refined-concrete-white", "i")
+place(subgroup, "refined-concrete-black", "i")
