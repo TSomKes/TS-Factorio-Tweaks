@@ -386,7 +386,6 @@ subgroup = "ts-equip-remotes"
 place(subgroup, "discharge-defense-remote", "a")
 place(subgroup, "artillery-targeting-remote", "b")
 place(subgroup, "ion-cannon-targeter", "c")
-place(subgroup, "orbital-ion-cannon", "d")
 
 subgroup = "ts-equip-nano-remotes"
 place(subgroup, "gun-nano-emitter", "a")

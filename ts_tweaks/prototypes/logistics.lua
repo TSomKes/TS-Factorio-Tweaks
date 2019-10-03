@@ -347,7 +347,8 @@ place(subgroup, "arithmetic-combinator", "c")
 place(subgroup, "decider-combinator", "d")
 place(subgroup, "constant-combinator", "e")
 place(subgroup, "power-switch", "f")
-place(subgroup, "programmable-speaker", "d")
+place(subgroup, "programmable-speaker", "g")
+place(subgroup, "spacex-combinator", "h")
 
 subgroup = "ts-log-bots-logistic"
 place(subgroup, "logistic-robot", "a")

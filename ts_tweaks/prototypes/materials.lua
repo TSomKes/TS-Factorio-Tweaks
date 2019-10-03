@@ -104,7 +104,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-bullets", order = "nc" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-rocket-warheads", order = "nd" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "o" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads", order = "o" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "p" },
 })
 
 
@@ -878,6 +880,23 @@ place(subgroup, "electric-rocket-warhead", "e")
 place(subgroup, "flame-rocket-warhead", "f")
 place(subgroup, "poison-rocket-warhead", "g")
 place(subgroup, "plasma-rocket-warhead", "h")
+
+subgroup = "ts-mat-rocket-payloads"
+place(subgroup, "orbital-ion-cannon", "a")
+place(subgroup, "assembly-robot", "b")
+place(subgroup, "drydock-assembly", "c")
+place(subgroup, "drydock-structural", "d")
+place(subgroup, "fusion-reactor", "e")
+place(subgroup, "hull-component", "f")
+place(subgroup, "protection-field", "g")
+place(subgroup, "protection-field-goopless", "h")
+place(subgroup, "space-thruster", "i")
+place(subgroup, "fuel-cell", "j")
+place(subgroup, "habitation", "k")
+place(subgroup, "life-support", "l")
+place(subgroup, "command", "m")
+place(subgroup, "astrometrics", "n")
+place(subgroup, "ftl-drive", "o")
 
 subgroup = "ts-mat-fish"
 place(subgroup, "raw-fish", "a")
