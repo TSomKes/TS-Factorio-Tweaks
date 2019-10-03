@@ -30,9 +30,18 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-armor-roboport2", order = "dh" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicles", order = "ea" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-cannon", order = "eb" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-artillery", order = "ec" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-util", order = "ed" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-power-solar", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-power-fusion-cell", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-power-fusion-reactor", order = "ed" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-power-battery", order = "ee" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-util", order = "ef" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-shields", order = "eg" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-laser-defense", order = "eh" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-plasma-cannon", order = "ei" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-cannon", order = "ej" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-artillery", order = "ek" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-roboport1", order = "el" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-roboport2", order = "em" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-walls", order = "fa" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-gun-turrets", order = "fb" },
@@ -229,6 +238,68 @@ place(subgroup, "cargo-plane", "f")
 place(subgroup, "jet", "g")
 place(subgroup, "flying-fortress", "h")
 
+subgroup = "ts-equip-vehicle-power-solar"
+place(subgroup, "vehicle-solar-panel-1", "a")
+place(subgroup, "vehicle-solar-panel-2", "b")
+place(subgroup, "vehicle-solar-panel-3", "c")
+place(subgroup, "vehicle-solar-panel-4", "d")
+place(subgroup, "vehicle-solar-panel-5", "e")
+place(subgroup, "vehicle-solar-panel-6", "f")
+
+subgroup = "ts-equip-vehicle-power-fusion-cell"
+place(subgroup, "vehicle-fusion-cell-1", "a")
+place(subgroup, "vehicle-fusion-cell-2", "b")
+place(subgroup, "vehicle-fusion-cell-3", "c")
+place(subgroup, "vehicle-fusion-cell-4", "d")
+place(subgroup, "vehicle-fusion-cell-5", "e")
+place(subgroup, "vehicle-fusion-cell-6", "f")
+
+subgroup = "ts-equip-vehicle-power-fusion-reactor"
+place(subgroup, "vehicle-fusion-reactor-1", "a")
+place(subgroup, "vehicle-fusion-reactor-2", "b")
+place(subgroup, "vehicle-fusion-reactor-3", "c")
+place(subgroup, "vehicle-fusion-reactor-4", "d")
+place(subgroup, "vehicle-fusion-reactor-5", "e")
+place(subgroup, "vehicle-fusion-reactor-6", "f")
+
+subgroup = "ts-equip-vehicle-power-battery"
+place(subgroup, "vehicle-battery-1", "a")
+place(subgroup, "vehicle-battery-2", "b")
+place(subgroup, "vehicle-battery-3", "c")
+place(subgroup, "vehicle-battery-4", "d")
+place(subgroup, "vehicle-battery-5", "e")
+place(subgroup, "vehicle-battery-6", "f")
+
+subgroup = "ts-equip-vehicle-util"
+place(subgroup, "vehicle-engine", "a")
+place(subgroup, "vehicle-motor", "b")
+place(subgroup, "aircraft-afterburner", "c")
+
+subgroup = "ts-equip-vehicle-shields"
+place(subgroup, "vehicle-shield-1", "a")
+place(subgroup, "vehicle-shield-2", "b")
+place(subgroup, "vehicle-shield-3", "c")
+place(subgroup, "vehicle-shield-4", "d")
+place(subgroup, "vehicle-shield-5", "e")
+place(subgroup, "vehicle-shield-6", "f")
+place(subgroup, "aircraft-energy-shield", "g")
+
+subgroup = "ts-equip-vehicle-laser-defense"
+place(subgroup, "vehicle-laser-defense-1", "a")
+place(subgroup, "vehicle-laser-defense-2", "b")
+place(subgroup, "vehicle-laser-defense-3", "c")
+place(subgroup, "vehicle-laser-defense-4", "d")
+place(subgroup, "vehicle-laser-defense-5", "e")
+place(subgroup, "vehicle-laser-defense-6", "f")
+
+subgroup = "ts-equip-vehicle-plasma-cannon"
+place(subgroup, "vehicle-big-turret-1", "a")
+place(subgroup, "vehicle-big-turret-2", "b")
+place(subgroup, "vehicle-big-turret-3", "c")
+place(subgroup, "vehicle-big-turret-4", "d")
+place(subgroup, "vehicle-big-turret-5", "e")
+place(subgroup, "vehicle-big-turret-6", "f")
+
 subgroup = "ts-equip-vehicle-ammo-cannon"
 place(subgroup, "cannon-shell", "a")
 place(subgroup, "explosive-cannon-shell", "b")
@@ -244,9 +315,25 @@ place(subgroup, "explosive-artillery-shell", "c")
 place(subgroup, "fire-artillery-shell", "d")
 place(subgroup, "poison-artillery-shell", "e")
 
-subgroup = "ts-equip-vehicle-util"
-place(subgroup, "aircraft-energy-shield", "a")
-place(subgroup, "aircraft-afterburner", "b")
+subgroup = "ts-equip-vehicle-roboport1"
+place(subgroup, "vehicle-roboport", "a")
+place(subgroup, "vehicle-roboport-2", "b")
+place(subgroup, "vehicle-roboport-3", "c")
+place(subgroup, "vehicle-roboport-4", "d")
+place(subgroup, "vehicle-roboport-antenna-equipment", "e")
+place(subgroup, "vehicle-roboport-antenna-equipment-2", "f")
+place(subgroup, "vehicle-roboport-antenna-equipment-3", "g")
+place(subgroup, "vehicle-roboport-antenna-equipment-4", "h")
+
+subgroup = "ts-equip-vehicle-roboport2"
+place(subgroup, "vehicle-roboport-chargepad-equipment", "a")
+place(subgroup, "vehicle-roboport-chargepad-equipment-2", "b")
+place(subgroup, "vehicle-roboport-chargepad-equipment-3", "c")
+place(subgroup, "vehicle-roboport-chargepad-equipment-4", "d")
+place(subgroup, "vehicle-roboport-robot-equipment", "e")
+place(subgroup, "vehicle-roboport-robot-equipment-2", "f")
+place(subgroup, "vehicle-roboport-robot-equipment-3", "g")
+place(subgroup, "vehicle-roboport-robot-equipment-4", "h")
 
 subgroup = "ts-equip-walls"
 place(subgroup, "stone-wall", "a")
