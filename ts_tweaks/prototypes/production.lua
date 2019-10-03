@@ -240,3 +240,4 @@ subgroup = "ts-prod-beacons"
 place(subgroup, "beacon", "a")
 place(subgroup, "beacon-2", "b")
 place(subgroup, "beacon-3", "c")
+place(subgroup, "beacon-ee", "d")
