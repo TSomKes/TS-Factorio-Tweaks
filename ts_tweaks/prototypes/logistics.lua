@@ -153,6 +153,9 @@ place(subgroup, "short-balloon-light", "c")
 subgroup = "ts-log-pipe-stone"
 place(subgroup, "stone-pipe", "a")
 place(subgroup, "stone-pipe-to-ground", "b")
+place(subgroup, "pipe-stone-straight", "c")
+place(subgroup, "pipe-stone-elbow", "d")
+place(subgroup, "pipe-stone-junction", "e")
 
 subgroup = "ts-log-pipe-iron"
 place(subgroup, "pipe", "a")
@@ -164,42 +167,72 @@ place(subgroup, "pipe-junction", "e")
 subgroup = "ts-log-pipe-copper"
 place(subgroup, "copper-pipe", "a")
 place(subgroup, "copper-pipe-to-ground", "b")
+place(subgroup, "pipe-copper-straight", "c")
+place(subgroup, "pipe-copper-elbow", "d")
+place(subgroup, "pipe-copper-junction", "e")
 
 subgroup = "ts-log-pipe-bronze"
 place(subgroup, "bronze-pipe", "a")
 place(subgroup, "bronze-pipe-to-ground", "b")
+place(subgroup, "pipe-bronze-straight", "c")
+place(subgroup, "pipe-bronze-elbow", "d")
+place(subgroup, "pipe-bronze-junction", "e")
 
 subgroup = "ts-log-pipe-steel"
 place(subgroup, "steel-pipe", "a")
 place(subgroup, "steel-pipe-to-ground", "b")
+place(subgroup, "pipe-steel-straight", "c")
+place(subgroup, "pipe-steel-elbow", "d")
+place(subgroup, "pipe-steel-junction", "e")
 
 subgroup = "ts-log-pipe-plastic"
 place(subgroup, "plastic-pipe", "a")
 place(subgroup, "plastic-pipe-to-ground", "b")
+place(subgroup, "pipe-plastic-straight", "c")
+place(subgroup, "pipe-plastic-elbow", "d")
+place(subgroup, "pipe-plastic-junction", "e")
 
 subgroup = "ts-log-pipe-brass"
 place(subgroup, "brass-pipe", "a")
 place(subgroup, "brass-pipe-to-ground", "b")
+place(subgroup, "pipe-brass-straight", "c")
+place(subgroup, "pipe-brass-elbow", "d")
+place(subgroup, "pipe-brass-junction", "e")
 
 subgroup = "ts-log-pipe-titanium"
 place(subgroup, "titanium-pipe", "a")
 place(subgroup, "titanium-pipe-to-ground", "b")
+place(subgroup, "pipe-titanium-straight", "c")
+place(subgroup, "pipe-titanium-elbow", "d")
+place(subgroup, "pipe-titanium-junction", "e")
 
 subgroup = "ts-log-pipe-ceramic"
 place(subgroup, "ceramic-pipe", "a")
 place(subgroup, "ceramic-pipe-to-ground", "b")
+place(subgroup, "pipe-ceramic-straight", "c")
+place(subgroup, "pipe-ceramic-elbow", "d")
+place(subgroup, "pipe-ceramic-junction", "e")
 
 subgroup = "ts-log-pipe-tungsten"
 place(subgroup, "tungsten-pipe", "a")
 place(subgroup, "tungsten-pipe-to-ground", "b")
+place(subgroup, "pipe-tungsten-straight", "c")
+place(subgroup, "pipe-tungsten-elbow", "d")
+place(subgroup, "pipe-tungsten-junction", "e")
 
 subgroup = "ts-log-pipe-nitinol"
 place(subgroup, "nitinol-pipe", "a")
 place(subgroup, "nitinol-pipe-to-ground", "b")
+place(subgroup, "pipe-nitinol-straight", "c")
+place(subgroup, "pipe-nitinol-elbow", "d")
+place(subgroup, "pipe-nitinol-junction", "e")
 
 subgroup = "ts-log-pipe-copper-tungsten"
 place(subgroup, "copper-tungsten-pipe", "a")
 place(subgroup, "copper-tungsten-pipe-to-ground", "b")
+place(subgroup, "pipe-copper-tungsten-straight", "c")
+place(subgroup, "pipe-copper-tungsten-elbow", "d")
+place(subgroup, "pipe-copper-tungsten-junction", "e")
 
 subgroup = "ts-log-pipe-valves"
 place(subgroup, "bob-valve", "a")
