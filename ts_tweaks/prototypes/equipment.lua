@@ -49,7 +49,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-other-turrets", order = "fd" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-radars", order = "fe" },
 
-	{ type = "item-subgroup", group = g, name = "ts-equip-remotes", order = "g" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-remotes", order = "ga" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-nano-remotes", order = "gb" },
 })
 
 
@@ -369,9 +370,10 @@ place(subgroup, "bob-plasma-turret-5", "j")
 
 subgroup = "ts-equip-other-turrets"
 place(subgroup, "flamethrower-turret", "a")
-place(subgroup, "artillery-turret", "b")
-place(subgroup, "bob-artillery-turret-2", "c")
-place(subgroup, "bob-artillery-turret-3", "d")
+place(subgroup, "repair-turret", "b")
+place(subgroup, "artillery-turret", "c")
+place(subgroup, "bob-artillery-turret-2", "d")
+place(subgroup, "bob-artillery-turret-3", "e")
 
 subgroup = "ts-equip-radars"
 place(subgroup, "radar", "a")
@@ -381,9 +383,13 @@ place(subgroup, "radar-4", "d")
 place(subgroup, "radar-5", "e")
 
 subgroup = "ts-equip-remotes"
+place(subgroup, "discharge-defense-remote", "a")
+place(subgroup, "artillery-targeting-remote", "b")
+place(subgroup, "ion-cannon-targeter", "c")
+place(subgroup, "orbital-ion-cannon", "d")
+
+subgroup = "ts-equip-nano-remotes"
 place(subgroup, "gun-nano-emitter", "a")
-place(subgroup, "discharge-defense-remote", "b")
-place(subgroup, "artillery-targeting-remote", "c")
 place(subgroup, "equipment-bot-chip-items", "d")
 place(subgroup, "equipment-bot-chip-launcher", "e")
 place(subgroup, "equipment-bot-chip-trees", "f")
