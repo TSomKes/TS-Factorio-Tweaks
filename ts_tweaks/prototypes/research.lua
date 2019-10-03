@@ -17,7 +17,8 @@ local subgroup
 subgroup = "ts-research-labs"
 place(subgroup, "burner-lab", "a")
 place(subgroup, "lab", "b")
-place(subgroup, "rocket-silo", "c")
+place(subgroup, "lab-module", "c")
+place(subgroup, "rocket-silo", "d")
 
 subgroup = "ts-research-science-packs"
 place(subgroup, "automation-science-pack", "a")

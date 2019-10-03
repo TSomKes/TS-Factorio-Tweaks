@@ -59,27 +59,43 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport1", order = "hd" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport2", order = "he" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ia" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "ib" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "ic" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-basic-components", order = "ia" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-circuit-boards", order = "ib" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-logic-boards", order = "ic" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-processor-boards", order = "id" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-speed", order = "ie" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-efficiency", order = "if" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-productivity", order = "ig" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-pollution-create", order = "ih" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-pollution-clean", order = "ii" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-speed1", order = "ij" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-speed2", order = "ik" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-green1", order = "il" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-green2", order = "im" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity1", order = "in" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity2", order = "io" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ja" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "jb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "jc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "jd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "je" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ja" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "jb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "jc" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "ka" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "kb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "kc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ka" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "kb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "kc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "kd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "ke" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "la" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "lb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "lc" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts1", order = "la" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts2", order = "lb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts3", order = "lc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "ld" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "le" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts1", order = "ma" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts2", order = "mb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts3", order = "mc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "md" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "me" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "m" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "n" },
 })
 
 
@@ -398,6 +414,145 @@ place(subgroup, "roboport-chargepad-1", "a")
 place(subgroup, "roboport-chargepad-2", "b")
 place(subgroup, "roboport-chargepad-3", "c")
 place(subgroup, "roboport-chargepad-4", "d")
+
+subgroup = "ts-mat-module-basic-components"
+place(subgroup, "module-case", "a")
+place(subgroup, "module-contact", "b")
+place(subgroup, "module-circuit-board", "c")
+place(subgroup, "module-processor-board", "d")
+place(subgroup, "module-processor-board-2", "e")
+place(subgroup, "module-processor-board-3", "f")
+
+subgroup = "ts-mat-module-circuit-boards"
+place(subgroup, "speed-processor", "a")
+place(subgroup, "effectivity-processor", "b")
+place(subgroup, "productivity-processor", "c")
+place(subgroup, "pollution-clean-processor", "d")
+place(subgroup, "pollution-create-processor", "e")
+
+subgroup = "ts-mat-module-logic-boards"
+place(subgroup, "speed-processor-2", "a")
+place(subgroup, "effectivity-processor-2", "b")
+place(subgroup, "productivity-processor-2", "c")
+place(subgroup, "pollution-clean-processor-2", "d")
+place(subgroup, "pollution-create-processor-2", "e")
+
+subgroup = "ts-mat-module-processor-boards"
+place(subgroup, "speed-processor-3", "a")
+place(subgroup, "effectivity-processor-3", "b")
+place(subgroup, "productivity-processor-3", "c")
+place(subgroup, "pollution-clean-processor-3", "d")
+place(subgroup, "pollution-create-processor-3", "e")
+
+subgroup = "ts-mat-module-speed"
+place(subgroup, "speed-module", "a")
+place(subgroup, "speed-module-2", "b")
+place(subgroup, "speed-module-3", "c")
+place(subgroup, "speed-module-4", "d")
+place(subgroup, "speed-module-5", "e")
+place(subgroup, "speed-module-6", "f")
+place(subgroup, "speed-module-7", "g")
+place(subgroup, "speed-module-8", "h")
+
+subgroup = "ts-mat-module-efficiency"
+place(subgroup, "effectivity-module", "a")
+place(subgroup, "effectivity-module-2", "b")
+place(subgroup, "effectivity-module-3", "c")
+place(subgroup, "effectivity-module-4", "d")
+place(subgroup, "effectivity-module-5", "e")
+place(subgroup, "effectivity-module-6", "f")
+place(subgroup, "effectivity-module-7", "g")
+place(subgroup, "effectivity-module-8", "h")
+
+subgroup = "ts-mat-module-productivity"
+place(subgroup, "productivity-module", "a")
+place(subgroup, "productivity-module-2", "b")
+place(subgroup, "productivity-module-3", "c")
+place(subgroup, "productivity-module-4", "d")
+place(subgroup, "productivity-module-5", "e")
+place(subgroup, "productivity-module-6", "f")
+place(subgroup, "productivity-module-7", "g")
+place(subgroup, "productivity-module-8", "h")
+
+subgroup = "ts-mat-module-pollution-create"
+place(subgroup, "pollution-create-module-1", "a")
+place(subgroup, "pollution-create-module-2", "b")
+place(subgroup, "pollution-create-module-3", "c")
+place(subgroup, "pollution-create-module-4", "d")
+place(subgroup, "pollution-create-module-5", "e")
+place(subgroup, "pollution-create-module-6", "f")
+place(subgroup, "pollution-create-module-7", "g")
+place(subgroup, "pollution-create-module-8", "h")
+
+subgroup = "ts-mat-module-pollution-clean"
+place(subgroup, "pollution-clean-module-1", "a")
+place(subgroup, "pollution-clean-module-2", "b")
+place(subgroup, "pollution-clean-module-3", "c")
+place(subgroup, "pollution-clean-module-4", "d")
+place(subgroup, "pollution-clean-module-5", "e")
+place(subgroup, "pollution-clean-module-6", "f")
+place(subgroup, "pollution-clean-module-7", "g")
+place(subgroup, "pollution-clean-module-8", "h")
+
+subgroup = "ts-mat-module-raw-speed1"
+place(subgroup, "raw-speed-module-1", "a")
+place(subgroup, "raw-speed-module-2", "b")
+place(subgroup, "raw-speed-module-3", "c")
+place(subgroup, "raw-speed-module-4", "d")
+place(subgroup, "raw-speed-module-5", "e")
+place(subgroup, "raw-speed-module-6", "f")
+place(subgroup, "raw-speed-module-7", "g")
+place(subgroup, "raw-speed-module-8", "h")
+
+subgroup = "ts-mat-module-raw-speed2"
+place(subgroup, "raw-speed-module-1-combine", "a")
+place(subgroup, "raw-speed-module-2-combine", "b")
+place(subgroup, "raw-speed-module-3-combine", "c")
+place(subgroup, "raw-speed-module-4-combine", "d")
+place(subgroup, "raw-speed-module-5-combine", "e")
+place(subgroup, "raw-speed-module-6-combine", "f")
+place(subgroup, "raw-speed-module-7-combine", "g")
+place(subgroup, "raw-speed-module-8-combine", "h")
+
+subgroup = "ts-mat-module-green1"
+place(subgroup, "green-module-1", "a")
+place(subgroup, "green-module-2", "b")
+place(subgroup, "green-module-3", "c")
+place(subgroup, "green-module-4", "d")
+place(subgroup, "green-module-5", "e")
+place(subgroup, "green-module-6", "f")
+place(subgroup, "green-module-7", "g")
+place(subgroup, "green-module-8", "h")
+
+subgroup = "ts-mat-module-green2"
+place(subgroup, "green-module-1-combine", "a")
+place(subgroup, "green-module-2-combine", "b")
+place(subgroup, "green-module-3-combine", "c")
+place(subgroup, "green-module-4-combine", "d")
+place(subgroup, "green-module-5-combine", "e")
+place(subgroup, "green-module-6-combine", "f")
+place(subgroup, "green-module-7-combine", "g")
+place(subgroup, "green-module-8-combine", "h")
+
+subgroup = "ts-mat-module-raw-productivity1"
+place(subgroup, "raw-productivity-module-1", "a")
+place(subgroup, "raw-productivity-module-2", "b")
+place(subgroup, "raw-productivity-module-3", "c")
+place(subgroup, "raw-productivity-module-4", "d")
+place(subgroup, "raw-productivity-module-5", "e")
+place(subgroup, "raw-productivity-module-6", "f")
+place(subgroup, "raw-productivity-module-7", "g")
+place(subgroup, "raw-productivity-module-8", "h")
+
+subgroup = "ts-mat-module-raw-productivity2"
+place(subgroup, "raw-productivity-module-1-combine", "a")
+place(subgroup, "raw-productivity-module-2-combine", "b")
+place(subgroup, "raw-productivity-module-3-combine", "c")
+place(subgroup, "raw-productivity-module-4-combine", "d")
+place(subgroup, "raw-productivity-module-5-combine", "e")
+place(subgroup, "raw-productivity-module-6-combine", "f")
+place(subgroup, "raw-productivity-module-7-combine", "g")
+place(subgroup, "raw-productivity-module-8-combine", "h")
 
 subgroup = "ts-mat-fuel"
 place(subgroup, "solid-fuel", "a")

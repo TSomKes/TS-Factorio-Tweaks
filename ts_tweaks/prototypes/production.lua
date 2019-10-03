@@ -38,7 +38,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "fh" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "fi" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-modules", order = "g" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "g" },
 })
 
 
@@ -235,14 +235,7 @@ place(subgroup, "steam-turbine-3", "f")
 subgroup = "ts-prod-fuel"
 place(subgroup, "fuel-processor", "a")
 
-subgroup = "ts-prod-modules"
+subgroup = "ts-prod-beacons"
 place(subgroup, "beacon", "a")
-place(subgroup, "speed-module", "b")
-place(subgroup, "speed-module-2", "c")
-place(subgroup, "speed-module-3", "d")
-place(subgroup, "effectivity-module", "e")
-place(subgroup, "effectivity-module-2", "f")
-place(subgroup, "effectivity-module-3", "g")
-place(subgroup, "productivity-module", "h")
-place(subgroup, "productivity-module-2", "i")
-place(subgroup, "productivity-module-3", "j")
+place(subgroup, "beacon-2", "b")
+place(subgroup, "beacon-3", "c")
