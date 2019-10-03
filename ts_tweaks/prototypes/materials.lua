@@ -10,103 +10,117 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-wood", order = "aa" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-coal", order = "ab" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-stone", order = "ac" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-slag", order = "ad" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-saphirite", order = "ba" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-jivolite", order = "bb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-stiratite", order = "bc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-crotinnium", order = "bd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rubyte", order = "be" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bobmonium", order = "bf" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-aluminium", order = "ca" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-cobalt", order = "cb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-copper", order = "cc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gold", order = "cd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-iron", order = "ce" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-lead", order = "cf" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-lithium", order = "cg" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-nickel", order = "ch" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-plutonium", order = "ci" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-silicon", order = "cj" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-silver", order = "ck" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-thorium", order = "cl" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-tin", order = "cm" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-titanium", order = "cn" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-tungsten", order = "co" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "cp" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-zinc", order = "cq" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-mat-aluminium", order = "ba" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-cobalt", order = "bb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-copper", order = "bc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gold", order = "bd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-iron", order = "be" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-lead", order = "bf" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-lithium", order = "bg" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-nickel", order = "bh" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-plutonium", order = "bi" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-silicon", order = "bj" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-silver", order = "bk" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-thorium", order = "bl" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-tin", order = "bm" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-titanium", order = "bn" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-tungsten", order = "bo" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "bp" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-zinc", order = "bq" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-misc-powders", order = "da" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alloys", order = "db" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-filters-catalysts", order = "dc" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-geodes", order = "ea" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gems-unsorted", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gems-ore", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gems-raw", order = "ed" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gems-cut", order = "ee" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gems-polished", order = "ef" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "fa" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-botany", order = "fb" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-gear-wheels", order = "ga" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bearing-balls", order = "gb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bearings", order = "gc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-basic", order = "gd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-motor", order = "ge" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-containers", order = "gf" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-batteries", order = "ha" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-components", order = "ha" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-boards", order = "hb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "hc" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-frames", order = "ia" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-logistic", order = "ib" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-construction", order = "ic" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-combat", order = "id" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-capsule", order = "ie" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport1", order = "if" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport2", order = "ig" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-basic-components", order = "ja" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-circuit-boards", order = "jb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-logic-boards", order = "jc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-processor-boards", order = "jd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-speed", order = "je" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-efficiency", order = "jf" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-productivity", order = "jg" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-pollution-create", order = "jh" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-pollution-clean", order = "ji" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-speed1", order = "jj" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-speed2", order = "jk" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-green1", order = "jl" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-green2", order = "jm" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity1", order = "jn" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity2", order = "jo" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-god", order = "jp" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ka" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "kb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "kc" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "la" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "lb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-cracking", order = "lc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "ld" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "le" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-slag-slurry1", order = "lf" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-slag-slurry2", order = "lg" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-slag-slurry3", order = "lh" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-slag-slurry4", order = "li" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "lj" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "ma" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "mb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "mc" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-mat-misc-powders", order = "ca" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alloys", order = "cb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts1", order = "na" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts2", order = "nb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts3", order = "nc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "nd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "ne" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-gems-unsorted", order = "da" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gems-ore", order = "db" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gems-raw", order = "dc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gems-cut", order = "dd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gems-polished", order = "de" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-components", order = "oa" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-projectiles", order = "ob" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-bullets", order = "oc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-rocket-warheads", order = "od" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "ea" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-botany", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads", order = "p" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-gear-wheels", order = "fa" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bearing-balls", order = "fb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bearings", order = "fc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-basic", order = "fd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-motor", order = "fe" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-containers", order = "ff" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-batteries", order = "ga" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-components", order = "ga" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-boards", order = "gb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "gc" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-frames", order = "ha" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-logistic", order = "hb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-construction", order = "hc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-combat", order = "hd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-capsule", order = "he" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport1", order = "hf" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport2", order = "hg" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-basic-components", order = "ia" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-circuit-boards", order = "ib" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-logic-boards", order = "ic" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-processor-boards", order = "id" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-speed", order = "ie" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-efficiency", order = "if" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-productivity", order = "ig" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-pollution-create", order = "ih" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-pollution-clean", order = "ii" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-speed1", order = "ij" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-speed2", order = "ik" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-green1", order = "il" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-green2", order = "im" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity1", order = "in" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity2", order = "io" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-god", order = "ip" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ja" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "jb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "jc" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ka" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "kb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-cracking", order = "kc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "kd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "ke" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "kf" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "la" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "lb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-empty", order = "lc" },
-	
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts1", order = "ma" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts2", order = "mb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts3", order = "mc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "md" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "me" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-components", order = "na" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-projectiles", order = "nb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-bullets", order = "nc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-rocket-warheads", order = "nd" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads", order = "o" },
-
-	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "p" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "q" },
 })
 
 
@@ -122,22 +136,121 @@ place(subgroup, "carbon", "b")
 
 subgroup = "ts-mat-stone"
 place(subgroup, "stone", "a")
-place(subgroup, "sand", "b")
-place(subgroup, "sand-from-stone", "b-r1")
-place(subgroup, "stone-brick", "c")
-place(subgroup, "stone-tablet", "d")
-place(subgroup, "glass", "e")
-place(subgroup, "glass-from-sand", "e-r1")
-place(subgroup, "quartz-glass", "e-r2")
+place(subgroup, "stone-crushed", "a-r1")
+place(subgroup, "slag-processing-stone", "b")
+place(subgroup, "sand", "c")
+place(subgroup, "sand-from-stone", "c-r1")
+place(subgroup, "stone-brick", "d")
+place(subgroup, "stone-tablet", "e")
+place(subgroup, "glass", "f")
+place(subgroup, "glass-from-sand", "f-r1")
+place(subgroup, "quartz-glass", "f-r2")
+
+subgroup = "ts-mat-slag"
+place(subgroup, "slag", "a")
+
+subgroup = "ts-mat-saphirite"
+place(subgroup, "angels-ore1", "a")
+place(subgroup, "angels-ore1-crushed", "b")
+place(subgroup, "angelsore1-crushed", "b-r1")
+place(subgroup, "angelsore1-crushed-hand", "b-r2")
+place(subgroup, "angelsore1-crushed-processing", "f")
+place(subgroup, "angels-ore1-chunk", "c")
+place(subgroup, "angelsore1-chunk", "c-r1")
+place(subgroup, "angelsore1-chunk-processing", "g")
+place(subgroup, "angels-ore1-crystal", "d")
+place(subgroup, "angelsore1-crystal", "d-r1")
+place(subgroup, "angelsore1-crystal-processing", "h")
+place(subgroup, "angels-ore1-pure", "e")
+place(subgroup, "angelsore1-pure", "e-r1")
+place(subgroup, "angelsore1-pure-processing", "i")
+
+subgroup = "ts-mat-jivolite"
+place(subgroup, "angels-ore2", "a")
+place(subgroup, "angels-ore2-crushed", "b")
+place(subgroup, "angelsore2-crushed", "b-r1")
+place(subgroup, "angelsore2-crushed-processing", "f")
+place(subgroup, "angels-ore2-chunk", "c")
+place(subgroup, "angelsore2-chunk", "c-r1")
+place(subgroup, "angelsore2-chunk-processing", "g")
+place(subgroup, "angels-ore2-crystal", "d")
+place(subgroup, "angelsore2-crystal", "d-r1")
+place(subgroup, "angelsore2-crystal-processing", "h")
+place(subgroup, "angels-ore2-pure", "e")
+place(subgroup, "angelsore2-pure", "e-r1")
+place(subgroup, "angelsore2-pure-processing", "i")
+
+subgroup = "ts-mat-stiratite"
+place(subgroup, "angels-ore3", "a")
+place(subgroup, "angels-ore3-crushed", "b")
+place(subgroup, "angelsore3-crushed", "b-r1")
+place(subgroup, "angelsore3-crushed-hand", "b-r2")
+place(subgroup, "angelsore3-crushed-processing", "f")
+place(subgroup, "angels-ore3-chunk", "c")
+place(subgroup, "angelsore3-chunk", "c-r1")
+place(subgroup, "angelsore3-chunk-processing", "g")
+place(subgroup, "angels-ore3-crystal", "d")
+place(subgroup, "angelsore3-crystal", "d-r1")
+place(subgroup, "angelsore3-crystal-processing", "h")
+place(subgroup, "angels-ore3-pure", "e")
+place(subgroup, "angelsore3-pure", "e-r1")
+place(subgroup, "angelsore3-pure-processing", "i")
+
+subgroup = "ts-mat-crotinnium"
+place(subgroup, "angels-ore4", "a")
+place(subgroup, "angels-ore4-crushed", "b")
+place(subgroup, "angelsore4-crushed", "b-r1")
+place(subgroup, "angelsore4-crushed-processing", "f")
+place(subgroup, "angels-ore4-chunk", "c")
+place(subgroup, "angelsore4-chunk", "c-r1")
+place(subgroup, "angelsore4-chunk-processing", "g")
+place(subgroup, "angels-ore4-crystal", "d")
+place(subgroup, "angelsore4-crystal", "d-r1")
+place(subgroup, "angelsore4-crystal-processing", "h")
+place(subgroup, "angels-ore4-pure", "e")
+place(subgroup, "angelsore4-pure", "e-r1")
+place(subgroup, "angelsore4-pure-processing", "i")
+
+subgroup = "ts-mat-rubyte"
+place(subgroup, "angels-ore5", "a")
+place(subgroup, "angels-ore5-crushed", "b")
+place(subgroup, "angelsore5-crushed", "b-r1")
+place(subgroup, "angelsore5-crushed-processing", "f")
+place(subgroup, "angels-ore5-chunk", "c")
+place(subgroup, "angelsore5-chunk", "c-r1")
+place(subgroup, "angelsore5-chunk-processing", "g")
+place(subgroup, "angels-ore5-crystal", "d")
+place(subgroup, "angelsore5-crystal", "d-r1")
+place(subgroup, "angelsore5-crystal-processing", "h")
+place(subgroup, "angels-ore5-pure", "e")
+place(subgroup, "angelsore5-pure", "e-r1")
+place(subgroup, "angelsore5-pure-processing", "i")
+
+subgroup = "ts-mat-bobmonium"
+place(subgroup, "angels-ore6", "a")
+place(subgroup, "angels-ore6-crushed", "b")
+place(subgroup, "angelsore6-crushed", "b-r1")
+place(subgroup, "angelsore6-crushed-processing", "f")
+place(subgroup, "angels-ore6-chunk", "c")
+place(subgroup, "angelsore6-chunk", "c-r1")
+place(subgroup, "angelsore6-chunk-processing", "g")
+place(subgroup, "angels-ore6-crystal", "d")
+place(subgroup, "angelsore6-crystal", "d-r1")
+place(subgroup, "angelsore6-crystal-processing", "h")
+place(subgroup, "angels-ore6-pure", "e")
+place(subgroup, "angelsore6-pure", "e-r1")
+place(subgroup, "angelsore6-pure-processing", "i")
 
 subgroup = "ts-mat-aluminium"
 place(subgroup, "bauxite-ore", "a-ore")
+place(subgroup, "angelsore-chunk-mix3-processing", "a-ore-r1")
 place(subgroup, "alumina", "b")
 place(subgroup, "aluminium-plate", "c-plate")
 place(subgroup, "bob-aluminium-plate", "c-plate-r1")
 
 subgroup = "ts-mat-cobalt"
 place(subgroup, "cobalt-ore", "a-ore")
+place(subgroup, "angelsore-crystal-mix3-processing", "a-ore-r1")
 place(subgroup, "cobalt-oxide", "ba")
 place(subgroup, "cobalt-oxide-from-copper", "ba-r1")
 place(subgroup, "lithium-cobalt-oxide", "bb")
@@ -145,24 +258,31 @@ place(subgroup, "cobalt-plate", "c-plate")
 
 subgroup = "ts-mat-copper"
 place(subgroup, "copper-ore", "a-ore")
+place(subgroup, "angelsore-crushed-mix2-processing", "a-ore-r1")
 place(subgroup, "copper-plate", "c-plate")
+place(subgroup, "angelsore3-crushed-smelting", "c-plate-r1")
 place(subgroup, "copper-cable", "d")
 
 subgroup = "ts-mat-gold"
 place(subgroup, "gold-ore", "a-ore")
+place(subgroup, "angelsore-crystal-mix2-processing", "a-ore-r1")
 place(subgroup, "gold-plate", "c-plate")
 place(subgroup, "bob-gold-plate", "c-plate-r1")
 
 subgroup = "ts-mat-iron"
 place(subgroup, "iron-ore", "a-ore")
+place(subgroup, "angelsore-crushed-mix1-processing", "a-ore-r1")
 place(subgroup, "iron-plate", "c-plate")
+place(subgroup, "angelsore1-crushed-smelting", "c-plate-r1")
 place(subgroup, "steel-plate", "d")
 
 subgroup = "ts-mat-lead"
 place(subgroup, "lead-ore", "a-ore")
+place(subgroup, "angelsore-crushed-mix3-processing", "a-ore-r1")
 place(subgroup, "lead-oxide", "b")
 place(subgroup, "lead-oxide-2", "b-r1")
 place(subgroup, "lead-plate", "c-plate")
+place(subgroup, "angelsore5-crushed-smelting", "c-plate-r1")
 place(subgroup, "bob-lead-plate", "c-plate-r1")
 
 subgroup = "ts-mat-lithium"
@@ -171,6 +291,7 @@ place(subgroup, "lithium", "c-plate")
 
 subgroup = "ts-mat-nickel"
 place(subgroup, "nickel-ore", "a-ore")
+place(subgroup, "angelsore-chunk-mix2-processing", "a-ore-r1")
 place(subgroup, "nickel-plate", "c-plate")
 place(subgroup, "bob-nickel-plate", "c-plate-r1")
 
@@ -180,6 +301,7 @@ place(subgroup, "bobingabout-enrichment-process", "b")
 
 subgroup = "ts-mat-silicon"
 place(subgroup, "quartz", "a-ore")
+place(subgroup, "angelsore-chunk-mix1-processing", "a-ore-r1")
 place(subgroup, "silicon-powder", "ba")
 place(subgroup, "silicon-carbide", "bb")
 place(subgroup, "silicon-nitride", "bc")
@@ -189,6 +311,7 @@ place(subgroup, "bob-silicon-plate", "c-plate-r1")
 
 subgroup = "ts-mat-silver"
 place(subgroup, "silver-ore", "a-ore")
+place(subgroup, "angelsore-crystal-mix4-processing", "a-ore-r1")
 place(subgroup, "silver-from-lead", "a-ore-r1")
 place(subgroup, "silver-nitrate", "ba")
 place(subgroup, "silver-oxide", "bb")
@@ -201,15 +324,19 @@ place(subgroup, "thorium-processing", "b")
 
 subgroup = "ts-mat-tin"
 place(subgroup, "tin-ore", "a-ore")
+place(subgroup, "angelsore-crushed-mix4-processing", "a-ore-r1")
 place(subgroup, "tin-plate", "c-plate")
+place(subgroup, "angelsore6-crushed-smelting", "c-plate-r1")
 
 subgroup = "ts-mat-titanium"
 place(subgroup, "rutile-ore", "a-ore")
+place(subgroup, "angelsore-crystal-mix1-processing", "a-ore-r1")
 place(subgroup, "titanium-plate", "c-plate")
 place(subgroup, "bob-titanium-plate", "c-plate-r1")
 
 subgroup = "ts-mat-tungsten"
 place(subgroup, "tungsten-ore", "a-ore")
+place(subgroup, "angelsore-pure-mix1-processing", "a-ore-r1")
 place(subgroup, "powdered-tungsten", "b")
 place(subgroup, "tungsten-oxide", "b")
 place(subgroup, "tungsten-plate", "c-plate")
@@ -217,6 +344,7 @@ place(subgroup, "bob-tungsten-plate", "c-plate-r1")
 
 subgroup = "ts-mat-uranium"
 place(subgroup, "uranium-ore", "a-ore")
+place(subgroup, "angelsore-crystal-mix5-processing", "a-ore-r1")
 place(subgroup, "uranium-238", "b")
 place(subgroup, "uranium-235", "c")
 place(subgroup, "uranium-processing", "d")
@@ -224,6 +352,7 @@ place(subgroup, "kovarex-enrichment-process", "e")
 
 subgroup = "ts-mat-zinc"
 place(subgroup, "zinc-ore", "a-ore")
+place(subgroup, "angelsore-chunk-mix4-processing", "a-ore-r1")
 place(subgroup, "zinc-plate", "c-plate")
 place(subgroup, "bob-zinc-plate", "c-plate-r1")
 
@@ -244,11 +373,36 @@ place(subgroup, "cobalt-steel-alloy", "h")
 place(subgroup, "solder-alloy", "i")
 place(subgroup, "solder-alloy-lead", "j")
 
+subgroup = "ts-mat-filters-catalysts"
+place(subgroup, "filter-frame", "a")
+place(subgroup, "filter-coal", "b")
+place(subgroup, "filter-ceramic", "c")
+place(subgroup, "filter-ceramic-refurbish", "c-r1")
+place(subgroup, "catalysator-brown", "d")
+place(subgroup, "catalysator-green", "e")
+place(subgroup, "catalysator-orange", "f")
+
+subgroup = "ts-mat-geodes"
+place(subgroup, "geode-blue", "a")
+place(subgroup, "geode-blue-processing", "a-r1")
+place(subgroup, "geode-purple", "b")
+place(subgroup, "geode-purple-processing", "b-r1")
+place(subgroup, "geode-yellow", "c")
+place(subgroup, "geode-yellow-processing", "c-r1")
+place(subgroup, "geode-lightgreen", "d")
+place(subgroup, "geode-lightgreen-processing", "d-r1")
+place(subgroup, "geode-cyan", "e")
+place(subgroup, "geode-cyan-processing", "e-r1")
+place(subgroup, "geode-red", "f")
+place(subgroup, "geode-red-processing", "f-r1")
+
 subgroup = "ts-mat-gems-unsorted"
 place(subgroup, "gem-ore", "a")
-place(subgroup, "grinding-wheel", "b")
-place(subgroup, "polishing-wheel", "c")
-place(subgroup, "polishing-compound", "d")
+place(subgroup, "sort-gem-ore", "a-r1")
+place(subgroup, "crystal-dust", "b")
+place(subgroup, "grinding-wheel", "c")
+place(subgroup, "polishing-wheel", "d")
+place(subgroup, "polishing-compound", "e")
 
 subgroup = "ts-mat-gems-ore"
 place(subgroup, "ruby-ore", "a")
@@ -674,7 +828,53 @@ subgroup = "ts-mat-electrolysis"
 place(subgroup, "heavy-water-electrolysis", "a")
 place(subgroup, "lithium-water-electrolysis", "b")
 place(subgroup, "salt-water-electrolysis", "c")
+place(subgroup, "salt-water-electrolysis-2", "c-r1")
 place(subgroup, "water-electrolysis", "d")
+place(subgroup, "water-mineralized", "e")
+place(subgroup, "water-purification", "f")
+place(subgroup, "water-thermal-lithia", "g")
+place(subgroup, "yellow-waste-water-purification", "h")
+place(subgroup, "water-saline", "i")
+
+subgroup = "ts-mat-slag-slurry1"
+place(subgroup, "crystal-slurry", "a")
+place(subgroup, "geode-blue-liquify", "a-r1")
+place(subgroup, "geode-cyan-liquify", "a-r2")
+place(subgroup, "geode-lightgreen-liquify", "a-r3")
+place(subgroup, "geode-purple-liquify", "a-r4")
+place(subgroup, "geode-red-liquify", "a-r5")
+place(subgroup, "geode-yellow-liquify", "a-r6")
+place(subgroup, "crystal-dust-liquify", "a-r7")
+place(subgroup, "slag-slurry", "c")
+place(subgroup, "slag-processing-dissolution", "c-r1")
+place(subgroup, "stone-crushed-dissolution", "c-r2")
+
+subgroup = "ts-mat-slag-slurry2"
+place(subgroup, "slag-processing-filtering-1", "a")
+place(subgroup, "slag-processing-filtering-2", "b")
+place(subgroup, "thermal-water-filtering-1", "c")
+place(subgroup, "thermal-water-filtering-2", "d")
+place(subgroup, "crystal-slurry-filtering-1", "e")
+place(subgroup, "crystal-slurry-filtering-2", "f")
+place(subgroup, "crystal-slurry-filtering-conversion-1", "g")
+place(subgroup, "crystal-slurry-filtering-conversion-2", "h")
+
+subgroup = "ts-mat-slag-slurry3"
+place(subgroup, "slag-processing-1", "a")
+place(subgroup, "slag-processing-2", "b")
+place(subgroup, "slag-processing-3", "c")
+place(subgroup, "slag-processing-4", "d")
+place(subgroup, "slag-processing-5", "e")
+place(subgroup, "slag-processing-6", "f")
+place(subgroup, "slag-processing-7", "g")
+
+subgroup = "ts-mat-slag-slurry4"
+place(subgroup, "angelsore7-crystallization-1", "a")
+place(subgroup, "angelsore7-crystallization-2", "b")
+place(subgroup, "angelsore7-crystallization-3", "c")
+place(subgroup, "angelsore7-crystallization-4", "d")
+place(subgroup, "angelsore7-crystallization-5", "e")
+place(subgroup, "angelsore7-crystallization-6", "f")
 
 subgroup = "ts-mat-gas"
 place(subgroup, "liquid-air", "a")
@@ -717,6 +917,32 @@ place(subgroup, "alien-acid-barrel", "ea")
 place(subgroup, "alien-explosive-barrel", "eb")
 place(subgroup, "alien-fire-barrel", "ec")
 place(subgroup, "alien-poison-barrel", "ed")
+place(subgroup, "angels-ore8-anode-sludge-barrel", "fa")
+place(subgroup, "angels-ore8-slime-barrel", "fb")
+place(subgroup, "angels-ore8-sludge-barrel", "fc")
+place(subgroup, "angels-ore8-solution-barrel", "fd")
+place(subgroup, "angels-ore9-anode-sludge-barrel", "fe")
+place(subgroup, "angels-ore9-slime-barrel", "ff")
+place(subgroup, "angels-ore9-sludge-barrel", "fg")
+place(subgroup, "angels-ore9-solution-barrel", "fh")
+place(subgroup, "crystal-matrix-barrel", "fi")
+place(subgroup, "crystal-seedling-barrel", "fj")
+place(subgroup, "crystal-slurry-barrel", "fk")
+place(subgroup, "mineral-sludge-barrel", "ga")
+place(subgroup, "slag-slurry-barrel", "gb")
+place(subgroup, "thermal-water-barrel", "gc")
+place(subgroup, "water-concentrated-mud-barrel", "gd")
+place(subgroup, "water-green-waste-barrel", "ge")
+place(subgroup, "water-greenyellow-waste-barrel", "gf")
+place(subgroup, "water-heavy-mud-barrel", "gg")
+place(subgroup, "water-light-mud-barrel", "gh")
+place(subgroup, "water-mineralized-barrel", "gi")
+place(subgroup, "water-purified-barrel", "gj")
+place(subgroup, "water-red-waste-barrel", "gk")
+place(subgroup, "water-saline-barrel", "ha")
+place(subgroup, "water-thin-mud-barrel", "hb")
+place(subgroup, "water-viscous-mud-barrel", "hc")
+place(subgroup, "water-yellow-waste-barrel", "hd")
 
 subgroup = "ts-mat-barrels-fill"
 place(subgroup, "fill-crude-oil-barrel", "aa")
@@ -755,6 +981,32 @@ place(subgroup, "fill-alien-acid-barrel", "ea")
 place(subgroup, "fill-alien-explosive-barrel", "eb")
 place(subgroup, "fill-alien-fire-barrel", "ec")
 place(subgroup, "fill-alien-poison-barrel", "ed")
+place(subgroup, "fill-angels-ore8-anode-sludge-barrel", "fa")
+place(subgroup, "fill-angels-ore8-slime-barrel", "fb")
+place(subgroup, "fill-angels-ore8-sludge-barrel", "fc")
+place(subgroup, "fill-angels-ore8-solution-barrel", "fd")
+place(subgroup, "fill-angels-ore9-anode-sludge-barrel", "fe")
+place(subgroup, "fill-angels-ore9-slime-barrel", "ff")
+place(subgroup, "fill-angels-ore9-sludge-barrel", "fg")
+place(subgroup, "fill-angels-ore9-solution-barrel", "fh")
+place(subgroup, "fill-crystal-matrix-barrel", "fi")
+place(subgroup, "fill-crystal-seedling-barrel", "fj")
+place(subgroup, "fill-crystal-slurry-barrel", "fk")
+place(subgroup, "fill-mineral-sludge-barrel", "ga")
+place(subgroup, "fill-slag-slurry-barrel", "gb")
+place(subgroup, "fill-thermal-water-barrel", "gc")
+place(subgroup, "fill-water-concentrated-mud-barrel", "gd")
+place(subgroup, "fill-water-green-waste-barrel", "ge")
+place(subgroup, "fill-water-greenyellow-waste-barrel", "gf")
+place(subgroup, "fill-water-heavy-mud-barrel", "gg")
+place(subgroup, "fill-water-light-mud-barrel", "gh")
+place(subgroup, "fill-water-mineralized-barrel", "gi")
+place(subgroup, "fill-water-purified-barrel", "gj")
+place(subgroup, "fill-water-red-waste-barrel", "gk")
+place(subgroup, "fill-water-saline-barrel", "ha")
+place(subgroup, "fill-water-thin-mud-barrel", "hb")
+place(subgroup, "fill-water-viscous-mud-barrel", "hc")
+place(subgroup, "fill-water-yellow-waste-barrel", "hd")
 
 subgroup = "ts-mat-barrels-empty"
 place(subgroup, "empty-crude-oil-barrel", "aa")
@@ -793,6 +1045,32 @@ place(subgroup, "empty-alien-acid-barrel", "ea")
 place(subgroup, "empty-alien-explosive-barrel", "eb")
 place(subgroup, "empty-alien-fire-barrel", "ec")
 place(subgroup, "empty-alien-poison-barrel", "ed")
+place(subgroup, "empty-angels-ore8-anode-sludge-barrel", "fa")
+place(subgroup, "empty-angels-ore8-slime-barrel", "fb")
+place(subgroup, "empty-angels-ore8-sludge-barrel", "fc")
+place(subgroup, "empty-angels-ore8-solution-barrel", "fd")
+place(subgroup, "empty-angels-ore9-anode-sludge-barrel", "fe")
+place(subgroup, "empty-angels-ore9-slime-barrel", "ff")
+place(subgroup, "empty-angels-ore9-sludge-barrel", "fg")
+place(subgroup, "empty-angels-ore9-solution-barrel", "fh")
+place(subgroup, "empty-crystal-matrix-barrel", "fi")
+place(subgroup, "empty-crystal-seedling-barrel", "fj")
+place(subgroup, "empty-crystal-slurry-barrel", "fk")
+place(subgroup, "empty-mineral-sludge-barrel", "ga")
+place(subgroup, "empty-slag-slurry-barrel", "gb")
+place(subgroup, "empty-thermal-water-barrel", "gc")
+place(subgroup, "empty-water-concentrated-mud-barrel", "gd")
+place(subgroup, "empty-water-green-waste-barrel", "ge")
+place(subgroup, "empty-water-greenyellow-waste-barrel", "gf")
+place(subgroup, "empty-water-heavy-mud-barrel", "gg")
+place(subgroup, "empty-water-light-mud-barrel", "gh")
+place(subgroup, "empty-water-mineralized-barrel", "gi")
+place(subgroup, "empty-water-purified-barrel", "gj")
+place(subgroup, "empty-water-red-waste-barrel", "gk")
+place(subgroup, "empty-water-saline-barrel", "ha")
+place(subgroup, "empty-water-thin-mud-barrel", "hb")
+place(subgroup, "empty-water-viscous-mud-barrel", "hc")
+place(subgroup, "empty-water-yellow-waste-barrel", "hd")
 
 subgroup = "ts-mat-alien-artifacts1"
 place(subgroup, "alien-artifact", "a")

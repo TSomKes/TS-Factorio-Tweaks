@@ -9,6 +9,7 @@
 		"? aai-industry >= 0.3.23",
 		"? AfraidOfTheDark >= 1.0.23",
 		"? Aircraft >= 1.6.11",
+		"? angelsrefining >= 0.10.14",
 		"? bobassembly >= 0.17.7",
 		"? bobelectronics >= 0.17.6",
 		"? bobenemies >= 0.17.7",

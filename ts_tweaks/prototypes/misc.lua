@@ -6,12 +6,18 @@ local g = "ts-tab-misc"
 
 
 data:extend({
-	{ type = "item-subgroup", group = g, name = "ts-misc-lamps", order = "a" },
-	{ type = "item-subgroup", group = g, name = "ts-misc-redundant-valves", order = "b" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-hidden-stuffs", order = "a" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-lamps", order = "b" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-redundant-valves", order = "c" },
 })
 
 
 local subgroup
+
+subgroup = "ts-misc-hidden-stuffs"
+place(subgroup, "loader", "a")
+place(subgroup, "fast-loader", "b")
+place(subgroup, "express-loader", "c")
 
 subgroup = "ts-misc-lamps"
 place(subgroup, "small-lamp-red", "a")
