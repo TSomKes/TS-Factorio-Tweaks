@@ -9,3 +9,11 @@ Resources
         -   https://wiki.factorio.com/Tutorial:Modding_tutorial/Gangsir
     -   Changelog categories:  
         -   https://forums.factorio.com/viewtopic.php?f=25&t=67140#p409587
+
+
+To Do Fixes (possibly in another mod)
+-------------------------------------
+
+	-	Lock flow control pipes behind tech (assuming both flow control & whatever mod is hiding iron pipes are both installed)
+		-	check out data-updates.lua in bobsflowcontrol-updated for examples
+			-	Down around line 608, using addTech()
