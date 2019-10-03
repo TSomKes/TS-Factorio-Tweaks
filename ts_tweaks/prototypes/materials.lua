@@ -83,9 +83,10 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "ka" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-oil-processing", order = "kb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "kc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "kd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "ke" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-cracking", order = "kc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-chemicals", order = "kd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-electrolysis", order = "ke" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-gas", order = "kf" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-barrels", order = "la" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-barrels-fill", order = "lb" },
@@ -342,8 +343,9 @@ place(subgroup, "motor", "b")
 place(subgroup, "electric-motor", "c")
 place(subgroup, "engine-unit", "d")
 place(subgroup, "electric-engine-unit", "e")
-place(subgroup, "rocket-control-unit", "f")
-place(subgroup, "low-density-structure", "g")
+place(subgroup, "heat-shield-tile", "f")
+place(subgroup, "rocket-control-unit", "g")
+place(subgroup, "low-density-structure", "h")
 
 subgroup = "ts-mat-containers"
 place(subgroup, "empty-barrel", "a")
@@ -587,6 +589,7 @@ place(subgroup, "solid-fuel-from-petroleum-gas", "a-r3")
 place(subgroup, "solid-fuel-from-hydrogen", "a-r4")
 place(subgroup, "enriched-fuel", "b")
 place(subgroup, "enriched-fuel-from-liquid-fuel", "b-r1")
+place(subgroup, "enriched-fuel-from-hydrazine", "b-r2")
 place(subgroup, "rocket-fuel", "c")
 place(subgroup, "nuclear-fuel", "d")
 
@@ -618,15 +621,21 @@ place(subgroup, "basic-oil-processing", "a")
 place(subgroup, "oil-processing-heavy", "b")
 place(subgroup, "bob-oil-processing", "c")
 place(subgroup, "advanced-oil-processing", "d")
-place(subgroup, "coal-liquefaction", "e")
-place(subgroup, "heavy-oil-cracking", "f")
-place(subgroup, "light-oil-cracking", "g")
-place(subgroup, "coal-cracking", "h")
-place(subgroup, "petroleum-gas-cracking", "i")
-place(subgroup, "liquid-fuel", "j")
-place(subgroup, "diesel-fuel", "k")
-place(subgroup, "lubricant", "l")
-place(subgroup, "ferric-chloride-solution", "m")
+place(subgroup, "oil-processing-with-sulfur", "e")
+place(subgroup, "oil-processing-with-sulfur-dioxide", "f")
+place(subgroup, "oil-processing-with-sulfur-dioxide-2", "g")
+place(subgroup, "oil-processing-with-sulfur-dioxide-3", "h")
+place(subgroup, "coal-liquefaction", "i")
+
+subgroup = "ts-mat-cracking"
+place(subgroup, "heavy-oil-cracking", "a")
+place(subgroup, "light-oil-cracking", "b")
+place(subgroup, "coal-cracking", "c")
+place(subgroup, "petroleum-gas-cracking", "d")
+place(subgroup, "liquid-fuel", "e")
+place(subgroup, "diesel-fuel", "f")
+place(subgroup, "lubricant", "g")
+place(subgroup, "ferric-chloride-solution", "h")
 
 subgroup = "ts-mat-chemicals"
 place(subgroup, "hydrogen-sulfide", "aa")
@@ -645,6 +654,11 @@ place(subgroup, "sulfuric-acid-3", "ak-r2")
 place(subgroup, "glycerol", "ba")
 place(subgroup, "nitroglycerin", "bb")
 place(subgroup, "sulfuric-nitric-acid", "bc")
+place(subgroup, "ammonia", "bd")
+place(subgroup, "dinitrogen-tetroxide", "be")
+place(subgroup, "hydrazine", "bf")
+place(subgroup, "hydrogen-peroxide", "bg")
+place(subgroup, "nitric-oxide", "bh")
 
 subgroup = "ts-mat-electrolysis"
 place(subgroup, "heavy-water-electrolysis", "a")
@@ -684,10 +698,15 @@ place(subgroup, "tungstic-acid-barrel", "cg")
 place(subgroup, "glycerol-barrel", "ch")
 place(subgroup, "nitroglycerin-barrel", "ci")
 place(subgroup, "sulfuric-nitric-acid-barrel", "cj")
-place(subgroup, "alien-acid-barrel", "da")
-place(subgroup, "alien-explosive-barrel", "db")
-place(subgroup, "alien-fire-barrel", "dc")
-place(subgroup, "alien-poison-barrel", "dd")
+place(subgroup, "ammonia-barrel", "da")
+place(subgroup, "dinitrogen-tetroxide-barrel", "db")
+place(subgroup, "hydrazine-barrel", "dc")
+place(subgroup, "hydrogen-peroxide-barrel", "dd")
+place(subgroup, "nitric-oxide-barrel", "de")
+place(subgroup, "alien-acid-barrel", "ea")
+place(subgroup, "alien-explosive-barrel", "eb")
+place(subgroup, "alien-fire-barrel", "ec")
+place(subgroup, "alien-poison-barrel", "ed")
 
 subgroup = "ts-mat-barrels-fill"
 place(subgroup, "fill-crude-oil-barrel", "aa")
@@ -717,10 +736,15 @@ place(subgroup, "fill-tungstic-acid-barrel", "cg")
 place(subgroup, "fill-glycerol-barrel", "ch")
 place(subgroup, "fill-nitroglycerin-barrel", "ci")
 place(subgroup, "fill-sulfuric-nitric-acid-barrel", "cj")
-place(subgroup, "fill-alien-acid-barrel", "da")
-place(subgroup, "fill-alien-explosive-barrel", "db")
-place(subgroup, "fill-alien-fire-barrel", "dc")
-place(subgroup, "fill-alien-poison-barrel", "dd")
+place(subgroup, "fill-ammonia-barrel", "da")
+place(subgroup, "fill-dinitrogen-tetroxide-barrel", "db")
+place(subgroup, "fill-hydrazine-barrel", "dc")
+place(subgroup, "fill-hydrogen-peroxide-barrel", "dd")
+place(subgroup, "fill-nitric-oxide-barrel", "de")
+place(subgroup, "fill-alien-acid-barrel", "ea")
+place(subgroup, "fill-alien-explosive-barrel", "eb")
+place(subgroup, "fill-alien-fire-barrel", "ec")
+place(subgroup, "fill-alien-poison-barrel", "ed")
 
 subgroup = "ts-mat-barrels-empty"
 place(subgroup, "empty-crude-oil-barrel", "aa")
@@ -750,10 +774,15 @@ place(subgroup, "empty-tungstic-acid-barrel", "cg")
 place(subgroup, "empty-glycerol-barrel", "ch")
 place(subgroup, "empty-nitroglycerin-barrel", "ci")
 place(subgroup, "empty-sulfuric-nitric-acid-barrel", "cj")
-place(subgroup, "empty-alien-acid-barrel", "da")
-place(subgroup, "empty-alien-explosive-barrel", "db")
-place(subgroup, "empty-alien-fire-barrel", "dc")
-place(subgroup, "empty-alien-poison-barrel", "dd")
+place(subgroup, "empty-ammonia-barrel", "da")
+place(subgroup, "empty-dinitrogen-tetroxide-barrel", "db")
+place(subgroup, "empty-hydrazine-barrel", "dc")
+place(subgroup, "empty-hydrogen-peroxide-barrel", "dd")
+place(subgroup, "empty-nitric-oxide-barrel", "de")
+place(subgroup, "empty-alien-acid-barrel", "ea")
+place(subgroup, "empty-alien-explosive-barrel", "eb")
+place(subgroup, "empty-alien-fire-barrel", "ec")
+place(subgroup, "empty-alien-poison-barrel", "ed")
 
 subgroup = "ts-mat-alien-artifacts1"
 place(subgroup, "alien-artifact", "a")

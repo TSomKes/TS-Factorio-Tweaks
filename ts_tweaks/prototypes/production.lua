@@ -234,6 +234,7 @@ place(subgroup, "steam-turbine-3", "f")
 
 subgroup = "ts-prod-fuel"
 place(subgroup, "fuel-processor", "a")
+place(subgroup, "hydrazine-generator", "b")
 
 subgroup = "ts-prod-beacons"
 place(subgroup, "beacon", "a")
