@@ -15,8 +15,13 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-explosives", order = "cb"},
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-armor", order = "da" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-armor-util", order = "db" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-armor-defense", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-power", order = "db" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-battery", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-util", order = "dd" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-shields", order = "de" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-laser-defense", order = "df" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-roboport1", order = "dg" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-armor-roboport2", order = "dh" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicles", order = "ea" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo", order = "eb" },
@@ -77,23 +82,70 @@ place(subgroup, "modular-armor", "c")
 place(subgroup, "power-armor", "d")
 place(subgroup, "power-armor-mk2", "e")
 
-subgroup = "ts-equip-armor-util"
+subgroup = "ts-equip-armor-power"
 place(subgroup, "solar-panel-equipment", "a")
-place(subgroup, "fusion-reactor-equipment", "b")
-place(subgroup, "battery-equipment", "c")
-place(subgroup, "battery-mk2-equipment", "d")
-place(subgroup, "exoskeleton-equipment", "e")
-place(subgroup, "belt-immunity-equipment", "f")
-place(subgroup, "personal-roboport-equipment", "g")
-place(subgroup, "personal-roboport-mk2-equipment", "h")
-place(subgroup, "night-vision-equipment", "i")
-place(subgroup, "perfect-night-glasses", "j")
+place(subgroup, "solar-panel-equipment-2", "b")
+place(subgroup, "solar-panel-equipment-3", "c")
+place(subgroup, "solar-panel-equipment-4", "d")
+place(subgroup, "fusion-reactor-equipment", "e")
+place(subgroup, "fusion-reactor-equipment-2", "f")
+place(subgroup, "fusion-reactor-equipment-3", "g")
+place(subgroup, "fusion-reactor-equipment-4", "h")
 
-subgroup = "ts-equip-armor-defense"
+subgroup = "ts-equip-armor-battery"
+place(subgroup, "battery-equipment", "a")
+place(subgroup, "battery-mk2-equipment", "b")
+place(subgroup, "battery-mk3-equipment", "c")
+place(subgroup, "battery-mk4-equipment", "d")
+place(subgroup, "battery-mk5-equipment", "e")
+place(subgroup, "battery-mk6-equipment", "f")
+
+subgroup = "ts-equip-armor-util"
+place(subgroup, "exoskeleton-equipment", "a")
+place(subgroup, "exoskeleton-equipment-2", "b")
+place(subgroup, "exoskeleton-equipment-3", "c")
+place(subgroup, "belt-immunity-equipment", "d")
+place(subgroup, "night-vision-equipment", "e")
+place(subgroup, "night-vision-equipment-2", "f")
+place(subgroup, "night-vision-equipment-3", "g")
+place(subgroup, "perfect-night-glasses", "h")
+
+subgroup = "ts-equip-armor-shields"
 place(subgroup, "energy-shield-equipment", "a")
 place(subgroup, "energy-shield-mk2-equipment", "b")
-place(subgroup, "personal-laser-defense-equipment", "c")
+place(subgroup, "energy-shield-mk3-equipment", "c")
+place(subgroup, "energy-shield-mk4-equipment", "d")
+place(subgroup, "energy-shield-mk5-equipment", "e")
+place(subgroup, "energy-shield-mk6-equipment", "f")
+
+subgroup = "ts-equip-armor-laser-defense"
+place(subgroup, "personal-laser-defense-equipment", "a")
+place(subgroup, "personal-laser-defense-equipment-2", "b")
+place(subgroup, "personal-laser-defense-equipment-3", "c")
+place(subgroup, "personal-laser-defense-equipment-4", "d")
+place(subgroup, "personal-laser-defense-equipment-5", "e")
+place(subgroup, "personal-laser-defense-equipment-6", "f")
 place(subgroup, "discharge-defense-equipment", "d")
+
+subgroup = "ts-equip-armor-roboport1"
+place(subgroup, "personal-roboport-equipment", "a")
+place(subgroup, "personal-roboport-mk2-equipment", "b")
+place(subgroup, "personal-roboport-mk3-equipment", "c")
+place(subgroup, "personal-roboport-mk4-equipment", "d")
+place(subgroup, "personal-roboport-antenna-equipment", "e")
+place(subgroup, "personal-roboport-antenna-equipment-2", "f")
+place(subgroup, "personal-roboport-antenna-equipment-3", "g")
+place(subgroup, "personal-roboport-antenna-equipment-4", "h")
+
+subgroup = "ts-equip-armor-roboport2"
+place(subgroup, "personal-roboport-chargepad-equipment", "a")
+place(subgroup, "personal-roboport-chargepad-equipment-2", "b")
+place(subgroup, "personal-roboport-chargepad-equipment-3", "c")
+place(subgroup, "personal-roboport-chargepad-equipment-4", "d")
+place(subgroup, "personal-roboport-robot-equipment", "e")
+place(subgroup, "personal-roboport-robot-equipment-2", "f")
+place(subgroup, "personal-roboport-robot-equipment-3", "g")
+place(subgroup, "personal-roboport-robot-equipment-4", "h")
 
 subgroup = "ts-equip-vehicles"
 place(subgroup, "car", "a")
