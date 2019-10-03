@@ -9,7 +9,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-belts", order = "aa" },
 	{ type = "item-subgroup", group = g, name = "ts-log-underground-belts", order = "ab" },
 	{ type = "item-subgroup", group = g, name = "ts-log-splitters", order = "ac" },
-	
+	{ type = "item-subgroup", group = g, name = "ts-log-miniloaders", order = "ad" },
+	{ type = "item-subgroup", group = g, name = "ts-log-filter-miniloaders", order = "ae" },
+
 	{ type = "item-subgroup", group = g, name = "ts-log-inserters", order = "ba" },
 	{ type = "item-subgroup", group = g, name = "ts-log-filter-inserters", order = "bb" },
 	{ type = "item-subgroup", group = g, name = "ts-log-stack-inserters", order = "bc" },
@@ -92,6 +94,21 @@ place(subgroup, "fast-splitter", "d")
 place(subgroup, "express-splitter", "d")
 place(subgroup, "turbo-splitter", "e")
 place(subgroup, "ultimate-splitter", "f")
+
+subgroup = "ts-log-miniloaders"
+place(subgroup, "chute-miniloader", "a")
+place(subgroup, "miniloader", "b")
+place(subgroup, "fast-miniloader", "d")
+place(subgroup, "express-miniloader", "d")
+place(subgroup, "turbo-miniloader", "e")
+place(subgroup, "ultimate-miniloader", "f")
+
+subgroup = "ts-log-filter-miniloaders"
+place(subgroup, "filter-miniloader", "b")
+place(subgroup, "fast-filter-miniloader", "d")
+place(subgroup, "express-filter-miniloader", "d")
+place(subgroup, "turbo-filter-miniloader", "e")
+place(subgroup, "ultimate-filter-miniloader", "f")
 
 -- Note:  Some of Bob's Logistics inserter names seem to be out of order, but work this way.
 
@@ -352,6 +369,7 @@ place(subgroup, "bob-roboport-2", "b")
 place(subgroup, "bob-roboport-3", "c")
 place(subgroup, "bob-roboport-4", "d")
 place(subgroup, "bob-logistic-zone-interface", "e")
+place(subgroup, "roboport-interface", "f")
 
 subgroup = "ts-log-bots-expander"
 place(subgroup, "bob-logistic-zone-expander", "a")

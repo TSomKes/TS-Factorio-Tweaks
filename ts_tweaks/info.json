@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.27",
+	"version": "0.0.28",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -30,7 +30,9 @@
 		"? Factorissimo2 >= 2.3.7",
 		"? Flow Control >= 3.0.5",
 		"? KS_Power >= 0.3.5",
-		"? LogisticTrainNetwork >= 1.11.1"
+		"? LogisticTrainNetwork >= 1.11.1",
+		"? miniloader >= 1.8.3",
+		"? Nanobots >= 3.1.0"
 	],
 	"factorio_version": "0.17"
 }

@@ -6,7 +6,7 @@ local g = "ts-tab-equipment"
 
 
 data:extend({
-	{ type = "item-subgroup", group = g, name = "ts-equip-repair", order = "a" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-build-repair", order = "a" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-equip-weapon", order = "ba"},
 	{ type = "item-subgroup", group = g, name = "ts-equip-ammo-magazine", order = "bb"},
@@ -55,12 +55,14 @@ data:extend({
 
 local subgroup
 
-subgroup = "ts-equip-repair"
+subgroup = "ts-equip-build-repair"
 place(subgroup, "repair-pack", "a")
 place(subgroup, "repair-pack-2", "b")
 place(subgroup, "repair-pack-3", "c")
 place(subgroup, "repair-pack-4", "d")
 place(subgroup, "repair-pack-5", "e")
+place(subgroup, "ammo-nano-constructors", "f")
+place(subgroup, "ammo-nano-termites", "g")
 
 subgroup = "ts-equip-weapon"
 place(subgroup, "pistol", "a")
@@ -379,5 +381,11 @@ place(subgroup, "radar-4", "d")
 place(subgroup, "radar-5", "e")
 
 subgroup = "ts-equip-remotes"
-place(subgroup, "discharge-defense-remote", "a")
-place(subgroup, "artillery-targeting-remote", "b")
+place(subgroup, "gun-nano-emitter", "a")
+place(subgroup, "discharge-defense-remote", "b")
+place(subgroup, "artillery-targeting-remote", "c")
+place(subgroup, "equipment-bot-chip-items", "d")
+place(subgroup, "equipment-bot-chip-launcher", "e")
+place(subgroup, "equipment-bot-chip-trees", "f")
+place(subgroup, "equipment-bot-chip-feeder", "g")
+place(subgroup, "equipment-bot-chip-nanointerface", "h")
