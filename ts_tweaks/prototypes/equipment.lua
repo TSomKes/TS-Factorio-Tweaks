@@ -9,10 +9,16 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-repair", order = "a" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-equip-weapon", order = "ba"},
-	{ type = "item-subgroup", group = g, name = "ts-equip-ammo", order = "bb"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-ammo-magazine", order = "bb"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-ammo-shot", order = "bc"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-ammo-rocket", order = "bd"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-ammo-flammable", order = "be"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-ammo-laser-battery", order = "bf"},
 
-	{ type = "item-subgroup", group = g, name = "ts-equip-grenade", order = "ca"},
-	{ type = "item-subgroup", group = g, name = "ts-equip-explosives", order = "cb"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-explosives", order = "ca"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-mines", order = "cb"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-capsules", order = "cc"},
+	{ type = "item-subgroup", group = g, name = "ts-equip-drones", order = "cd"},
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-armor", order = "da" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-armor-power", order = "db" },
@@ -24,10 +30,15 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-armor-roboport2", order = "dh" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicles", order = "ea" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo", order = "eb" },
-	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-util", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-cannon", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-artillery", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-util", order = "ed" },
 
-	{ type = "item-subgroup", group = g, name = "ts-equip-static-defense", order = "f" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-walls", order = "fa" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-gun-turrets", order = "fb" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-energy-turrets", order = "fc" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-other-turrets", order = "fd" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-radars", order = "fe" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-remotes", order = "g" },
 })
@@ -45,42 +56,103 @@ place(subgroup, "repair-pack-5", "e")
 subgroup = "ts-equip-weapon"
 place(subgroup, "pistol", "a")
 place(subgroup, "submachine-gun", "b")
-place(subgroup, "shotgun", "c")
-place(subgroup, "combat-shotgun", "d")
-place(subgroup, "rocket-launcher", "e")
-place(subgroup, "flamethrower", "f")
+place(subgroup, "rifle", "c")
+place(subgroup, "sniper-rifle", "d")
+place(subgroup, "shotgun", "e")
+place(subgroup, "combat-shotgun", "f")
+place(subgroup, "rocket-launcher", "g")
+place(subgroup, "flamethrower", "h")
+place(subgroup, "laser-rifle", "i")
 
-subgroup = "ts-equip-ammo"
+subgroup = "ts-equip-ammo-magazine"
 place(subgroup, "firearm-magazine", "a")
-place(subgroup, "piercing-rounds-magazine", "b")
-place(subgroup, "uranium-rounds-magazine", "c")
-place(subgroup, "shotgun-shell", "d")
-place(subgroup, "piercing-shotgun-shell", "e")
-place(subgroup, "rocket", "f")
-place(subgroup, "explosive-rocket", "g")
-place(subgroup, "atomic-bomb", "h")
-place(subgroup, "flamethrower-ammo", "i")
-place(subgroup, "napalm", "j")
+place(subgroup, "bullet-magazine", "b")
+place(subgroup, "piercing-rounds-magazine", "c")
+place(subgroup, "ap-bullet-magazine", "d")
+place(subgroup, "uranium-rounds-magazine", "e")
+place(subgroup, "he-bullet-magazine", "f")
+place(subgroup, "acid-bullet-magazine", "g")
+place(subgroup, "electric-bullet-magazine", "h")
+place(subgroup, "flame-bullet-magazine", "i")
+place(subgroup, "poison-bullet-magazine", "j")
+place(subgroup, "plasma-bullet-magazine", "k")
 
-subgroup = "ts-equip-grenade"
-place(subgroup, "grenade", "a")
-place(subgroup, "cluster-grenade", "b")
-place(subgroup, "poison-capsule", "c")
-place(subgroup, "slowdown-capsule", "d")
-place(subgroup, "defender-capsule", "e")
-place(subgroup, "distractor-capsule", "f")
-place(subgroup, "destroyer-capsule", "g")
+subgroup = "ts-equip-ammo-shot"
+place(subgroup, "shotgun-shell", "a")
+place(subgroup, "better-shotgun-shell", "b")
+place(subgroup, "piercing-shotgun-shell", "c")
+place(subgroup, "shotgun-ap-shell", "d")
+place(subgroup, "shotgun-uranium-shell", "e")
+place(subgroup, "shotgun-explosive-shell", "f")
+place(subgroup, "shotgun-acid-shell", "g")
+place(subgroup, "shotgun-electric-shell", "h")
+place(subgroup, "shotgun-flame-shell", "i")
+place(subgroup, "shotgun-poison-shell", "j")
+place(subgroup, "shotgun-plasma-shell", "k")
+
+subgroup = "ts-equip-ammo-rocket"
+place(subgroup, "rocket", "a")
+place(subgroup, "bob-rocket", "b")
+place(subgroup, "bob-piercing-rocket", "c")
+place(subgroup, "explosive-rocket", "d")
+place(subgroup, "bob-explosive-rocket", "e")
+place(subgroup, "bob-acid-rocket", "f")
+place(subgroup, "bob-electric-rocket", "g")
+place(subgroup, "bob-flame-rocket", "h")
+place(subgroup, "bob-poison-rocket", "i")
+place(subgroup, "bob-plasma-rocket", "j")
+place(subgroup, "atomic-bomb", "k")
+
+subgroup = "ts-equip-ammo-flammable"
+place(subgroup, "flamethrower-ammo", "a")
+place(subgroup, "napalm", "b")
+
+subgroup = "ts-equip-ammo-laser-battery"
+place(subgroup, "laser-rifle-battery", "a")
+place(subgroup, "laser-rifle-battery-ruby", "b")
+place(subgroup, "laser-rifle-battery-sapphire", "c")
+place(subgroup, "laser-rifle-battery-emerald", "d")
+place(subgroup, "laser-rifle-battery-amethyst", "e")
+place(subgroup, "laser-rifle-battery-topaz", "f")
+place(subgroup, "laser-rifle-battery-diamond", "g")
 
 subgroup = "ts-equip-explosives"
+place(subgroup, "grenade", "a")
+place(subgroup, "cluster-grenade", "b")
+place(subgroup, "cliff-explosives", "e")
+
+subgroup = "ts-equip-mines"
 place(subgroup, "land-mine", "a")
-place(subgroup, "cliff-explosives", "a")
+place(subgroup, "poison-mine", "b")
+place(subgroup, "slowdown-mine", "c")
+place(subgroup, "distractor-mine", "d")
+
+subgroup = "ts-equip-capsules"
+place(subgroup, "poison-capsule", "a")
+place(subgroup, "slowdown-capsule", "b")
+place(subgroup, "defender-capsule", "c")
+place(subgroup, "distractor-capsule", "d")
+place(subgroup, "destroyer-capsule", "e")
+place(subgroup, "bob-laser-robot-capsule", "f")
+place(subgroup, "fire-capsule", "g")
+
+subgroup = "ts-equip-drones"
+place(subgroup, "bob-robot-gun-drone", "a")
+place(subgroup, "bob-robot-laser-drone", "b")
+place(subgroup, "bob-robot-flamethrower-drone", "c")
+place(subgroup, "bob-robot-plasma-drone", "d")
 
 subgroup = "ts-equip-armor"
 place(subgroup, "light-armor", "a")
 place(subgroup, "heavy-armor", "b")
-place(subgroup, "modular-armor", "c")
-place(subgroup, "power-armor", "d")
-place(subgroup, "power-armor-mk2", "e")
+place(subgroup, "heavy-armor-2", "c")
+place(subgroup, "heavy-armor-3", "d")
+place(subgroup, "modular-armor", "e")
+place(subgroup, "power-armor", "f")
+place(subgroup, "power-armor-mk2", "g")
+place(subgroup, "bob-power-armor-mk3", "h")
+place(subgroup, "bob-power-armor-mk4", "i")
+place(subgroup, "bob-power-armor-mk5", "j")
 
 subgroup = "ts-equip-armor-power"
 place(subgroup, "solar-panel-equipment", "a")
@@ -150,33 +222,74 @@ place(subgroup, "personal-roboport-robot-equipment-4", "h")
 subgroup = "ts-equip-vehicles"
 place(subgroup, "car", "a")
 place(subgroup, "tank", "b")
-place(subgroup, "gunship", "c")
-place(subgroup, "cargo-plane", "d")
-place(subgroup, "jet", "e")
-place(subgroup, "flying-fortress", "f")
+place(subgroup, "bob-tank-2", "c")
+place(subgroup, "bob-tank-3", "d")
+place(subgroup, "gunship", "e")
+place(subgroup, "cargo-plane", "f")
+place(subgroup, "jet", "g")
+place(subgroup, "flying-fortress", "h")
 
-subgroup = "ts-equip-vehicle-ammo"
+subgroup = "ts-equip-vehicle-ammo-cannon"
 place(subgroup, "cannon-shell", "a")
 place(subgroup, "explosive-cannon-shell", "b")
 place(subgroup, "high-explosive-cannon-shell", "c")
 place(subgroup, "uranium-cannon-shell", "d")
 place(subgroup, "explosive-uranium-cannon-shell", "e")
-place(subgroup, "artillery-shell", "f")
+place(subgroup, "scatter-cannon-shell", "f")
+
+subgroup = "ts-equip-vehicle-ammo-artillery"
+place(subgroup, "artillery-shell", "a")
+place(subgroup, "distractor-artillery-shell", "b")
+place(subgroup, "explosive-artillery-shell", "c")
+place(subgroup, "fire-artillery-shell", "d")
+place(subgroup, "poison-artillery-shell", "e")
 
 subgroup = "ts-equip-vehicle-util"
 place(subgroup, "aircraft-energy-shield", "a")
 place(subgroup, "aircraft-afterburner", "b")
 
-subgroup = "ts-equip-static-defense"
+subgroup = "ts-equip-walls"
 place(subgroup, "stone-wall", "a")
-place(subgroup, "concrete-wall", "b")
-place(subgroup, "steel-wall", "c")
-place(subgroup, "gate", "d")
-place(subgroup, "gun-turret", "e")
-place(subgroup, "laser-turret", "f")
-place(subgroup, "flamethrower-turret", "g")
-place(subgroup, "artillery-turret", "h")
-place(subgroup, "radar", "i")
+place(subgroup, "reinforced-wall", "b")
+place(subgroup, "concrete-wall", "c")
+place(subgroup, "steel-wall", "d")
+place(subgroup, "gate", "e")
+place(subgroup, "reinforced-gate", "f")
+
+subgroup = "ts-equip-gun-turrets"
+place(subgroup, "gun-turret", "a")
+place(subgroup, "bob-gun-turret-2", "b")
+place(subgroup, "bob-gun-turret-3", "c")
+place(subgroup, "bob-gun-turret-4", "d")
+place(subgroup, "bob-gun-turret-5", "e")
+place(subgroup, "bob-sniper-turret-1", "f")
+place(subgroup, "bob-sniper-turret-2", "g")
+place(subgroup, "bob-sniper-turret-3", "h")
+
+subgroup = "ts-equip-energy-turrets"
+place(subgroup, "laser-turret", "h")
+place(subgroup, "bob-laser-turret-2", "b")
+place(subgroup, "bob-laser-turret-3", "c")
+place(subgroup, "bob-laser-turret-4", "d")
+place(subgroup, "bob-laser-turret-5", "e")
+place(subgroup, "bob-plasma-turret-1", "f")
+place(subgroup, "bob-plasma-turret-2", "g")
+place(subgroup, "bob-plasma-turret-3", "h")
+place(subgroup, "bob-plasma-turret-4", "i")
+place(subgroup, "bob-plasma-turret-5", "j")
+
+subgroup = "ts-equip-other-turrets"
+place(subgroup, "flamethrower-turret", "a")
+place(subgroup, "artillery-turret", "b")
+place(subgroup, "bob-artillery-turret-2", "c")
+place(subgroup, "bob-artillery-turret-3", "d")
+
+subgroup = "ts-equip-radars"
+place(subgroup, "radar", "a")
+place(subgroup, "radar-2", "b")
+place(subgroup, "radar-3", "c")
+place(subgroup, "radar-4", "d")
+place(subgroup, "radar-5", "e")
 
 subgroup = "ts-equip-remotes"
 place(subgroup, "discharge-defense-remote", "a")

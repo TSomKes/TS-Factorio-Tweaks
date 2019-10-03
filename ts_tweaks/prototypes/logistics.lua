@@ -284,6 +284,8 @@ place(subgroup, "bob-armoured-fluid-wagon-2", "e")
 
 subgroup = "ts-log-rail-artillery"
 place(subgroup, "artillery-wagon", "a")
+place(subgroup, "bob-artillery-wagon-2", "b")
+place(subgroup, "bob-artillery-wagon-3", "c")
 
 subgroup = "ts-log-circuit"
 place(subgroup, "red-wire", "a")

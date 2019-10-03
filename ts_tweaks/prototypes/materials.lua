@@ -56,8 +56,10 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-frames", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-logistic", order = "hb" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-construction", order = "hc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport1", order = "hd" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport2", order = "he" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-combat", order = "hd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-capsule", order = "he" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport1", order = "hf" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-bots-roboport2", order = "hg" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-basic-components", order = "ia" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-circuit-boards", order = "ib" },
@@ -95,7 +97,12 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifacts-small", order = "md" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-alien-artifact-products", order = "me" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "n" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-components", order = "na" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-projectiles", order = "nb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-bullets", order = "nc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-rocket-warheads", order = "nd" },
+
+	{ type = "item-subgroup", group = g, name = "ts-mat-fish", order = "o" },
 })
 
 
@@ -378,6 +385,8 @@ place(subgroup, "flying-robot-frame", "a")
 place(subgroup, "flying-robot-frame-2", "b")
 place(subgroup, "flying-robot-frame-3", "c")
 place(subgroup, "flying-robot-frame-4", "d")
+place(subgroup, "robot-drone-frame", "e")
+place(subgroup, "robot-drone-frame-large", "f")
 
 subgroup = "ts-mat-bots-logistic"
 place(subgroup, "robot-brain-logistic", "a")
@@ -398,6 +407,22 @@ place(subgroup, "robot-tool-construction", "e")
 place(subgroup, "robot-tool-construction-2", "f")
 place(subgroup, "robot-tool-construction-3", "g")
 place(subgroup, "robot-tool-construction-4", "h")
+
+subgroup = "ts-mat-bots-combat"
+place(subgroup, "robot-brain-combat", "a")
+place(subgroup, "robot-brain-combat-2", "b")
+place(subgroup, "robot-brain-combat-3", "c")
+place(subgroup, "robot-brain-combat-4", "d")
+place(subgroup, "robot-tool-combat", "e")
+place(subgroup, "robot-tool-combat-2", "f")
+place(subgroup, "robot-tool-combat-3", "g")
+place(subgroup, "robot-tool-combat-4", "h")
+	
+subgroup = "ts-mat-bots-capsule"
+place(subgroup, "defender-robot", "a")
+place(subgroup, "distractor-robot", "b")
+place(subgroup, "destroyer-robot", "c")
+place(subgroup, "bob-laser-robot", "d")
 
 subgroup = "ts-mat-bots-roboport1"
 place(subgroup, "roboport-antenna-1", "a")
@@ -604,19 +629,22 @@ place(subgroup, "lubricant", "l")
 place(subgroup, "ferric-chloride-solution", "m")
 
 subgroup = "ts-mat-chemicals"
-place(subgroup, "hydrogen-sulfide", "a")
-place(subgroup, "sulfur-dioxide", "b")
-place(subgroup, "bob-heavy-water", "c")
-place(subgroup, "hydrogen-chloride", "d")
-place(subgroup, "nitric-acid", "e")
-place(subgroup, "nitrogen-dioxide", "f")
-place(subgroup, "nitrogen", "g")
-place(subgroup, "pure-water", "h")
-place(subgroup, "pure-water-from-lithia", "i")
-place(subgroup, "tungstic-acid", "j")
-place(subgroup, "sulfuric-acid", "k")
-place(subgroup, "sulfuric-acid-2", "k-r1")
-place(subgroup, "sulfuric-acid-3", "k-r2")
+place(subgroup, "hydrogen-sulfide", "aa")
+place(subgroup, "sulfur-dioxide", "ab")
+place(subgroup, "bob-heavy-water", "ac")
+place(subgroup, "hydrogen-chloride", "ad")
+place(subgroup, "nitric-acid", "ae")
+place(subgroup, "nitrogen-dioxide", "af")
+place(subgroup, "nitrogen", "ag")
+place(subgroup, "pure-water", "ah")
+place(subgroup, "pure-water-from-lithia", "ai")
+place(subgroup, "tungstic-acid", "aj")
+place(subgroup, "sulfuric-acid", "ak")
+place(subgroup, "sulfuric-acid-2", "ak-r1")
+place(subgroup, "sulfuric-acid-3", "ak-r2")
+place(subgroup, "glycerol", "ba")
+place(subgroup, "nitroglycerin", "bb")
+place(subgroup, "sulfuric-nitric-acid", "bc")
 
 subgroup = "ts-mat-electrolysis"
 place(subgroup, "heavy-water-electrolysis", "a")
@@ -653,6 +681,9 @@ place(subgroup, "liquid-fuel-barrel", "cd")
 place(subgroup, "nitric-acid-barrel", "ce")
 place(subgroup, "pure-water-barrel", "cf")
 place(subgroup, "tungstic-acid-barrel", "cg")
+place(subgroup, "glycerol-barrel", "ch")
+place(subgroup, "nitroglycerin-barrel", "ci")
+place(subgroup, "sulfuric-nitric-acid-barrel", "cj")
 place(subgroup, "alien-acid-barrel", "da")
 place(subgroup, "alien-explosive-barrel", "db")
 place(subgroup, "alien-fire-barrel", "dc")
@@ -683,6 +714,9 @@ place(subgroup, "fill-liquid-fuel-barrel", "cd")
 place(subgroup, "fill-nitric-acid-barrel", "ce")
 place(subgroup, "fill-pure-water-barrel", "cf")
 place(subgroup, "fill-tungstic-acid-barrel", "cg")
+place(subgroup, "fill-glycerol-barrel", "ch")
+place(subgroup, "fill-nitroglycerin-barrel", "ci")
+place(subgroup, "fill-sulfuric-nitric-acid-barrel", "cj")
 place(subgroup, "fill-alien-acid-barrel", "da")
 place(subgroup, "fill-alien-explosive-barrel", "db")
 place(subgroup, "fill-alien-fire-barrel", "dc")
@@ -713,6 +747,9 @@ place(subgroup, "empty-liquid-fuel-barrel", "cd")
 place(subgroup, "empty-nitric-acid-barrel", "ce")
 place(subgroup, "empty-pure-water-barrel", "cf")
 place(subgroup, "empty-tungstic-acid-barrel", "cg")
+place(subgroup, "empty-glycerol-barrel", "ch")
+place(subgroup, "empty-nitroglycerin-barrel", "ci")
+place(subgroup, "empty-sulfuric-nitric-acid-barrel", "cj")
 place(subgroup, "empty-alien-acid-barrel", "da")
 place(subgroup, "empty-alien-explosive-barrel", "db")
 place(subgroup, "empty-alien-fire-barrel", "dc")
@@ -760,6 +797,50 @@ place(subgroup, "alien-acid", "c")
 place(subgroup, "alien-explosive", "d")
 place(subgroup, "alien-fire", "d")
 place(subgroup, "alien-poison", "f")
+
+subgroup = "ts-mat-ammo-components"
+place(subgroup, "gun-cotton", "a")
+place(subgroup, "petroleum-jelly", "b")
+place(subgroup, "cordite", "c")
+place(subgroup, "bullet-casing", "d")
+place(subgroup, "magazine", "e")
+place(subgroup, "shotgun-shell-casing", "f")
+place(subgroup, "shot", "g")
+place(subgroup, "rocket-engine", "h")
+place(subgroup, "rocket-body", "i")
+place(subgroup, "laser-rifle-battery-case", "j")
+
+subgroup = "ts-mat-ammo-projectiles"
+place(subgroup, "bullet-projectile", "a")
+place(subgroup, "ap-bullet-projectile", "b")
+place(subgroup, "uranium-bullet-projectile", "c")
+place(subgroup, "he-bullet-projectile", "d")
+place(subgroup, "acid-bullet-projectile", "e")
+place(subgroup, "electric-bullet-projectile", "f")
+place(subgroup, "flame-bullet-projectile", "g")
+place(subgroup, "poison-bullet-projectile", "h")
+place(subgroup, "plasma-bullet-projectile", "i")
+
+subgroup = "ts-mat-ammo-bullets"
+place(subgroup, "bullet", "a")
+place(subgroup, "ap-bullet", "b")
+place(subgroup, "uranium-bullet", "c")
+place(subgroup, "he-bullet", "d")
+place(subgroup, "acid-bullet", "e")
+place(subgroup, "electric-bullet", "f")
+place(subgroup, "flame-bullet", "g")
+place(subgroup, "poison-bullet", "h")
+place(subgroup, "plasma-bullet", "i")
+
+subgroup = "ts-mat-ammo-rocket-warheads"
+place(subgroup, "rocket-warhead", "a")
+place(subgroup, "piercing-rocket-warhead", "b")
+place(subgroup, "explosive-rocket-warhead", "c")
+place(subgroup, "acid-rocket-warhead", "d")
+place(subgroup, "electric-rocket-warhead", "e")
+place(subgroup, "flame-rocket-warhead", "f")
+place(subgroup, "poison-rocket-warhead", "g")
+place(subgroup, "plasma-rocket-warhead", "h")
 
 subgroup = "ts-mat-fish"
 place(subgroup, "raw-fish", "a")
