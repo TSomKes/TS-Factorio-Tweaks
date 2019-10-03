@@ -76,6 +76,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-green2", order = "im" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity1", order = "in" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity2", order = "io" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-god", order = "ip" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-fuel", order = "ja" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "jb" },
@@ -580,6 +581,13 @@ place(subgroup, "raw-productivity-module-5-combine", "e")
 place(subgroup, "raw-productivity-module-6-combine", "f")
 place(subgroup, "raw-productivity-module-7-combine", "g")
 place(subgroup, "raw-productivity-module-8-combine", "h")
+
+subgroup = "ts-mat-module-god"
+place(subgroup, "god-module-1", "a")
+place(subgroup, "god-module-2", "b")
+place(subgroup, "god-module-3", "c")
+place(subgroup, "god-module-4", "d")
+place(subgroup, "god-module-5", "e")
 
 subgroup = "ts-mat-fuel"
 place(subgroup, "solid-fuel", "a")
