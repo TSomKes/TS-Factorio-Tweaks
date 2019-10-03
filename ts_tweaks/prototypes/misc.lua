@@ -7,6 +7,7 @@ local g = "ts-tab-misc"
 
 data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-misc-lamps", order = "a" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-redundant-valves", order = "b" },
 })
 
 
@@ -22,4 +23,9 @@ place(subgroup, "small-lamp-blue", "f")
 place(subgroup, "small-lamp-purple", "g")
 place(subgroup, "small-lamp-magenta", "h")
 place(subgroup, "small-lamp-white", "i")
-place(subgroup, "small-lamp-black", "i")
+place(subgroup, "small-lamp-black", "j")
+
+subgroup = "ts-misc-redundant-valves"
+place(subgroup, "check-valve", "a")
+place(subgroup, "overflow-valve", "b")
+place(subgroup, "underflow-valve", "c")

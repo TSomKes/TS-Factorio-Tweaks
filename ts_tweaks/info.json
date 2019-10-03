@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.25",
+	"version": "0.0.26",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -27,6 +27,7 @@
 		"? color-coding >= 1.17.0",
 		"? Energy_Efficient_Beacons >= 0.17.3",
 		"? Factorissimo2 >= 2.3.7",
+		"? Flow Control >= 3.0.5",
 		"? KS_Power >= 0.3.5",
 		"? LogisticTrainNetwork >= 1.11.1"
 	],
