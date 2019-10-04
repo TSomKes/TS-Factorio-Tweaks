@@ -366,6 +366,7 @@ place(subgroup, "angels-plate-bronze", "b-r1")
 
 subgroup = "ts-mat-chrome"
 place(subgroup, "chrome-ore", "a")
+place(subgroup, "angelsore-pure-chrome-processing", "a-r1")
 place(subgroup, "processed-chrome", "b")
 place(subgroup, "chrome-ore-processing", "b-r1")
 place(subgroup, "pellet-chrome", "c")
@@ -582,6 +583,7 @@ place(subgroup, "lithium", "c")
 
 subgroup = "ts-mat-manganese"
 place(subgroup, "manganese-ore", "a")
+place(subgroup, "angelsore-crushed-manganese-processing", "a-r1")
 place(subgroup, "processed-manganese", "b")
 place(subgroup, "manganese-ore-processing", "b-r1")
 place(subgroup, "pellet-manganese", "c")
