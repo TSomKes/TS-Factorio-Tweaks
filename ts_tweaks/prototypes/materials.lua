@@ -1015,10 +1015,14 @@ place(subgroup, "superior-circuit-board", "f")
 place(subgroup, "multi-layer-circuit-board", "g")
 
 subgroup = "ts-mat-circuits"
-place(subgroup, "electronic-circuit", "a")
-place(subgroup, "advanced-circuit", "b")
-place(subgroup, "processing-unit", "c")
-place(subgroup, "advanced-processing-unit", "d")
+place(subgroup, "cp-electronic-circuit-board", "a")
+place(subgroup, "cp-advanced-circuit-board", "b")
+place(subgroup, "cp-processing-board", "c")
+place(subgroup, "cp-advanced-processing-board", "d")
+place(subgroup, "electronic-circuit", "e")
+place(subgroup, "advanced-circuit", "f")
+place(subgroup, "processing-unit", "g")
+place(subgroup, "advanced-processing-unit", "h")
 
 subgroup = "ts-mat-bots-frames"
 place(subgroup, "flying-robot-frame", "a")
