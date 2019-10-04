@@ -177,7 +177,9 @@ place(subgroup, "pipe-stone-junction", "e")
 
 subgroup = "ts-log-pipe-iron"
 place(subgroup, "pipe", "a")
+place(subgroup, "angels-iron-pipe-casting", "a-r1")
 place(subgroup, "pipe-to-ground", "b")
+place(subgroup, "angels-iron-pipe-to-ground-casting", "b-r1")
 place(subgroup, "pipe-straight", "c")
 place(subgroup, "pipe-elbow", "d")
 place(subgroup, "pipe-junction", "e")
