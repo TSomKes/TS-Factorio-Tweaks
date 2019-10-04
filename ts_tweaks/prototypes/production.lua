@@ -17,7 +17,10 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-sorters", order = "bb" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining1", order = "bc" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining2", order = "bd" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-refineries", order = "be" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-oil-separators", order = "bf" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-gas-refineries", order = "bg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-oil-refineries", order = "bh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-crackers", order = "bi" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "ca" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "cb" },
@@ -91,7 +94,10 @@ place(subgroup, "air-pump", "a")
 place(subgroup, "air-pump-2", "b")
 place(subgroup, "air-pump-3", "c")
 place(subgroup, "air-pump-4", "d")
-place(subgroup, "void-pump", "e")
+place(subgroup, "angels-air-filter", "e")
+place(subgroup, "angels-air-filter-2", "f")
+place(subgroup, "void-pump", "g")
+place(subgroup, "angels-flare-stack", "h")
 
 subgroup = "ts-prod-ore-crushers"
 place(subgroup, "burner-ore-crusher", "a")
@@ -122,13 +128,36 @@ place(subgroup, "crystallizer", "c")
 place(subgroup, "crystallizer-2", "d")
 place(subgroup, "liquifier", "e")
 place(subgroup, "liquifier-2", "f")
+place(subgroup, "liquifier-3", "g")
+place(subgroup, "liquifier-4", "h")
 
-subgroup = "ts-prod-refineries"
+subgroup = "ts-prod-oil-separators"
+place(subgroup, "separator", "a")
+place(subgroup, "separator-2", "b")
+place(subgroup, "separator-3", "c")
+place(subgroup, "separator-4", "d")
+
+subgroup = "ts-prod-gas-refineries"
+place(subgroup, "gas-refinery-small", "a")
+place(subgroup, "gas-refinery-small-2", "b")
+place(subgroup, "gas-refinery-small-3", "c")
+place(subgroup, "gas-refinery-small-4", "d")
+place(subgroup, "gas-refinery", "e")
+place(subgroup, "gas-refinery-2", "f")
+place(subgroup, "gas-refinery-3", "g")
+
+subgroup = "ts-prod-oil-refineries"
 place(subgroup, "oil-refinery", "a")
 place(subgroup, "oil-refinery-2", "b")
 place(subgroup, "oil-refinery-3", "c")
 place(subgroup, "oil-refinery-4", "d")
-place(subgroup, "centrifuge", "e")
+place(subgroup, "centrifuge", "i")
+
+subgroup = "ts-prod-crackers"
+place(subgroup, "steam-cracker", "a")
+place(subgroup, "steam-cracker-2", "b")
+place(subgroup, "steam-cracker-3", "c")
+place(subgroup, "steam-cracker-4", "d")
 
 subgroup = "ts-prod-furnaces"
 place(subgroup, "stone-furnace", "a")
@@ -174,6 +203,12 @@ place(subgroup, "chemical-plant", "a")
 place(subgroup, "chemical-plant-2", "b")
 place(subgroup, "chemical-plant-3", "c")
 place(subgroup, "chemical-plant-4", "d")
+place(subgroup, "angels-chemical-plant", "e")
+place(subgroup, "angels-chemical-plant-2", "f")
+place(subgroup, "angels-chemical-plant-3", "g")
+place(subgroup, "angels-chemical-plant-4", "h")
+place(subgroup, "advanced-chemical-plant", "i")
+place(subgroup, "advanced-chemical-plant-2", "j")
 
 subgroup = "ts-prod-distilleries"
 place(subgroup, "bob-distillery", "a")
@@ -187,6 +222,10 @@ place(subgroup, "electrolyser", "a")
 place(subgroup, "electrolyser-2", "b")
 place(subgroup, "electrolyser-3", "c")
 place(subgroup, "electrolyser-4", "d")
+place(subgroup, "angels-electrolyser", "e")
+place(subgroup, "angels-electrolyser-2", "f")
+place(subgroup, "angels-electrolyser-3", "g")
+place(subgroup, "angels-electrolyser-4", "h")
 
 subgroup = "ts-prod-hydro"
 place(subgroup, "hydro-plant", "a")
@@ -244,6 +283,7 @@ place(subgroup, "oil-boiler", "f")
 place(subgroup, "oil-boiler-2", "g")
 place(subgroup, "oil-boiler-3", "h")
 place(subgroup, "oil-boiler-4", "i")
+place(subgroup, "angels-electric-boiler", "j")
 
 subgroup = "ts-prod-steam-engines"
 place(subgroup, "steam-engine", "a")

@@ -45,7 +45,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-storage", order = "gd" },
 	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-buffer", order = "ge" },
 	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-requester", order = "gf" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid", order = "gg" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid1", order = "gg" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid2", order = "gh" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-rail", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-log-rail-locomotive", order = "hb" },
@@ -252,9 +253,11 @@ place(subgroup, "pipe-copper-tungsten-elbow", "d")
 place(subgroup, "pipe-copper-tungsten-junction", "e")
 
 subgroup = "ts-log-pipe-valves"
-place(subgroup, "bob-valve", "a")
-place(subgroup, "bob-overflow-valve", "b")
-place(subgroup, "bob-topup-valve", "c")
+place(subgroup, "valve-check", "a")
+place(subgroup, "valve-return", "b")
+place(subgroup, "valve-overflow", "c")
+place(subgroup, "valve-underflow", "d")
+place(subgroup, "valve-converter", "e")
 
 subgroup = "ts-log-pipe-pumps"
 place(subgroup, "pump", "a")
@@ -294,7 +297,7 @@ place(subgroup, "logistic-chest-requester", "a")
 place(subgroup, "logistic-chest-requester-2", "b")
 place(subgroup, "logistic-chest-requester-3", "c")
 
-subgroup = "ts-log-storage-fluid"
+subgroup = "ts-log-storage-fluid1"
 place(subgroup, "bob-small-inline-storage-tank", "a")
 place(subgroup, "bob-small-storage-tank", "b")
 place(subgroup, "storage-tank", "c")
@@ -305,6 +308,11 @@ place(subgroup, "bob-storage-tank-all-corners", "g")
 place(subgroup, "bob-storage-tank-all-corners-2", "h")
 place(subgroup, "bob-storage-tank-all-corners-3", "i")
 place(subgroup, "bob-storage-tank-all-corners-4", "j")
+
+subgroup = "ts-log-storage-fluid2"
+place(subgroup, "angels-storage-tank-1", "a")
+place(subgroup, "angels-storage-tank-2", "b")
+place(subgroup, "angels-storage-tank-3", "c")
 
 subgroup = "ts-log-rail"
 place(subgroup, "rail", "a")

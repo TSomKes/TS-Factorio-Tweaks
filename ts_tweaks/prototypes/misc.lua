@@ -32,6 +32,9 @@ place(subgroup, "small-lamp-white", "i")
 place(subgroup, "small-lamp-black", "j")
 
 subgroup = "ts-misc-redundant-valves"
-place(subgroup, "check-valve", "a")
-place(subgroup, "overflow-valve", "b")
-place(subgroup, "underflow-valve", "c")
+place(subgroup, "bob-valve", "a")
+place(subgroup, "bob-overflow-valve", "b")
+place(subgroup, "bob-topup-valve", "c")
+place(subgroup, "check-valve", "d")
+place(subgroup, "overflow-valve", "e")
+place(subgroup, "underflow-valve", "f")
