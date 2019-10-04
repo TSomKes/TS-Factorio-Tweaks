@@ -337,6 +337,7 @@ subgroup = "ts-log-storage-fluid2"
 place(subgroup, "angels-storage-tank-1", "a")
 place(subgroup, "angels-storage-tank-2", "b")
 place(subgroup, "angels-storage-tank-3", "c")
+place(subgroup, "angels-pressure-tank-1", "d")
 
 subgroup = "ts-log-rail"
 place(subgroup, "rail", "a")
