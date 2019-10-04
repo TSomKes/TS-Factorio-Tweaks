@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.38",
+	"version": "0.0.39",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -43,6 +43,7 @@
 		"? Nanobots >= 3.1.0",
 		"? Orbital Ion Cannon >= 1.7.2",
 		"? Repair_Turret >= 0.2.0",
+		"? ScienceCostTweakerM >= 0.17.10",
 		"? SpaceMod >= 0.4.4"
 	],
 	"factorio_version": "0.17"
