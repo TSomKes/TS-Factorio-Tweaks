@@ -40,13 +40,14 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-pipe-pumps", order = "en" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-storage", order = "ga" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-active", order = "gb" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-passive", order = "gc" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-storage", order = "gd" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-buffer", order = "ge" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-requester", order = "gf" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid1", order = "gg" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid2", order = "gh" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-ore", order = "gb" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-active", order = "gc" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-passive", order = "gd" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-storage", order = "ge" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-buffer", order = "gf" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-requester", order = "gg" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid1", order = "gh" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid2", order = "gi" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-rail", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-log-rail-locomotive", order = "hb" },
@@ -273,31 +274,52 @@ place(subgroup, "iron-chest", "b")
 place(subgroup, "steel-chest", "c")
 place(subgroup, "brass-chest", "d")
 place(subgroup, "titanium-chest", "e")
+place(subgroup, "silo", "f")
+place(subgroup, "angels-warehouse", "g")
+
+subgroup = "ts-log-storage-ore"
+place(subgroup, "silo-ore1", "a")
+place(subgroup, "silo-ore2", "b")
+place(subgroup, "silo-ore3", "c")
+place(subgroup, "silo-ore4", "d")
+place(subgroup, "silo-ore5", "e")
+place(subgroup, "silo-ore6", "f")
+place(subgroup, "silo-coal", "g")
 
 subgroup = "ts-log-storage-logistics-active"
 place(subgroup, "logistic-chest-active-provider", "a")
 place(subgroup, "logistic-chest-active-provider-2", "b")
 place(subgroup, "logistic-chest-active-provider-3", "c")
+place(subgroup, "silo-active-provider", "e")
+place(subgroup, "angels-warehouse-active-provider", "f")
 
 subgroup = "ts-log-storage-logistics-passive"
 place(subgroup, "logistic-chest-passive-provider", "a")
 place(subgroup, "logistic-chest-passive-provider-2", "b")
 place(subgroup, "logistic-chest-passive-provider-3", "c")
+place(subgroup, "silo-passive-provider", "e")
+place(subgroup, "angels-warehouse-passive-provider", "f")
 
 subgroup = "ts-log-storage-logistics-storage"
 place(subgroup, "logistic-chest-storage", "a")
 place(subgroup, "logistic-chest-storage-2", "b")
 place(subgroup, "logistic-chest-storage-3", "c")
+place(subgroup, "silo-storage", "e")
+place(subgroup, "angels-warehouse-storage", "f")
 
 subgroup = "ts-log-storage-logistics-buffer"
 place(subgroup, "logistic-chest-buffer", "a")
 place(subgroup, "logistic-chest-buffer-2", "b")
 place(subgroup, "logistic-chest-buffer-3", "c")
+place(subgroup, "silo-buffer", "e")
+place(subgroup, "angels-warehouse-buffer", "f")
 
 subgroup = "ts-log-storage-logistics-requester"
 place(subgroup, "logistic-chest-requester", "a")
 place(subgroup, "logistic-chest-requester-2", "b")
 place(subgroup, "logistic-chest-requester-3", "c")
+place(subgroup, "silo-requester", "e")
+place(subgroup, "angels-warehouse-requester", "f")
 
 subgroup = "ts-log-storage-fluid1"
 place(subgroup, "bob-small-inline-storage-tank", "a")
