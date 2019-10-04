@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.33",
+	"version": "0.0.34",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -11,6 +11,7 @@
 		"? Aircraft >= 1.6.11",
 		"? angelspetrochem >= 0.8.6",
 		"? angelsrefining >= 0.10.14",
+		"? angelssmelting >= 0.5.7",
 		"? bobassembly >= 0.17.7",
 		"? bobelectronics >= 0.17.6",
 		"? bobenemies >= 0.17.7",

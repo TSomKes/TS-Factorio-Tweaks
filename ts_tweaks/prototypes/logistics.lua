@@ -404,6 +404,7 @@ place(subgroup, "bob-robo-charge-port-large-4", "g")
 
 subgroup = "ts-log-tiles"
 place(subgroup, "landfill", "a")
+place(subgroup, "solid-mud-landfill", "a-r1")
 place(subgroup, "concrete", "b")
 place(subgroup, "hazard-concrete", "c")
 place(subgroup, "refined-concrete", "d")

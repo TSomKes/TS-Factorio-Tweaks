@@ -10,43 +10,55 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners", order = "ab" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners-area", order = "ac" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-oil", order = "ad" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water", order = "ae" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-gas", order = "af" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water1", order = "ae" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water2", order = "af" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-gas", order = "ag" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-crushers", order = "ba" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-sorters", order = "bb" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining1", order = "bc" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining2", order = "bd" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-oil-separators", order = "bf" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-gas-refineries", order = "bg" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-oil-refineries", order = "bh" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-crackers", order = "bi" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining3", order = "be" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-ore-processing", order = "bf" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-pellet-presses", order = "bg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-powder-mixing", order = "bh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-blast-furnaces", order = "bi" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-furnaces", order = "bj" },
+
+	{ type = "item-subgroup", group = g, name = "ts-prod-oil-separators", order = "ca" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-gas-refineries", order = "cb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-oil-refineries", order = "cc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-crackers", order = "cd" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "ca" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "cb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-metal-mixing", order = "cc" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-multi-purpose", order = "cd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "da" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "db" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-metal-mixing", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-multi-purpose", order = "dd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-induction-furnaces", order = "de" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-casting", order = "df" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-strand-casting", order = "dg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-sintering", order = "dh" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "da" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "db" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "dc" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "dd" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "de" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-hydro", order = "df" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "ea" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "ed" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "ee" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-hydro", order = "ef" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "e" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "f" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-accumulators", order = "fa" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-solar-wind", order = "fb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-generators", order = "fc" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-boilers", order = "fd" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-steam-engines", order = "fe" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-heat", order = "ff" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-heat-reactor", order = "fg" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "fh" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "fi" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-accumulators", order = "ga" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-solar-wind", order = "gb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-generators", order = "gc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-boilers", order = "gd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-steam-engines", order = "ge" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat", order = "gf" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat-reactor", order = "gg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "gh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "gi" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "g" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "h" },
 })
 
 
@@ -77,17 +89,21 @@ place(subgroup, "bob-pumpjack-3", "d")
 place(subgroup, "bob-pumpjack-4", "e")
 place(subgroup, "thermal-extractor", "f")
 
-subgroup = "ts-prod-extraction-water"
+subgroup = "ts-prod-extraction-water1"
 place(subgroup, "offshore-pump", "a")
-place(subgroup, "water-miner-1", "b")
-place(subgroup, "water-miner-2", "c")
-place(subgroup, "water-miner-3", "d")
-place(subgroup, "water-miner-4", "e")
-place(subgroup, "water-miner-5", "f")
-place(subgroup, "water-pump", "g")
-place(subgroup, "water-pump-2", "h")
-place(subgroup, "water-pump-3", "i")
-place(subgroup, "water-pump-4", "j")
+place(subgroup, "seafloor-pump", "b")
+place(subgroup, "water-miner-1", "c")
+place(subgroup, "water-miner-2", "d")
+place(subgroup, "water-miner-3", "e")
+place(subgroup, "water-miner-4", "f")
+place(subgroup, "water-miner-5", "g")
+
+subgroup = "ts-prod-extraction-water2"
+place(subgroup, "water-pump", "a")
+place(subgroup, "water-pump-2", "b")
+place(subgroup, "water-pump-3", "c")
+place(subgroup, "water-pump-4", "d")
+place(subgroup, "cooling-tower", "e")
 
 subgroup = "ts-prod-extraction-gas"
 place(subgroup, "air-pump", "a")
@@ -130,6 +146,46 @@ place(subgroup, "liquifier", "e")
 place(subgroup, "liquifier-2", "f")
 place(subgroup, "liquifier-3", "g")
 place(subgroup, "liquifier-4", "h")
+
+subgroup = "ts-prod-ore-refining3"
+place(subgroup, "ore-powderizer", "a")
+place(subgroup, "ore-powderizer-2", "b")
+place(subgroup, "ore-powderizer-3", "c")
+place(subgroup, "electro-whinning-cell", "d")
+place(subgroup, "electro-whinning-cell-2", "e")
+place(subgroup, "electro-whinning-cell-3", "f")
+place(subgroup, "washing-plant", "g")
+place(subgroup, "washing-plant-2", "h")
+
+subgroup = "ts-prod-ore-processing"
+place(subgroup, "ore-processing-machine", "a")
+place(subgroup, "ore-processing-machine-2", "b")
+place(subgroup, "ore-processing-machine-3", "c")
+place(subgroup, "ore-processing-machine-4", "d")
+
+subgroup = "ts-prod-pellet-presses"
+place(subgroup, "pellet-press", "a")
+place(subgroup, "pellet-press-2", "b")
+place(subgroup, "pellet-press-3", "c")
+place(subgroup, "pellet-press-4", "d")
+
+subgroup = "ts-prod-powder-mixing"
+place(subgroup, "powder-mixer", "a")
+place(subgroup, "powder-mixer-2", "b")
+place(subgroup, "powder-mixer-3", "c")
+place(subgroup, "powder-mixer-4", "d")
+
+subgroup = "ts-prod-blast-furnaces"
+place(subgroup, "blast-furnace", "a")
+place(subgroup, "blast-furnace-2", "b")
+place(subgroup, "blast-furnace-3", "c")
+place(subgroup, "blast-furnace-4", "d")
+
+subgroup = "ts-prod-chemical-furnaces"
+place(subgroup, "angels-chemical-furnace", "a")
+place(subgroup, "angels-chemical-furnace-2", "b")
+place(subgroup, "angels-chemical-furnace-3", "c")
+place(subgroup, "angels-chemical-furnace-4", "d")
 
 subgroup = "ts-prod-oil-separators"
 place(subgroup, "separator", "a")
@@ -182,6 +238,30 @@ place(subgroup, "electric-mixing-furnace", "d")
 subgroup = "ts-prod-furnaces-multi-purpose"
 place(subgroup, "electric-chemical-mixing-furnace", "a")
 place(subgroup, "electric-chemical-mixing-furnace-2", "a")
+
+subgroup = "ts-prod-induction-furnaces"
+place(subgroup, "induction-furnace", "a")
+place(subgroup, "induction-furnace-2", "b")
+place(subgroup, "induction-furnace-3", "c")
+place(subgroup, "induction-furnace-4", "d")
+
+subgroup = "ts-prod-casting"
+place(subgroup, "casting-machine", "a")
+place(subgroup, "casting-machine-2", "b")
+place(subgroup, "casting-machine-3", "c")
+place(subgroup, "casting-machine-4", "d")
+
+subgroup = "ts-prod-strand-casting"
+place(subgroup, "strand-casting-machine", "a")
+place(subgroup, "strand-casting-machine-2", "b")
+place(subgroup, "strand-casting-machine-3", "c")
+place(subgroup, "strand-casting-machine-4", "d")
+
+subgroup = "ts-prod-sintering"
+place(subgroup, "sintering-oven", "a")
+place(subgroup, "sintering-oven-2", "b")
+place(subgroup, "sintering-oven-3", "c")
+place(subgroup, "sintering-oven-4", "d")
 
 subgroup = "ts-prod-assemblers"
 place(subgroup, "burner-assembling-machine", "a")
