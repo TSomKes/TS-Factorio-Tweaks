@@ -49,6 +49,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-energy-turrets", order = "fc" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-other-turrets", order = "fd" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-radars", order = "fe" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-mini-radars", order = "ff" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-remotes", order = "ga" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-nano-remotes", order = "gb" },
@@ -390,6 +391,13 @@ place(subgroup, "radar-2", "b")
 place(subgroup, "radar-3", "c")
 place(subgroup, "radar-4", "d")
 place(subgroup, "radar-5", "e")
+
+subgroup = "ts-equip-mini-radars"
+place(subgroup, "mini-radar-1", "a")
+place(subgroup, "mini-radar-2", "b")
+place(subgroup, "mini-radar-3", "c")
+place(subgroup, "mini-radar-4", "d")
+place(subgroup, "mini-radar-5", "e")
 
 subgroup = "ts-equip-remotes"
 place(subgroup, "discharge-defense-remote", "a")

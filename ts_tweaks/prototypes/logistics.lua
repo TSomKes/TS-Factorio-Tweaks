@@ -47,7 +47,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-buffer", order = "gf" },
 	{ type = "item-subgroup", group = g, name = "ts-log-storage-logistics-requester", order = "gg" },
 	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid1", order = "gh" },
-	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid2", order = "gi" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-mini-fluid1", order = "gi" },
+	{ type = "item-subgroup", group = g, name = "ts-log-storage-fluid2", order = "gj" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-rail", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-log-rail-locomotive", order = "hb" },
@@ -341,6 +342,12 @@ place(subgroup, "bob-storage-tank-all-corners", "g")
 place(subgroup, "bob-storage-tank-all-corners-2", "h")
 place(subgroup, "bob-storage-tank-all-corners-3", "i")
 place(subgroup, "bob-storage-tank-all-corners-4", "j")
+
+subgroup = "ts-log-storage-mini-fluid1"
+place(subgroup, "mini-tank-1", "a")
+place(subgroup, "mini-tank-2", "b")
+place(subgroup, "mini-tank-3", "c")
+place(subgroup, "mini-tank-4", "d")
 
 subgroup = "ts-log-storage-fluid2"
 place(subgroup, "angels-storage-tank-1", "a")

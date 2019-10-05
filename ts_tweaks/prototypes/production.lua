@@ -9,10 +9,11 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners-burner", order = "aa" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners", order = "ab" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-miners-area", order = "ac" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-oil", order = "ad" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water1", order = "ae" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water2", order = "af" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-gas", order = "ag" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-mini-miners", order = "ad" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-oil", order = "ae" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water1", order = "af" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-water2", order = "ag" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-extraction-gas", order = "ah" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-crushers", order = "ba" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-sorters", order = "bb" },
@@ -31,20 +32,22 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-crackers", order = "cd" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "da" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "db" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-metal-mixing", order = "dc" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-multi-purpose", order = "dd" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-induction-furnaces", order = "de" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-casting", order = "df" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-strand-casting", order = "dg" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-sintering", order = "dh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-mini-furnaces", order = "db" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-metal-mixing", order = "dd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-multi-purpose", order = "de" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-induction-furnaces", order = "df" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-casting", order = "dg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-strand-casting", order = "dh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-sintering", order = "di" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "ea" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "eb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "ec" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "ed" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "ee" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-hydro", order = "ef" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-mini-assemblers", order = "eb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "ed" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "ee" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "ef" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-hydro", order = "eg" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "f" },
 
@@ -58,7 +61,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "gh" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "gi" },
 
-	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "h" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "ha" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-mini-beacons", order = "hb" },
 })
 
 
@@ -76,10 +80,17 @@ place(subgroup, "bob-mining-drill-3", "d")
 place(subgroup, "bob-mining-drill-4", "e")
 
 subgroup = "ts-prod-extraction-miners-area"
-place(subgroup, "bob-area-mining-drill-1", "b")
-place(subgroup, "bob-area-mining-drill-2", "c")
-place(subgroup, "bob-area-mining-drill-3", "d")
-place(subgroup, "bob-area-mining-drill-4", "e")
+place(subgroup, "bob-area-mining-drill-1", "a")
+place(subgroup, "bob-area-mining-drill-2", "b")
+place(subgroup, "bob-area-mining-drill-3", "c")
+place(subgroup, "bob-area-mining-drill-4", "d")
+
+subgroup = "ts-prod-extraction-mini-miners"
+place(subgroup, "mini-miner-1", "a")
+place(subgroup, "mini-miner-2", "b")
+place(subgroup, "mini-miner-3", "c")
+place(subgroup, "mini-miner-4", "d")
+place(subgroup, "mini-miner-5", "e")
 
 subgroup = "ts-prod-extraction-oil"
 place(subgroup, "pumpjack", "a")
@@ -223,6 +234,11 @@ place(subgroup, "electric-furnace", "d")
 place(subgroup, "electric-furnace-2", "e")
 place(subgroup, "electric-furnace-3", "f")
 
+subgroup = "ts-prod-mini-furnaces"
+place(subgroup, "mini-furnace-1", "a")
+place(subgroup, "mini-furnace-2", "b")
+place(subgroup, "mini-furnace-3", "c")
+
 subgroup = "ts-prod-furnaces-chemical"
 place(subgroup, "chemical-boiler", "a")
 place(subgroup, "chemical-steel-furnace", "b")
@@ -272,6 +288,14 @@ place(subgroup, "assembling-machine-3", "e")
 place(subgroup, "assembling-machine-4", "f")
 place(subgroup, "assembling-machine-5", "g")
 place(subgroup, "assembling-machine-6", "h")
+
+subgroup = "ts-prod-mini-assemblers"
+place(subgroup, "mini-assembler-1", "a")
+place(subgroup, "mini-assembler-2", "b")
+place(subgroup, "mini-assembler-3", "c")
+place(subgroup, "mini-assembler-4", "d")
+place(subgroup, "mini-assembler-5", "e")
+place(subgroup, "mini-assembler-6", "f")
 
 subgroup = "ts-prod-electronics-assemblers"
 place(subgroup, "electronics-machine-1", "a")
@@ -406,3 +430,8 @@ place(subgroup, "beacon", "a")
 place(subgroup, "beacon-2", "b")
 place(subgroup, "beacon-3", "c")
 place(subgroup, "beacon-ee", "d")
+
+subgroup = "ts-prod-mini-beacons"
+place(subgroup, "mini-beacon-1", "a")
+place(subgroup, "mini-beacon-2", "b")
+place(subgroup, "mini-beacon-3", "c")
