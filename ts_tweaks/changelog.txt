@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.45
+Date: 2019-10-05
+  Features:
+    - Added support for MadClown01's Processing
+    - Added support for Make Strand Casting Great Again
+---------------------------------------------------------------------------------------------------
 Version: 0.0.44
 Date: 2019-10-04
   Features:

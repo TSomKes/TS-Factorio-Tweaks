@@ -20,17 +20,19 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining1", order = "bc" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining2", order = "bd" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining3", order = "be" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-ore-processing", order = "bf" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-pellet-presses", order = "bg" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-powder-mixing", order = "bh" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-blast-furnaces", order = "bi" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-furnaces", order = "bj" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-ore-washing", order = "bf" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-ore-processing", order = "bg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-pellet-presses", order = "bh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-powder-mixing", order = "bi" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-blast-furnaces", order = "bj" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-furnaces", order = "bk" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-oil-separators", order = "ca" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-gas-refineries", order = "cb" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-oil-refineries", order = "cc" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-crackers", order = "cd" },
-	
+	{ type = "item-subgroup", group = g, name = "ts-prod-centrifuges", order = "ce" },
+
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces", order = "da" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-mini-furnaces", order = "db" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-furnaces-chemical", order = "dc" },
@@ -165,8 +167,12 @@ place(subgroup, "ore-powderizer-3", "c")
 place(subgroup, "electro-whinning-cell", "d")
 place(subgroup, "electro-whinning-cell-2", "e")
 place(subgroup, "electro-whinning-cell-3", "f")
-place(subgroup, "washing-plant", "g")
-place(subgroup, "washing-plant-2", "h")
+
+subgroup = "ts-prod-ore-washing"
+place(subgroup, "washing-plant", "a")
+place(subgroup, "washing-plant-2", "b")
+place(subgroup, "sluicer", "c")
+place(subgroup, "sluicer-2", "d")
 
 subgroup = "ts-prod-ore-processing"
 place(subgroup, "ore-processing-machine", "a")
@@ -218,13 +224,17 @@ place(subgroup, "oil-refinery", "a")
 place(subgroup, "oil-refinery-2", "b")
 place(subgroup, "oil-refinery-3", "c")
 place(subgroup, "oil-refinery-4", "d")
-place(subgroup, "centrifuge", "i")
 
 subgroup = "ts-prod-crackers"
 place(subgroup, "steam-cracker", "a")
 place(subgroup, "steam-cracker-2", "b")
 place(subgroup, "steam-cracker-3", "c")
 place(subgroup, "steam-cracker-4", "d")
+
+subgroup = "ts-prod-centrifuges"
+place(subgroup, "centrifuge", "a")
+place(subgroup, "centrifuge-mk2", "b")
+place(subgroup, "centrifuge-mk3", "c")
 
 subgroup = "ts-prod-furnaces"
 place(subgroup, "stone-furnace", "a")

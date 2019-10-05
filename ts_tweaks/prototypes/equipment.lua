@@ -80,8 +80,10 @@ place(subgroup, "laser-rifle", "i")
 
 subgroup = "ts-equip-ammo-magazine"
 place(subgroup, "firearm-magazine", "a")
+place(subgroup, "copper-nickel-firearm-magazine", "a-r1")
 place(subgroup, "bullet-magazine", "b")
 place(subgroup, "piercing-rounds-magazine", "c")
+place(subgroup, "nickel-piercing-rounds-magazine", "c-r1")
 place(subgroup, "ap-bullet-magazine", "d")
 place(subgroup, "uranium-rounds-magazine", "e")
 place(subgroup, "he-bullet-magazine", "f")
@@ -151,6 +153,7 @@ place(subgroup, "distractor-capsule", "d")
 place(subgroup, "destroyer-capsule", "e")
 place(subgroup, "bob-laser-robot-capsule", "f")
 place(subgroup, "fire-capsule", "g")
+place(subgroup, "neurotoxin-capsule", "h")
 
 subgroup = "ts-equip-drones"
 place(subgroup, "bob-robot-gun-drone", "a")
