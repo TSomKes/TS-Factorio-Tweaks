@@ -21,6 +21,15 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-bobmonium", order = "bf" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-ferrous", order = "bg" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-cupric", order = "bh" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-adamantite", order = "bi" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-antitate", order = "bj" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-pro-galena", order = "bk" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-orichalcite", order = "bl" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-phosphorite", order = "bm" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-sanguinate", order = "bn" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-elionagate", order = "bo" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-alluvium", order = "bp" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-oil-sand", order = "bq" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-aluminium", order = "caa" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-brass", order = "cab" },
@@ -44,8 +53,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-nitinol", order = "cfe" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-osmium", order = "cff" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-phosphorus", order = "cga" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-plutonium", order = "cgb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-silicon", order = "cgc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-platinum", order = "cgb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-plutonium", order = "cgc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-silicon", order = "cgd" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-silver", order = "cha" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-solder", order = "chb" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-steel", order = "chc" },
@@ -322,6 +332,92 @@ place(subgroup, "angels-ore9-crystal", "h")
 place(subgroup, "angelsore9-crystal", "h-r1")
 place(subgroup, "angelsore9-crystal-processing", "h-u1")
 
+subgroup = "ts-mat-adamantite"
+place(subgroup, "clowns-ore1", "a")
+place(subgroup, "clowns-ore1-crushed", "b")
+place(subgroup, "clowns-ore1-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore1-chunk", "c")
+place(subgroup, "clowns-ore1-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore1-crystal", "d")
+place(subgroup, "clowns-ore1-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore1-pure", "e")
+place(subgroup, "clowns-ore1-pure-processing", "e-u1")
+
+subgroup = "ts-mat-antitate"
+place(subgroup, "clowns-ore2", "a")
+place(subgroup, "clowns-ore2-crushed", "b")
+place(subgroup, "clowns-ore2-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore2-chunk", "c")
+place(subgroup, "clowns-ore2-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore2-crystal", "d")
+place(subgroup, "clowns-ore2-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore2-pure", "e")
+place(subgroup, "clowns-ore2-pure-processing", "e-u1")
+
+subgroup = "ts-mat-pro-galena"
+place(subgroup, "clowns-ore3", "a")
+place(subgroup, "clowns-ore3-crushed", "b")
+place(subgroup, "clowns-ore3-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore3-chunk", "c")
+place(subgroup, "clowns-ore3-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore3-crystal", "d")
+place(subgroup, "clowns-ore3-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore3-pure", "e")
+place(subgroup, "clowns-ore3-pure-processing", "e-u1")
+
+subgroup = "ts-mat-orichalcite"
+place(subgroup, "clowns-ore4", "a")
+place(subgroup, "clowns-ore4-crushed", "b")
+place(subgroup, "clowns-ore4-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore4-chunk", "c")
+place(subgroup, "clowns-ore4-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore4-crystal", "d")
+place(subgroup, "clowns-ore4-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore4-pure", "e")
+place(subgroup, "clowns-ore4-pure-processing", "e-u1")
+
+subgroup = "ts-mat-phosphorite"
+place(subgroup, "clowns-ore5", "a")
+place(subgroup, "clowns-ore5-crushed", "b")
+place(subgroup, "clowns-ore5-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore5-chunk", "c")
+place(subgroup, "clowns-ore5-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore5-crystal", "d")
+place(subgroup, "clowns-ore5-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore5-pure", "e")
+place(subgroup, "clowns-ore5-pure-processing", "e-u1")
+
+subgroup = "ts-mat-sanguinate"
+place(subgroup, "clowns-ore6", "a")
+place(subgroup, "clowns-ore6-crushed", "b")
+place(subgroup, "clowns-ore6-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore6-chunk", "c")
+place(subgroup, "clowns-ore6-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore6-crystal", "d")
+place(subgroup, "clowns-ore6-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore6-pure", "e")
+place(subgroup, "clowns-ore6-pure-processing", "e-u1")
+
+subgroup = "ts-mat-elionagate"
+place(subgroup, "clowns-ore7", "a")
+place(subgroup, "clowns-ore7-crushed", "b")
+place(subgroup, "clowns-ore7-crushed-processing", "b-u1")
+place(subgroup, "clowns-ore7-chunk", "c")
+place(subgroup, "clowns-ore7-chunk-processing", "c-u1")
+place(subgroup, "clowns-ore7-crystal", "d")
+place(subgroup, "clowns-ore7-crystal-processing", "d-u1")
+place(subgroup, "clowns-ore7-pure", "e")
+place(subgroup, "clowns-ore7-pure-processing", "e-u1")
+
+subgroup = "ts-mat-alluvium"
+place(subgroup, "clowns-resource1", "a")
+place(subgroup, "clowns-resource1-sluicing", "b")
+place(subgroup, "clowns-resource1-sluicing-advanced", "c")
+
+subgroup = "ts-mat-oil-sand"
+place(subgroup, "clowns-resource2", "a")
+place(subgroup, "clowns-resource2-liquification", "b")
+
 subgroup = "ts-mat-aluminium"
 place(subgroup, "bauxite-ore", "a")
 place(subgroup, "angelsore-chunk-mix3-processing", "a-r1")
@@ -376,6 +472,7 @@ place(subgroup, "angels-plate-bronze", "b-r1")
 subgroup = "ts-mat-chrome"
 place(subgroup, "chrome-ore", "a")
 place(subgroup, "angelsore-pure-chrome-processing", "a-r1")
+place(subgroup, "chrome-pure-processing", "a-r2")
 place(subgroup, "processed-chrome", "b")
 place(subgroup, "chrome-ore-processing", "b-r1")
 place(subgroup, "pellet-chrome", "c")
@@ -598,6 +695,7 @@ place(subgroup, "lithium", "c")
 subgroup = "ts-mat-magnesium"
 place(subgroup, "processed-magnesium", "a")
 place(subgroup, "magnesium-ore-processing", "a-r1")
+place(subgroup, "magnesium-pure-processing", "a-r2")
 place(subgroup, "pellet-magnesium", "b")
 place(subgroup, "magnesium-processed-processing", "b-r1")
 place(subgroup, "ingot-magnesium", "c")
@@ -609,6 +707,7 @@ place(subgroup, "clowns-plate-magnesium", "e")
 subgroup = "ts-mat-manganese"
 place(subgroup, "manganese-ore", "a")
 place(subgroup, "angelsore-crushed-manganese-processing", "a-r1")
+place(subgroup, "manganese-pure-processing", "a-r2")
 place(subgroup, "processed-manganese", "b")
 place(subgroup, "manganese-ore-processing", "b-r1")
 place(subgroup, "pellet-manganese", "c")
@@ -656,6 +755,7 @@ place(subgroup, "angels-plate-nitinol", "b-r1")
 subgroup = "ts-mat-osmium"
 place(subgroup, "processed-osmium", "a")
 place(subgroup, "osmium-ore-processing", "a-r1")
+place(subgroup, "osmium-pure-processing", "a-r2")
 place(subgroup, "pellet-osmium", "b")
 place(subgroup, "osmium-processed-processing", "b-r1")
 place(subgroup, "powder-osmium", "c")
@@ -664,9 +764,21 @@ place(subgroup, "casting-powder-osmium", "d")
 place(subgroup, "clowns-plate-osmium", "e")
 
 subgroup = "ts-mat-phosphorus"
-place(subgroup, "white-phosphorus-smelting", "a")
-place(subgroup, "white-phosphorus-smelting-2", "a")
-place(subgroup, "phosphoric-acid", "c")
+place(subgroup, "phosphorus-ore", "a")
+place(subgroup, "phosphorus-pure-processing", "a-r1")
+place(subgroup, "white-phosphorus-smelting", "b")
+place(subgroup, "white-phosphorus-smelting-2", "c")
+place(subgroup, "phosphoric-acid", "d")
+
+subgroup = "ts-mat-platinum"
+place(subgroup, "platinum-ore", "a")
+place(subgroup, "platinum-pure-processing", "a-r1")
+place(subgroup, "processed-platinum", "b")
+place(subgroup, "pellet-platinum", "c")
+place(subgroup, "ingot-platinum", "d")
+place(subgroup, "angels-roll-platinum", "e")
+place(subgroup, "angels-plate-platinum", "f")
+place(subgroup, "angels-wire-coil-platinum", "g")
 
 subgroup = "ts-mat-plutonium"
 place(subgroup, "plutonium-239", "a")
@@ -763,6 +875,7 @@ place(subgroup, "angels-roll-steel-converting", "e-r2")
 subgroup = "ts-mat-thorium"
 place(subgroup, "thorium-ore", "a")
 place(subgroup, "thorium-232", "a-r1")
+place(subgroup, "thorium-pure-processing", "a-r2")
 place(subgroup, "thorium-processing", "b")
 
 subgroup = "ts-mat-tin"

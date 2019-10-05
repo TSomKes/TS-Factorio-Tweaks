@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.45",
+	"version": "0.0.46",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -36,6 +36,7 @@
 		"? bobvehicleequipment >= 0.17.5",
 		"? bobwarfare >= 0.17.11",
 		"? CircuitProcessing >= 0.2.1",
+		"? Clowns-Extended-Minerals >= 1.1.7",
 		"? Clowns-Nuclear >= 1.3.6",
 		"? Clowns-Processing >= 1.3.6",
 		"? color-coding >= 1.17.0",
