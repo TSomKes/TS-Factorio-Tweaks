@@ -116,6 +116,8 @@ place(subgroup, "bob-flame-rocket", "h")
 place(subgroup, "bob-poison-rocket", "i")
 place(subgroup, "bob-plasma-rocket", "j")
 place(subgroup, "atomic-bomb", "k")
+place(subgroup, "plutonium-atomic-bomb", "k-r1")
+place(subgroup, "thermonuclear-bomb", "l")
 
 subgroup = "ts-equip-ammo-flammable"
 place(subgroup, "flamethrower-ammo", "a")
@@ -320,6 +322,8 @@ place(subgroup, "distractor-artillery-shell", "b")
 place(subgroup, "explosive-artillery-shell", "c")
 place(subgroup, "fire-artillery-shell", "d")
 place(subgroup, "poison-artillery-shell", "e")
+place(subgroup, "artillery-shell-nuclear", "f")
+place(subgroup, "artillery-shell-thermonuclear", "g")
 
 subgroup = "ts-equip-vehicle-roboport1"
 place(subgroup, "vehicle-roboport", "a")
