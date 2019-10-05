@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.41
+Date: 2019-10-04
+  Features:
+    - Added support for Rocket Silo Construction
+    - Started adding support for Angel's Bio Processing
+---------------------------------------------------------------------------------------------------
 Version: 0.0.40
 Date: 2019-10-04
   Features:

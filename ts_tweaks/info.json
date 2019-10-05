@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.40",
+	"version": "0.0.41",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -12,6 +12,7 @@
 		"? angelsaddons-oresilos >= 0.5.1",
 		"? angelsaddons-pressuretanks >= 0.4.1",
 		"? angelsaddons-warehouses >= 0.4.1",
+		"? angelsbioprocessing >= 0.6.2",
 		"? angelspetrochem >= 0.8.6",
 		"? angelsrefining >= 0.10.14",
 		"? angelssmelting >= 0.5.7",
@@ -44,6 +45,7 @@
 		"? Nanobots >= 3.1.0",
 		"? Orbital Ion Cannon >= 1.7.2",
 		"? Repair_Turret >= 0.2.0",
+		"? Rocket-Silo-Construction >= 0.17.13",
 		"? ScienceCostTweakerM >= 0.17.10",
 		"? SpaceMod >= 0.4.4"
 	],

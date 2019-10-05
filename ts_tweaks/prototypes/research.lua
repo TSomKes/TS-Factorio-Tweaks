@@ -20,8 +20,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-production", order = "cf" },
 	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-advanced-logistic", order = "cg" },
 	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-utility", order = "ch" },
-	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-space", order = "ci" },
-	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-bob", order = "cj" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-bio", order = "ci" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-space", order = "cj" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-bob", order = "ck" },
 })
 
 
@@ -34,6 +35,7 @@ place(subgroup, "lab-2", "c")
 place(subgroup, "lab-module", "d")
 place(subgroup, "lab-alien", "e")
 place(subgroup, "rocket-silo", "f")
+place(subgroup, "rsc-excavation-site", "g")
 
 subgroup = "ts-research-labs-sct"
 place(subgroup, "sct-lab-t1", "a")
@@ -111,6 +113,12 @@ place(subgroup, "sct-htech-thermalstore-heated", "c")
 place(subgroup, "sct-htech-random", "d")
 place(subgroup, "sct-htech-capbank", "e")
 place(subgroup, "sct-htech-injector", "f")
+
+subgroup = "ts-research-science-pack-bio"
+place(subgroup, "sct-bio-science-pack", "a")
+place(subgroup, "sct-bio-sample-scaffold", "b")
+place(subgroup, "sct-bio-sample-filling", "c")
+place(subgroup, "sct-bio-ground-sample", "d")
 
 subgroup = "ts-research-science-pack-space"
 place(subgroup, "space-science-pack", "a")
