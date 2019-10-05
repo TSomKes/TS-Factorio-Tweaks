@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.41",
+	"version": "0.0.42",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -13,6 +13,7 @@
 		"? angelsaddons-pressuretanks >= 0.4.1",
 		"? angelsaddons-warehouses >= 0.4.1",
 		"? angelsbioprocessing >= 0.6.2",
+		"? angelsindustries >= 0.2.0",
 		"? angelspetrochem >= 0.8.6",
 		"? angelsrefining >= 0.10.14",
 		"? angelssmelting >= 0.5.7",

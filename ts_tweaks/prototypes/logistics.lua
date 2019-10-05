@@ -54,15 +54,18 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-rail-cargo", order = "hc" },
 	{ type = "item-subgroup", group = g, name = "ts-log-rail-fluid", order = "hd" },
 	{ type = "item-subgroup", group = g, name = "ts-log-rail-artillery", order = "he" },
+	{ type = "item-subgroup", group = g, name = "ts-log-rail-angels", order = "hf" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-circuit", order = "i" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-log-bots-logistic", order = "ja" },
-	{ type = "item-subgroup", group = g, name = "ts-log-bots-construction", order = "jb" },
-	{ type = "item-subgroup", group = g, name = "ts-log-bots-roboport", order = "jc" },
-	{ type = "item-subgroup", group = g, name = "ts-log-bots-expander", order = "jd" },
-	{ type = "item-subgroup", group = g, name = "ts-log-bots-robochest", order = "je" },
-	{ type = "item-subgroup", group = g, name = "ts-log-bots-charging-point", order = "jf" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-angels", order = "ja" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-angels-roboport", order = "jb" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-logistic", order = "jc" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-construction", order = "jd" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-roboport", order = "je" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-expander", order = "jf" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-robochest", order = "jg" },
+	{ type = "item-subgroup", group = g, name = "ts-log-bots-charging-point", order = "jh" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-factorissimo", order = "k" },
 
@@ -274,8 +277,9 @@ place(subgroup, "iron-chest", "b")
 place(subgroup, "steel-chest", "c")
 place(subgroup, "brass-chest", "d")
 place(subgroup, "titanium-chest", "e")
-place(subgroup, "silo", "f")
-place(subgroup, "angels-warehouse", "g")
+place(subgroup, "angels-big-chest", "f")
+place(subgroup, "silo", "g")
+place(subgroup, "angels-warehouse", "h")
 
 subgroup = "ts-log-storage-ore"
 place(subgroup, "silo-ore1", "a")
@@ -290,6 +294,7 @@ subgroup = "ts-log-storage-logistics-active"
 place(subgroup, "logistic-chest-active-provider", "a")
 place(subgroup, "logistic-chest-active-provider-2", "b")
 place(subgroup, "logistic-chest-active-provider-3", "c")
+place(subgroup, "angels-logistic-chest-active-provider", "d")
 place(subgroup, "silo-active-provider", "e")
 place(subgroup, "angels-warehouse-active-provider", "f")
 
@@ -297,6 +302,7 @@ subgroup = "ts-log-storage-logistics-passive"
 place(subgroup, "logistic-chest-passive-provider", "a")
 place(subgroup, "logistic-chest-passive-provider-2", "b")
 place(subgroup, "logistic-chest-passive-provider-3", "c")
+place(subgroup, "angels-logistic-chest-passive-provider", "d")
 place(subgroup, "silo-passive-provider", "e")
 place(subgroup, "angels-warehouse-passive-provider", "f")
 
@@ -304,6 +310,7 @@ subgroup = "ts-log-storage-logistics-storage"
 place(subgroup, "logistic-chest-storage", "a")
 place(subgroup, "logistic-chest-storage-2", "b")
 place(subgroup, "logistic-chest-storage-3", "c")
+place(subgroup, "angels-logistic-chest-storage", "d")
 place(subgroup, "silo-storage", "e")
 place(subgroup, "angels-warehouse-storage", "f")
 
@@ -311,6 +318,7 @@ subgroup = "ts-log-storage-logistics-buffer"
 place(subgroup, "logistic-chest-buffer", "a")
 place(subgroup, "logistic-chest-buffer-2", "b")
 place(subgroup, "logistic-chest-buffer-3", "c")
+place(subgroup, "angels-logistic-chest-buffer", "d")
 place(subgroup, "silo-buffer", "e")
 place(subgroup, "angels-warehouse-buffer", "f")
 
@@ -318,6 +326,7 @@ subgroup = "ts-log-storage-logistics-requester"
 place(subgroup, "logistic-chest-requester", "a")
 place(subgroup, "logistic-chest-requester-2", "b")
 place(subgroup, "logistic-chest-requester-3", "c")
+place(subgroup, "angels-logistic-chest-requester", "d")
 place(subgroup, "silo-requester", "e")
 place(subgroup, "angels-warehouse-requester", "f")
 
@@ -373,6 +382,12 @@ place(subgroup, "artillery-wagon", "a")
 place(subgroup, "bob-artillery-wagon-2", "b")
 place(subgroup, "bob-artillery-wagon-3", "c")
 
+subgroup = "ts-log-rail-angels"
+place(subgroup, "crawler-locomotive", "a")
+place(subgroup, "crawler-locomotive-wagon", "b")
+place(subgroup, "crawler-wagon", "c")
+place(subgroup, "crawler-bot-wagon", "d")
+
 subgroup = "ts-log-circuit"
 place(subgroup, "red-wire", "a")
 place(subgroup, "green-wire", "b")
@@ -382,6 +397,22 @@ place(subgroup, "constant-combinator", "e")
 place(subgroup, "power-switch", "f")
 place(subgroup, "programmable-speaker", "g")
 place(subgroup, "spacex-combinator", "h")
+
+subgroup = "ts-log-bots-angels"
+place(subgroup, "cargo-robot", "a")
+place(subgroup, "cargo-robot-2", "b")
+place(subgroup, "angels-construction-robot", "c")
+
+subgroup = "ts-log-bots-angels-roboport"
+place(subgroup, "cargo-hub", "a")
+place(subgroup, "cargo-box", "b")
+place(subgroup, "angels-charging-station", "c")
+place(subgroup, "angels-zone-expander", "d")
+place(subgroup, "angels-zone-expander-2", "e")
+place(subgroup, "angels-relay-station", "f")
+place(subgroup, "angels-relay-station-2", "g")
+place(subgroup, "angels-construction-zone-expander", "h")
+place(subgroup, "angels-construction-zone-expander-2", "i")
 
 subgroup = "ts-log-bots-logistic"
 place(subgroup, "logistic-robot", "a")

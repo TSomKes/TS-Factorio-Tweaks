@@ -42,6 +42,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-ammo-artillery", order = "ek" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-roboport1", order = "el" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-roboport2", order = "em" },
+	{ type = "item-subgroup", group = g, name = "ts-equip-vehicle-angels", order = "en" },
 
 	{ type = "item-subgroup", group = g, name = "ts-equip-walls", order = "fa" },
 	{ type = "item-subgroup", group = g, name = "ts-equip-gun-turrets", order = "fb" },
@@ -233,13 +234,14 @@ place(subgroup, "personal-roboport-robot-equipment-4", "h")
 
 subgroup = "ts-equip-vehicles"
 place(subgroup, "car", "a")
-place(subgroup, "tank", "b")
-place(subgroup, "bob-tank-2", "c")
-place(subgroup, "bob-tank-3", "d")
-place(subgroup, "gunship", "e")
-place(subgroup, "cargo-plane", "f")
-place(subgroup, "jet", "g")
-place(subgroup, "flying-fortress", "h")
+place(subgroup, "angels-crawler", "b")
+place(subgroup, "tank", "c")
+place(subgroup, "bob-tank-2", "d")
+place(subgroup, "bob-tank-3", "e")
+place(subgroup, "gunship", "f")
+place(subgroup, "cargo-plane", "g")
+place(subgroup, "jet", "h")
+place(subgroup, "flying-fortress", "i")
 
 subgroup = "ts-equip-vehicle-power-solar"
 place(subgroup, "vehicle-solar-panel-1", "a")
@@ -337,6 +339,13 @@ place(subgroup, "vehicle-roboport-robot-equipment", "e")
 place(subgroup, "vehicle-roboport-robot-equipment-2", "f")
 place(subgroup, "vehicle-roboport-robot-equipment-3", "g")
 place(subgroup, "vehicle-roboport-robot-equipment-4", "h")
+
+subgroup = "ts-equip-vehicle-angels"
+place(subgroup, "angels-burner-generator-vequip", "a")
+place(subgroup, "angels-fusion-reactor-vequip", "b")
+place(subgroup, "angels-construction-roboport-vequip", "c")
+place(subgroup, "angels-repair-roboport-vequip", "d")
+place(subgroup, "angels-heavy-energy-shield-vequip", "e")
 
 subgroup = "ts-equip-walls"
 place(subgroup, "stone-wall", "a")
