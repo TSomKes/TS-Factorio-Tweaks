@@ -1963,6 +1963,10 @@ place(subgroup, "liquid-hexafluorosilicic-acid-barrel", "of")
 place(subgroup, "liquid-titanium-tetrachloride-barrel", "og")
 place(subgroup, "liquid-trichlorosilane-barrel", "oh")
 place(subgroup, "liquid-tungstic-acid-barrel", "oi")
+place(subgroup, "gas-acetylene-barrel", "oj")
+place(subgroup, "gas-hydrogen-cyanide-barrel", "ok")
+place(subgroup, "gas-vinyl-acetylene-barrel", "ol")
+place(subgroup, "gas-vinyl-chloride-barrel", "om")
 
 subgroup = "ts-mat-barrels-fill"
 place(subgroup, "fill-crude-oil-barrel", "aa")
@@ -2102,6 +2106,10 @@ place(subgroup, "fill-liquid-hexafluorosilicic-acid-barrel", "of")
 place(subgroup, "fill-liquid-titanium-tetrachloride-barrel", "og")
 place(subgroup, "fill-liquid-trichlorosilane-barrel", "oh")
 place(subgroup, "fill-liquid-tungstic-acid-barrel", "oi")
+place(subgroup, "fill-gas-acetylene-barrel", "oj")
+place(subgroup, "fill-gas-hydrogen-cyanide-barrel", "ok")
+place(subgroup, "fill-gas-vinyl-acetylene-barrel", "ol")
+place(subgroup, "fill-gas-vinyl-chloride-barrel", "om")
 
 subgroup = "ts-mat-barrels-empty"
 place(subgroup, "empty-crude-oil-barrel", "aa")
@@ -2241,6 +2249,10 @@ place(subgroup, "empty-liquid-hexafluorosilicic-acid-barrel", "of")
 place(subgroup, "empty-liquid-titanium-tetrachloride-barrel", "og")
 place(subgroup, "empty-liquid-trichlorosilane-barrel", "oh")
 place(subgroup, "empty-liquid-tungstic-acid-barrel", "oi")
+place(subgroup, "empty-gas-acetylene-barrel", "oj")
+place(subgroup, "empty-gas-hydrogen-cyanide-barrel", "ok")
+place(subgroup, "empty-gas-vinyl-acetylene-barrel", "ol")
+place(subgroup, "empty-gas-vinyl-chloride-barrel", "om")
 
 subgroup = "ts-mat-alien-artifacts1"
 place(subgroup, "alien-artifact", "a")
