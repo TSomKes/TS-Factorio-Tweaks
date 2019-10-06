@@ -281,6 +281,9 @@ place(subgroup, "titanium-chest", "e")
 place(subgroup, "angels-big-chest", "f")
 place(subgroup, "silo", "g")
 place(subgroup, "angels-warehouse", "h")
+place(subgroup, "warehouse-mk2", "i")
+place(subgroup, "warehouse-mk3", "j")
+place(subgroup, "warehouse-mk4", "k")
 
 subgroup = "ts-log-storage-ore"
 place(subgroup, "silo-ore1", "a")
@@ -298,6 +301,9 @@ place(subgroup, "logistic-chest-active-provider-3", "c")
 place(subgroup, "angels-logistic-chest-active-provider", "d")
 place(subgroup, "silo-active-provider", "e")
 place(subgroup, "angels-warehouse-active-provider", "f")
+place(subgroup, "warehouse-active-provider-mk2", "g")
+place(subgroup, "warehouse-active-provider-mk3", "h")
+place(subgroup, "warehouse-active-provider-mk4", "i")
 
 subgroup = "ts-log-storage-logistics-passive"
 place(subgroup, "logistic-chest-passive-provider", "a")
@@ -306,6 +312,9 @@ place(subgroup, "logistic-chest-passive-provider-3", "c")
 place(subgroup, "angels-logistic-chest-passive-provider", "d")
 place(subgroup, "silo-passive-provider", "e")
 place(subgroup, "angels-warehouse-passive-provider", "f")
+place(subgroup, "warehouse-passive-provider-mk2", "g")
+place(subgroup, "warehouse-passive-provider-mk3", "h")
+place(subgroup, "warehouse-passive-provider-mk4", "i")
 
 subgroup = "ts-log-storage-logistics-storage"
 place(subgroup, "logistic-chest-storage", "a")
@@ -314,6 +323,9 @@ place(subgroup, "logistic-chest-storage-3", "c")
 place(subgroup, "angels-logistic-chest-storage", "d")
 place(subgroup, "silo-storage", "e")
 place(subgroup, "angels-warehouse-storage", "f")
+place(subgroup, "warehouse-storage-mk2", "g")
+place(subgroup, "warehouse-storage-mk3", "h")
+place(subgroup, "warehouse-storage-mk4", "i")
 
 subgroup = "ts-log-storage-logistics-buffer"
 place(subgroup, "logistic-chest-buffer", "a")
@@ -322,6 +334,9 @@ place(subgroup, "logistic-chest-buffer-3", "c")
 place(subgroup, "angels-logistic-chest-buffer", "d")
 place(subgroup, "silo-buffer", "e")
 place(subgroup, "angels-warehouse-buffer", "f")
+place(subgroup, "warehouse-buffer-mk2", "g")
+place(subgroup, "warehouse-buffer-mk3", "h")
+place(subgroup, "warehouse-buffer-mk4", "i")
 
 subgroup = "ts-log-storage-logistics-requester"
 place(subgroup, "logistic-chest-requester", "a")
@@ -330,6 +345,9 @@ place(subgroup, "logistic-chest-requester-3", "c")
 place(subgroup, "angels-logistic-chest-requester", "d")
 place(subgroup, "silo-requester", "e")
 place(subgroup, "angels-warehouse-requester", "f")
+place(subgroup, "warehouse-requester-mk2", "g")
+place(subgroup, "warehouse-requester-mk3", "h")
+place(subgroup, "warehouse-requester-mk4", "i")
 
 subgroup = "ts-log-storage-fluid1"
 place(subgroup, "bob-small-inline-storage-tank", "a")

@@ -37,7 +37,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-chrome", order = "cba" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-cobalt", order = "cbb" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-cobalt-steel", order = "cbc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-copper", order = "cca" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-copper", order = "cbd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-copper-tungsten", order = "cca" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-fluorite", order = "ccb" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-glass", order = "ccc" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-gold", order = "cda" },
@@ -63,13 +64,13 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-tin", order = "cib" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-titanium", order = "cic" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-tungsten", order = "cja" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "cjb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-uranium-depleted", order = "cjc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-zinc", order = "cjd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-tungsten-carbide", order = "cjb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "cjc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-uranium-depleted", order = "cka" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-zinc", order = "ckb" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-mat-alloys", order = "da" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-filters-drums", order = "db" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-catalysts", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-filters-drums", order = "da" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-catalysts", order = "db" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-geodes", order = "ea" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-gems-unsorted", order = "eb" },
@@ -555,6 +556,13 @@ place(subgroup, "angels-wire-coil-copper-casting-fast", "j-r2")
 place(subgroup, "copper-cable", "k")
 place(subgroup, "angels-wire-coil-copper-converting", "k-r1")
 
+subgroup = "ts-mat-copper-tungsten"
+place(subgroup, "liquid-molten-copper-tungsten", "a")
+place(subgroup, "copper-tungsten-smelting-1", "a-r1")
+place(subgroup, "copper-tungsten-smelting-2", "a-r2")
+place(subgroup, "copper-tungsten-alloy", "b")
+place(subgroup, "molten-copper-tungsten-smelting-1", "b-r1")
+
 subgroup = "ts-mat-fluorite"
 place(subgroup, "fluorite-ore", "a")
 place(subgroup, "angelsore-chunk-mix5-processing", "a-r1")
@@ -686,6 +694,8 @@ place(subgroup, "concrete-brick", "i")
 place(subgroup, "angels-concrete-brick", "i-r1")
 place(subgroup, "reinforced-concrete-brick", "j")
 place(subgroup, "angels-reinforced-concrete-brick", "j-r1")
+place(subgroup, "titanium-concrete-brick", "k")
+place(subgroup, "angels-titanium-concrete-brick", "k-r1")
 
 subgroup = "ts-mat-lithium"
 place(subgroup, "lithium-chloride", "a")
@@ -769,6 +779,8 @@ place(subgroup, "phosphorus-pure-processing", "a-r1")
 place(subgroup, "white-phosphorus-smelting", "b")
 place(subgroup, "white-phosphorus-smelting-2", "c")
 place(subgroup, "phosphoric-acid", "d")
+place(subgroup, "solid-disodium-phosphate", "e")
+place(subgroup, "solid-tetrasodium-pyrophosphate", "f")
 
 subgroup = "ts-mat-platinum"
 place(subgroup, "platinum-ore", "a")
@@ -945,17 +957,34 @@ place(subgroup, "liquid-tungstic-acid-smelting", "e-r1")
 place(subgroup, "pellet-tungsten-smelting", "e-r2")
 place(subgroup, "solid-ammonium-paratungstate", "f")
 place(subgroup, "processed-tungsten-smelting", "f-r1")
-place(subgroup, "gas-tungsten-hexafluoride", "g")
-place(subgroup, "solid-tungsten-oxide-smelting", "g-r1")
-place(subgroup, "powdered-tungsten", "h")
-place(subgroup, "solid-ammonium-paratungstate-smelting", "h-r1")
-place(subgroup, "gas-tungsten-hexafluoride-smelting", "h-r2")
-place(subgroup, "casting-powder-tungsten", "i")
-place(subgroup, "casting-powder-tungsten-1", "i-r1")
-place(subgroup, "casting-powder-tungsten-2", "i-r2")
-place(subgroup, "tungsten-plate", "j")
-place(subgroup, "bob-tungsten-plate", "j-r1")
-place(subgroup, "angels-plate-tungsten", "j-r2")
+place(subgroup, "solid-tungsten-trioxide", "g")
+place(subgroup, "solid-tungsten-trioxide-smelting", "g-r1")
+place(subgroup, "solid-sodium-tungstate", "h")
+place(subgroup, "pellet-tungsten-smelting-2", "h-r1")
+place(subgroup, "gas-tungsten-hexafluoride", "i")
+place(subgroup, "solid-tungsten-oxide-smelting", "i-r1")
+place(subgroup, "powdered-tungsten", "j")
+place(subgroup, "solid-ammonium-paratungstate-smelting", "j-r1")
+place(subgroup, "gas-tungsten-hexafluoride-smelting", "j-r2")
+place(subgroup, "solid-sodium-tungstate-smelting", "j-r3")
+place(subgroup, "casting-powder-tungsten", "k")
+place(subgroup, "casting-powder-tungsten-1", "k-r1")
+place(subgroup, "casting-powder-tungsten-2", "k-r2")
+place(subgroup, "casting-powder-tungsten-3", "k-r3")
+place(subgroup, "tungsten-plate", "l")
+place(subgroup, "bob-tungsten-plate", "l-r1")
+place(subgroup, "angels-plate-tungsten", "l-r2")
+
+subgroup = "ts-mat-tungsten-carbide"
+place(subgroup, "gas-tungsten-hexachloride", "a")
+place(subgroup, "solid-tungsten-oxide-smelting-2", "a-r1")
+place(subgroup, "powder-tungsten-carbide", "b")
+place(subgroup, "tungsten-carbide-smelting-1", "b-r1")
+place(subgroup, "tungsten-carbide-smelting-2", "b-r2")
+place(subgroup, "tungsten-carbide-smelting-3", "b-r3")
+place(subgroup, "tungsten-carbide", "c")
+place(subgroup, "tungsten-carbide-2", "c-r1")
+place(subgroup, "angels-plate-tungsten-carbide", "c-r2")
 
 subgroup = "ts-mat-uranium"
 place(subgroup, "uranium-ore", "a")
@@ -1011,14 +1040,10 @@ place(subgroup, "processed-zinc-smelting", "f-r2")
 place(subgroup, "cathode-zinc-smelting", "f-r3")
 place(subgroup, "liquid-molten-zinc", "g")
 place(subgroup, "molten-zinc-smelting", "g-r1")
-place(subgroup, "zinc-plate", "h")
-place(subgroup, "bob-zinc-plate", "h-r1")
-place(subgroup, "angels-plate-zinc", "h-r2")
-
-subgroup = "ts-mat-alloys"
-place(subgroup, "copper-tungsten-alloy", "a")
-place(subgroup, "tungsten-carbide", "b")
-place(subgroup, "tungsten-carbide-2", "b-r1")
+place(subgroup, "powder-zinc", "h")
+place(subgroup, "zinc-plate", "i")
+place(subgroup, "bob-zinc-plate", "i-r1")
+place(subgroup, "angels-plate-zinc", "i-r2")
 
 subgroup = "ts-mat-filters-drums"
 place(subgroup, "filter-frame", "a")
@@ -1466,6 +1491,8 @@ place(subgroup, "solid-sulfur", "b-r3")
 place(subgroup, "explosives", "c")
 place(subgroup, "solid-nitroglycerin", "c-r1")
 place(subgroup, "solid-trinitrotoluene", "c-r2")
+place(subgroup, "solid-sodium-floride-1", "d")		-- sic
+place(subgroup, "solid-sodium-floride-2", "d-r1")	-- sic
 
 subgroup = "ts-mat-oil-separation"
 place(subgroup, "oil-separation", "a")
@@ -1542,17 +1569,18 @@ place(subgroup, "angels-air-filtering", "ab-r2")
 place(subgroup, "ammonia", "ac")
 place(subgroup, "gas-ammonia", "ac-a1")
 place(subgroup, "gas-ammonium-chloride", "ad")
-place(subgroup, "gas-benzene-catalyst", "ae")
-place(subgroup, "gas-bisphenol-a", "af")
-place(subgroup, "carbon-separation-1", "ag")
-place(subgroup, "carbon-separation-2", "ah")
-place(subgroup, "gas-chlor-methane", "ai")
-place(subgroup, "liquid-cupric-chloride-solution", "aj")
-place(subgroup, "gas-dimethylamine", "ak")
-place(subgroup, "gas-dimethylhydrazine", "al")
-place(subgroup, "dinitrogen-tetroxide", "am")
-place(subgroup, "gas-dinitrogen-tetroxide", "am-a1")
-place(subgroup, "gas-epichlorhydrin", "an")
+place(subgroup, "gas-argon", "ae")
+place(subgroup, "gas-benzene-catalyst", "af")
+place(subgroup, "gas-bisphenol-a", "ag")
+place(subgroup, "carbon-separation-1", "ah")
+place(subgroup, "carbon-separation-2", "ai")
+place(subgroup, "gas-chlor-methane", "aj")
+place(subgroup, "liquid-cupric-chloride-solution", "ak")
+place(subgroup, "gas-dimethylamine", "al")
+place(subgroup, "gas-dimethylhydrazine", "am")
+place(subgroup, "dinitrogen-tetroxide", "an")
+place(subgroup, "gas-dinitrogen-tetroxide", "an-a1")
+place(subgroup, "gas-epichlorhydrin", "ao")
 place(subgroup, "liquid-ferric-chloride-solution", "ba")
 place(subgroup, "gas-formaldehyde-catalyst", "bb")
 place(subgroup, "glycerol", "bc")

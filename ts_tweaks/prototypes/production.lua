@@ -17,6 +17,7 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-crushers", order = "ba" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-sorters", order = "bb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-ore-sorters", order = "bb" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining1", order = "bc" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining2", order = "bd" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-ore-refining3", order = "be" },
@@ -125,14 +126,17 @@ place(subgroup, "air-pump-3", "c")
 place(subgroup, "air-pump-4", "d")
 place(subgroup, "angels-air-filter", "e")
 place(subgroup, "angels-air-filter-2", "f")
-place(subgroup, "void-pump", "g")
-place(subgroup, "angels-flare-stack", "h")
+place(subgroup, "angels-air-filter-3", "g")
+place(subgroup, "angels-air-filter-4", "h")
+place(subgroup, "void-pump", "i")
+place(subgroup, "angels-flare-stack", "j")
 
 subgroup = "ts-prod-ore-crushers"
 place(subgroup, "burner-ore-crusher", "a")
 place(subgroup, "ore-crusher", "b")
 place(subgroup, "ore-crusher-2", "c")
 place(subgroup, "ore-crusher-3", "d")
+place(subgroup, "ore-crusher-4", "e")
 
 subgroup = "ts-prod-ore-sorters"
 place(subgroup, "ore-sorting-facility", "a")
@@ -144,35 +148,42 @@ subgroup = "ts-prod-ore-refining1"
 place(subgroup, "ore-floatation-cell", "a")
 place(subgroup, "ore-floatation-cell-2", "b")
 place(subgroup, "ore-floatation-cell-3", "c")
-place(subgroup, "ore-leaching-plant", "d")
-place(subgroup, "ore-leaching-plant-2", "e")
-place(subgroup, "ore-leaching-plant-3", "f")
-place(subgroup, "ore-refinery", "g")
-place(subgroup, "ore-refinery-2", "h")
+place(subgroup, "ore-floatation-cell-4", "d")
+place(subgroup, "ore-leaching-plant", "a")
+place(subgroup, "ore-leaching-plant-2", "b")
+place(subgroup, "ore-leaching-plant-3", "c")
+place(subgroup, "ore-leaching-plant-4", "d")
 
 subgroup = "ts-prod-ore-refining2"
-place(subgroup, "filtration-unit", "a")
-place(subgroup, "filtration-unit-2", "b")
-place(subgroup, "crystallizer", "c")
-place(subgroup, "crystallizer-2", "d")
-place(subgroup, "liquifier", "e")
-place(subgroup, "liquifier-2", "f")
-place(subgroup, "liquifier-3", "g")
-place(subgroup, "liquifier-4", "h")
+place(subgroup, "ore-refinery", "a")
+place(subgroup, "ore-refinery-2", "b")
+place(subgroup, "ore-refinery-3", "c")
+place(subgroup, "filtration-unit", "d")
+place(subgroup, "filtration-unit-2", "e")
+place(subgroup, "filtration-unit-3", "f")
+place(subgroup, "crystallizer", "g")
+place(subgroup, "crystallizer-2", "h")
+place(subgroup, "crystallizer-3", "i")
 
 subgroup = "ts-prod-ore-refining3"
-place(subgroup, "ore-powderizer", "a")
-place(subgroup, "ore-powderizer-2", "b")
-place(subgroup, "ore-powderizer-3", "c")
-place(subgroup, "electro-whinning-cell", "d")
-place(subgroup, "electro-whinning-cell-2", "e")
-place(subgroup, "electro-whinning-cell-3", "f")
+place(subgroup, "liquifier", "a")
+place(subgroup, "liquifier-2", "b")
+place(subgroup, "liquifier-3", "c")
+place(subgroup, "liquifier-4", "d")
+place(subgroup, "ore-powderizer", "e")
+place(subgroup, "ore-powderizer-2", "f")
+place(subgroup, "ore-powderizer-3", "g")
+place(subgroup, "electro-whinning-cell", "h")
+place(subgroup, "electro-whinning-cell-2", "i")
+place(subgroup, "electro-whinning-cell-3", "j")
 
 subgroup = "ts-prod-ore-washing"
 place(subgroup, "washing-plant", "a")
 place(subgroup, "washing-plant-2", "b")
-place(subgroup, "sluicer", "c")
-place(subgroup, "sluicer-2", "d")
+place(subgroup, "washing-plant-3", "c")
+place(subgroup, "washing-plant-4", "d")
+place(subgroup, "sluicer", "e")
+place(subgroup, "sluicer-2", "f")
 
 subgroup = "ts-prod-ore-processing"
 place(subgroup, "ore-processing-machine", "a")
@@ -218,6 +229,7 @@ place(subgroup, "gas-refinery-small-4", "d")
 place(subgroup, "gas-refinery", "e")
 place(subgroup, "gas-refinery-2", "f")
 place(subgroup, "gas-refinery-3", "g")
+place(subgroup, "gas-refinery-4", "h")
 
 subgroup = "ts-prod-oil-refineries"
 place(subgroup, "oil-refinery", "a")
@@ -323,6 +335,7 @@ place(subgroup, "angels-chemical-plant-3", "g")
 place(subgroup, "angels-chemical-plant-4", "h")
 place(subgroup, "advanced-chemical-plant", "i")
 place(subgroup, "advanced-chemical-plant-2", "j")
+place(subgroup, "advanced-chemical-plant-3", "k")
 
 subgroup = "ts-prod-distilleries"
 place(subgroup, "bob-distillery", "a")
@@ -345,8 +358,10 @@ subgroup = "ts-prod-hydro"
 place(subgroup, "hydro-plant", "a")
 place(subgroup, "hydro-plant-2", "b")
 place(subgroup, "hydro-plant-3", "c")
-place(subgroup, "salination-plant", "d")
-place(subgroup, "salination-plant-2", "e")
+place(subgroup, "hydro-plant-4", "d")
+place(subgroup, "salination-plant", "e")
+place(subgroup, "salination-plant-2", "f")
+place(subgroup, "salination-plant-3", "g")
 place(subgroup, "barreling-pump", "k")
 place(subgroup, "clarifier", "l")
 
