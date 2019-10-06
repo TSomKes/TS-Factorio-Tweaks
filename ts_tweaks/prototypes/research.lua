@@ -1,6 +1,7 @@
 local TSL = require("data-util")
 
 local place = TSL.place
+local place_all = TSL.place_all
 
 local g = "ts-tab-research"
 
@@ -64,11 +65,13 @@ place(subgroup, "sct-t0-solvent", "c")
 
 subgroup = "ts-research-science-pack-automation"
 place(subgroup, "automation-science-pack", "a")
+place_all(subgroup, "^omnirec%-automation%-science%-pack%-", "a-rx")
 place(subgroup, "sct-t1-ironcore", "b")
 place(subgroup, "sct-t1-magnet-coils", "c")
 
 subgroup = "ts-research-science-pack-logistic"
 place(subgroup, "logistic-science-pack", "a")
+place_all(subgroup, "^omnirec%-logistic%-science%-pack%-", "a-rx")
 place(subgroup, "sct-t2-wafer-stamp", "b")
 place(subgroup, "sct-t2-micro-wafer", "c")
 place(subgroup, "sct-t2-microcircuits", "d")
@@ -77,6 +80,7 @@ place(subgroup, "sct-t2-reaction-nodes", "f")
 
 subgroup = "ts-research-science-pack-military"
 place(subgroup, "military-science-pack", "a")
+place_all(subgroup, "^omnirec%-military%-science%-pack%-", "a-rx")
 place(subgroup, "sct-mil-subplating", "b")
 place(subgroup, "sct-mil-plating", "c")
 place(subgroup, "sct-mil-circuit1", "d")
@@ -85,6 +89,7 @@ place(subgroup, "sct-mil-circuit3", "f")
 
 subgroup = "ts-research-science-pack-chemical"
 place(subgroup, "chemical-science-pack", "a")
+place_all(subgroup, "^omnirec%-chemical%-science%-pack%-", "a-rx")
 place(subgroup, "sct-t3-flash-fuel", "b")
 place(subgroup, "sct-t3-laser-foci", "c")
 place(subgroup, "sct-t3-laser-emitter", "d")
@@ -93,6 +98,7 @@ place(subgroup, "sct-t3-atomic-sensors", "f")
 
 subgroup = "ts-research-science-pack-production"
 place(subgroup, "production-science-pack", "a")
+place_all(subgroup, "^omnirec%-production%-science%-pack%-", "a-rx")
 place(subgroup, "sct-prod-biosilicate", "b")
 place(subgroup, "sct-prod-baked-biopaste", "c")
 place(subgroup, "sct-prod-bioprocessor", "d")
@@ -101,6 +107,7 @@ place(subgroup, "sct-prod-overclocker", "f")
 
 subgroup = "ts-research-science-pack-advanced-logistic"
 place(subgroup, "advanced-logistic-science-pack", "a")
+place_all(subgroup, "^omnirec%-advanced%-logistic%-science%-pack%-", "a-rx")
 place(subgroup, "sct-logistic-unimover", "b")
 place(subgroup, "sct-logistic-automated-storage", "c")
 place(subgroup, "sct-logistic-cargo-unit", "d")
@@ -108,6 +115,7 @@ place(subgroup, "sct-logistic-memory-unit", "e")
 
 subgroup = "ts-research-science-pack-utility"
 place(subgroup, "utility-science-pack", "a")
+place_all(subgroup, "^omnirec%-utility%-science%-pack%-", "a-rx")
 place(subgroup, "sct-htech-thermalstore", "b")
 place(subgroup, "sct-htech-thermalstore-heated", "c")
 place(subgroup, "sct-htech-random", "d")

@@ -594,6 +594,7 @@ place(subgroup, "angels-wire-coil-copper", "j")
 place(subgroup, "angels-wire-coil-copper-casting", "j-r1")
 place(subgroup, "angels-wire-coil-copper-casting-fast", "j-r2")
 place(subgroup, "copper-cable", "k")
+place_all(subgroup, "^omnirec%-copper%-cable%-", "k-rx")
 place(subgroup, "angels-wire-coil-copper-converting", "k-r1")
 
 subgroup = "ts-mat-copper-tungsten"
@@ -925,6 +926,7 @@ place(subgroup, "angels-roll-steel-casting-fast", "d-r2")
 place(subgroup, "steel-plate", "e")
 place(subgroup, "angels-plate-steel", "e-r1")
 place(subgroup, "angels-roll-steel-converting", "e-r2")
+place_all(subgroup, "^omnirec%-steel%-plate%-", "e-rx")
 
 subgroup = "ts-mat-thorium"
 place(subgroup, "thorium-ore", "a")
@@ -1205,6 +1207,7 @@ place(subgroup, "bob-fertiliser", "c-r1")
 subgroup = "ts-mat-gear-wheels"
 place(subgroup, "iron-gear-wheel", "a")
 place(subgroup, "angels-iron-gear-wheel-casting", "a-r2")
+place_all(subgroup, "^omnirec%-iron%-gear%-wheel%-", "a-rx")
 place(subgroup, "steel-gear-wheel", "b")
 place(subgroup, "angels-steel-gear-wheel-casting", "b-r1")
 place(subgroup, "brass-gear-wheel", "c")
@@ -1236,6 +1239,7 @@ subgroup = "ts-mat-motor"
 place(subgroup, "motor", "b")
 place(subgroup, "electric-motor", "c")
 place(subgroup, "engine-unit", "d")
+place_all(subgroup, "^omnirec%-engine%-unit%-", "d-rx")
 place(subgroup, "electric-engine-unit", "e")
 place(subgroup, "heat-shield-tile", "f")
 place(subgroup, "rocket-control-unit", "g")
@@ -1248,6 +1252,7 @@ place(subgroup, "empty-canister", "c")
 
 subgroup = "ts-mat-batteries"
 place(subgroup, "battery", "a")
+place_all(subgroup, "^omnirec%-battery%-", "a-rx")
 place(subgroup, "lithium-ion-battery", "b")
 place(subgroup, "silver-zinc-battery", "c")
 
@@ -1274,8 +1279,11 @@ place(subgroup, "cp-advanced-circuit-board", "b")
 place(subgroup, "cp-processing-board", "c")
 place(subgroup, "cp-advanced-processing-board", "d")
 place(subgroup, "electronic-circuit", "e")
+place_all(subgroup, "^omnirec%-electronic%-circuit%-", "e-rx")
 place(subgroup, "advanced-circuit", "f")
+place_all(subgroup, "^omnirec%-advanced%-circuit%-", "f-rx")
 place(subgroup, "processing-unit", "g")
+place_all(subgroup, "^omnirec%-processing%-unit%-", "g-rx")
 place(subgroup, "advanced-processing-unit", "h")
 
 subgroup = "ts-mat-bots-frames"
