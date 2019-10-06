@@ -11,7 +11,10 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-coal", order = "ab" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-stone", order = "ac" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-sand", order = "ad" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-slag", order = "ae" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "ae" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rubber", order = "af" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-plastic", order = "ag" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-slag", order = "ah" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-saphirite", order = "ba" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-jivolite", order = "bb" },
@@ -68,7 +71,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-uranium", order = "cjc" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-uranium-depleted", order = "cka" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-zinc", order = "ckb" },
-	
+	{ type = "item-subgroup", group = g, name = "ts-mat-radiolicious", order = "ckc" },
+
 	{ type = "item-subgroup", group = g, name = "ts-mat-filters-drums", order = "da" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-catalysts", order = "db" },
 
@@ -79,8 +83,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-gems-cut", order = "ee" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-gems-polished", order = "ef" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "fa" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-botany", order = "fb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-botany", order = "fa" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-gear-wheels", order = "ga" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bearing-balls", order = "gb" },
@@ -122,7 +125,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-solid-fuel", order = "ka" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-solid-fuel-enriched", order = "kb" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear", order = "kc" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "kd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-nuclear-cell", order = "kd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-fuel-processed", order = "ke" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-chem-solid", order = "la" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-oil-separation", order = "lb" },
@@ -193,6 +197,40 @@ place(subgroup, "sand", "a")
 place(subgroup, "sand-from-stone", "a-r1")
 place(subgroup, "solid-sand", "b")
 place(subgroup, "sand-to-solid-sand", "b-r1")
+
+subgroup = "ts-mat-resin"
+place(subgroup, "liquid-resin", "a")
+place(subgroup, "liquid-resin-1", "a-r1")
+place(subgroup, "liquid-resin-2", "a-r2")
+place(subgroup, "liquid-resin-3", "a-r3")
+place(subgroup, "resin", "b")
+place(subgroup, "solid-resin", "b-r1")
+place(subgroup, "bob-resin-wood", "b-r1")
+place(subgroup, "bob-resin-oil", "b-r2")
+
+subgroup = "ts-mat-rubber"
+place(subgroup, "liquid-rubber", "a")
+place(subgroup, "liquid-rubber-1", "a-r1")
+place(subgroup, "liquid-rubber-2", "a-r2")
+place(subgroup, "rubber", "b")
+place(subgroup, "bob-rubber", "b-r1")
+place(subgroup, "solid-rubber", "b-r2")
+
+subgroup = "ts-mat-plastic"
+place(subgroup, "liquid-plastic", "a")
+place(subgroup, "liquid-plastic-1", "a-r1")
+place(subgroup, "liquid-plastic-2", "a-r2")
+place(subgroup, "liquid-plastic-3", "a-r3")
+place(subgroup, "liquid-plastic-abs", "a-r4")
+place(subgroup, "liquid-plastic-pvc", "a-r5")
+place(subgroup, "liquid-plastic-pmma", "a-r6")
+place(subgroup, "liquid-plastic-pc", "a-r7")
+place(subgroup, "plastic-bar", "b")
+place(subgroup, "solid-plastic", "b-r1")
+place(subgroup, "solid-pmma", "c")
+place(subgroup, "pmma-synthesis", "c-r1")
+place(subgroup, "solid-pc", "d")
+place(subgroup, "pc-synthesis", "d-r1")
 
 subgroup = "ts-mat-slag"
 place(subgroup, "slag", "a")
@@ -581,6 +619,8 @@ place(subgroup, "quartz-glass", "c-r2")
 place(subgroup, "angels-plate-glass-1", "c-r3")
 place(subgroup, "angels-plate-glass-2", "c-r4")
 place(subgroup, "angels-plate-glass-3", "c-r5")
+place(subgroup, "pmma-glass", "c-r6")
+place(subgroup, "pc-glass", "c-r7")
 place(subgroup, "angels-coil-glass-fiber", "d")
 
 subgroup = "ts-mat-gold"
@@ -1002,6 +1042,7 @@ place(subgroup, "solid-uranium-hexafluoride", "i")
 place(subgroup, "advanced-uranium-processing", "j")
 place(subgroup, "kovarex-enrichment-process", "k")
 place(subgroup, "clowns-centrifuging-20%-ore", "l")
+place(subgroup, "clowns-centrifuging-20%-hexafluoride", "l-r1")
 place(subgroup, "clowns-centrifuging-35%", "m")
 place(subgroup, "clowns-centrifuging-45%", "n")
 place(subgroup, "clowns-centrifuging-55%", "o")
@@ -1045,6 +1086,15 @@ place(subgroup, "zinc-plate", "i")
 place(subgroup, "bob-zinc-plate", "i-r1")
 place(subgroup, "angels-plate-zinc", "i-r2")
 
+subgroup = "ts-mat-radiolicious"
+place(subgroup, "polonium-210", "a")
+place(subgroup, "radioactive-waste-water-purification", "a-r1")
+place(subgroup, "caesium-137", "b")
+place(subgroup, "strontium-90", "c")
+place(subgroup, "protactinium-231", "d")
+place(subgroup, "zinc-65", "e")
+place(subgroup, "cobalt-60", "f")
+
 subgroup = "ts-mat-filters-drums"
 place(subgroup, "filter-frame", "a")
 place(subgroup, "filter-coal", "b")
@@ -1054,6 +1104,8 @@ place(subgroup, "filter-ceramic-used", "d")
 place(subgroup, "filter-lime", "e")
 place(subgroup, "milling-drum", "f")
 place(subgroup, "milling-drum-used", "g")
+place(subgroup, "angels-electrode", "h")
+place(subgroup, "angels-electrode-used", "i")
 
 subgroup = "ts-mat-catalysts"
 place(subgroup, "catalysator-brown", "a")
@@ -1065,8 +1117,7 @@ place(subgroup, "catalyst-metal-green", "f")
 place(subgroup, "catalyst-metal-blue", "g")
 place(subgroup, "catalyst-metal-yellow", "h")
 place(subgroup, "catalyst-metal-violet", "i")
-place(subgroup, "angels-electrode", "j")
-place(subgroup, "angels-electrode-used", "k")
+place(subgroup, "catalyst-metal-cyan", "j")
 
 subgroup = "ts-mat-geodes"
 place(subgroup, "solid-geodes", "a")
@@ -1140,15 +1191,6 @@ place(subgroup, "topaz-5", "e")
 place(subgroup, "bob-topaz-5", "e-r1")
 place(subgroup, "diamond-5", "f")
 place(subgroup, "bob-diamond-5", "f-r1")
-
-subgroup = "ts-mat-resin"
-place(subgroup, "resin", "a")
-place(subgroup, "solid-resin", "a-r1")
-place(subgroup, "bob-resin-wood", "a-r1")
-place(subgroup, "bob-resin-oil", "a-r2")
-place(subgroup, "rubber", "b")
-place(subgroup, "bob-rubber", "b-r1")
-place(subgroup, "solid-rubber", "b-r2")
 
 subgroup = "ts-mat-botany"
 place(subgroup, "seedling", "a")
@@ -1462,10 +1504,18 @@ place(subgroup, "rocket-fuel", "d")
 place(subgroup, "rocket-booster", "d")
 place(subgroup, "rocket-booster-1", "d-r1")
 place(subgroup, "rocket-booster-2", "d-r2")
-place(subgroup, "nuclear-fuel", "f")
 
 subgroup = "ts-mat-fuel-nuclear"
+place(subgroup, "nuclear-fuel", "a")
+place(subgroup, "hypernuclear-fuel", "b")
+place(subgroup, "turbonuclear-fuel", "c")
+place(subgroup, "radiothermal-fuel", "d")
+place(subgroup, "superradiothermal-fuel", "e")
+place(subgroup, "ultraradiothermal-fuel", "f")
+
+subgroup = "ts-mat-fuel-nuclear-cell"
 place(subgroup, "thorium-fuel-cell", "a")
+place(subgroup, "thorium-mixed-oxide", "a-r1")
 place(subgroup, "uranium-fuel-cell", "b")
 place(subgroup, "mixed-oxide", "b-r1")
 place(subgroup, "thorium-plutonium-fuel-cell", "c")
@@ -1474,25 +1524,26 @@ place(subgroup, "used-up-thorium-fuel-cell", "e")
 place(subgroup, "used-up-uranium-fuel-cell", "f")
 place(subgroup, "used-up-deuterium-fuel-cell", "g")
 place(subgroup, "thorium-fuel-reprocessing", "h")
-place(subgroup, "nuclear-fuel-reprocessing", "i")
-place(subgroup, "deuterium-fuel-reprocessing", "j")
+place(subgroup, "advanced-thorium-nuclear-fuel-reprocessing", "i")
+place(subgroup, "advanced-thorium-nuclear-fuel-reprocessing|b", "j")	-- sic
+place(subgroup, "nuclear-fuel-reprocessing", "k")
+place(subgroup, "advanced-nuclear-fuel-reprocessing", "l")
+place(subgroup, "deuterium-fuel-reprocessing", "m")
 
 subgroup = "ts-mat-fuel-processed"
 place(subgroup, "vehicle-fuel", "a")
 place_all(subgroup, "^vehicle%-fuel%-from%-", "b")
 
 subgroup = "ts-mat-chem-solid"
-place(subgroup, "plastic-bar", "a")
-place(subgroup, "solid-plastic", "a-r1")
-place(subgroup, "sulfur", "b")
-place(subgroup, "sulfur-2", "b-r1")
-place(subgroup, "sulfur-3", "b-r2")
-place(subgroup, "solid-sulfur", "b-r3")
-place(subgroup, "explosives", "c")
-place(subgroup, "solid-nitroglycerin", "c-r1")
-place(subgroup, "solid-trinitrotoluene", "c-r2")
-place(subgroup, "solid-sodium-floride-1", "d")		-- sic
-place(subgroup, "solid-sodium-floride-2", "d-r1")	-- sic
+place(subgroup, "sulfur", "a")
+place(subgroup, "sulfur-2", "a-r1")
+place(subgroup, "sulfur-3", "a-r2")
+place(subgroup, "solid-sulfur", "a-r3")
+place(subgroup, "explosives", "b")
+place(subgroup, "solid-nitroglycerin", "b-r1")
+place(subgroup, "solid-trinitrotoluene", "b-r2")
+place(subgroup, "solid-sodium-floride-1", "c")		-- sic
+place(subgroup, "solid-sodium-floride-2", "c-r1")	-- sic
 
 subgroup = "ts-mat-oil-separation"
 place(subgroup, "oil-separation", "a")
@@ -1554,6 +1605,8 @@ place(subgroup, "liquid-aqueous-sodium-hydroxide-reverse", "cc-r1")
 place(subgroup, "solid-sodium-hypochlorite", "cd")
 place(subgroup, "solid-sodium-perchlorate", "da")
 place(subgroup, "solid-sodium-hydroxide-solid-sodium-sulfate", "db")
+place(subgroup, "solid-sodium-nitrate", "dc")
+place(subgroup, "sodium-nitrate-synthesis", "dc-r1")
 
 subgroup = "ts-mat-chemicals-solid-process"
 place(subgroup, "intermediate-salination", "aa")
@@ -1561,94 +1614,99 @@ place(subgroup, "advanced-salination", "ab")
 place(subgroup, "sand-sluicing", "ac")
 
 subgroup = "ts-mat-chemicals-fluid"
-place(subgroup, "gas-acid", "aa")
-place(subgroup, "filter-lime-used", "aa-r1")
-place(subgroup, "liquid-air", "ab")
-place(subgroup, "bob-liquid-air", "ab-r1")
-place(subgroup, "angels-air-filtering", "ab-r2")
-place(subgroup, "ammonia", "ac")
-place(subgroup, "gas-ammonia", "ac-a1")
-place(subgroup, "gas-ammonium-chloride", "ad")
-place(subgroup, "gas-argon", "ae")
-place(subgroup, "gas-benzene-catalyst", "af")
-place(subgroup, "gas-bisphenol-a", "ag")
-place(subgroup, "carbon-separation-1", "ah")
-place(subgroup, "carbon-separation-2", "ai")
-place(subgroup, "gas-chlor-methane", "aj")
-place(subgroup, "liquid-cupric-chloride-solution", "ak")
-place(subgroup, "gas-dimethylamine", "al")
-place(subgroup, "gas-dimethylhydrazine", "am")
-place(subgroup, "dinitrogen-tetroxide", "an")
-place(subgroup, "gas-dinitrogen-tetroxide", "an-a1")
-place(subgroup, "gas-epichlorhydrin", "ao")
-place(subgroup, "liquid-ferric-chloride-solution", "ba")
-place(subgroup, "gas-formaldehyde-catalyst", "bb")
-place(subgroup, "glycerol", "bc")
-place(subgroup, "gas-glycerol", "bc-a1")
-place(subgroup, "liquid-hexafluorosilicic-acid", "bd")
-place(subgroup, "hydrazine", "be")
-place(subgroup, "gas-hydrazine", "be-a1")
-place(subgroup, "liquid-hydrochloric-acid", "bf")
-place(subgroup, "catalytic-water-separation-hydrogen", "bg")	-- hydrogen
-place(subgroup, "hydrogen-chloride", "bh")
-place(subgroup, "gas-hydrogen-chloride", "bh-a1")
-place(subgroup, "hydrogen-peroxide", "bi")
-place(subgroup, "hydrogen-sulfide", "ca")
-place(subgroup, "liquid-plastic", "cb")
-place(subgroup, "liquid-plastic-1", "cb-r1")
-place(subgroup, "liquid-plastic-2", "cb-r2")
-place(subgroup, "liquid-plastic-3", "cb-r3")
-place(subgroup, "liquid-resin", "cc")
-place(subgroup, "liquid-resin-1", "cc-r1")
-place(subgroup, "liquid-resin-2", "cc-r2")
-place(subgroup, "liquid-resin-3", "cc-r3")
-place(subgroup, "liquid-rubber", "da")
-place(subgroup, "liquid-rubber-1", "da-r1")
-place(subgroup, "water-thermal-lithia", "db")
-place(subgroup, "lubricant", "dc")
-place(subgroup, "mineral-oil-lubricant", "dc-r1")
-place(subgroup, "gas-melamine", "ea")
-place(subgroup, "gas-methanol-catalyst", "eb")
-place(subgroup, "gas-synthesis-methanol", "eb-r1")
-place(subgroup, "gas-methylamine", "ec")
-place(subgroup, "liquid-mineral-oil", "fa")
-place(subgroup, "liquid-mineral-oil-catalyst", "fa-r1")
-place(subgroup, "gas-monochloramine", "fb")
-place(subgroup, "liquid-naphtha-catalyst", "fc")
-place(subgroup, "nitric-acid", "ga")
-place(subgroup, "liquid-nitric-acid", "ga-a1")
-place(subgroup, "nitric-oxide", "gb")
-place(subgroup, "nitrogen", "gc")
-place(subgroup, "catalytic-air-separation-nitrogen", "gc-r1")
-place(subgroup, "nitrogen-dioxide", "ha")
-place(subgroup, "gas-nitrogen-dioxide", "ha-a1")
-place(subgroup, "gas-nitrogen-monoxide", "hb")
-place(subgroup, "nitroglycerin", "hc")
-place(subgroup, "catalytic-air-separation-oxygen", "ia")	-- oxygen
-place(subgroup, "catalytic-water-separation-oxygen", "ia-r1")
-place(subgroup, "liquid-perchloric-acid", "ib")
-place(subgroup, "gas-phenol-catalyst", "ic")
-place(subgroup, "gas-phosgene", "id")
-place(subgroup, "gas-polyehtylene-catalyst", "ie")	-- sic
-place(subgroup, "catalyst-steam-cracking-naphtha", "if")	-- propene
-place(subgroup, "steam-cracking-oil-residual", "ig")
-place(subgroup, "liquid-aqueous-sodium-hydroxide", "ja")
-place(subgroup, "gas-styrene-catalyst", "jb")
-place(subgroup, "sulfur-dioxide", "jc")
-place(subgroup, "gas-sulfur-dioxide", "jc-a1")
-place(subgroup, "gas-sulfur-dioxide-calcium-sulfate", "jc-a1-r1")
-place(subgroup, "sulfuric-acid", "jd")
-place(subgroup, "sulfuric-acid-2", "jd-r1")
-place(subgroup, "sulfuric-acid-3", "jd-r2")
-place(subgroup, "liquid-sulfuric-acid", "jd-r3")
-place(subgroup, "sulfuric-nitric-acid", "ka")
-place(subgroup, "angels-sulfur-scrubber", "kb")		-- sulfuric waste water
-place(subgroup, "gas-synthesis", "kc")
-place(subgroup, "gas-synthesis-reforming", "kc-r1")
-place(subgroup, "steam-cracking-gas-residual", "kc-r2")
-place(subgroup, "liquid-toluene-from-naphtha", "la")
-place(subgroup, "tungstic-acid", "lb")
-place(subgroup, "gas-urea", "lc")
+place(subgroup, "liquid-acetone-cyanohydrin", "aa")
+place(subgroup, "acetone-cyanohydrin-synthesis", "aa-r1")
+place(subgroup, "gas-acid", "ab")
+place(subgroup, "filter-lime-used", "ab-r1")
+place(subgroup, "acrylonitrile-synthesis", "ac")
+place(subgroup, "liquid-air", "ad")
+place(subgroup, "bob-liquid-air", "ad-r1")
+place(subgroup, "angels-air-filtering", "ad-r2")
+place(subgroup, "ammonia", "ba")
+place(subgroup, "gas-ammonia", "ba-a1")
+place(subgroup, "gas-ammonium-chloride", "bd")
+place(subgroup, "gas-argon", "bc")
+place(subgroup, "gas-benzene-catalyst", "ca")
+place(subgroup, "gas-bisphenol-a", "cb")
+place(subgroup, "carbon-separation-1", "cc")
+place(subgroup, "carbon-separation-2", "da")
+place(subgroup, "gas-chlor-methane", "db")
+place(subgroup, "liquid-chlorobutadiene", "dc")
+place(subgroup, "vinyl-acetlyene-chlorination", "dc-r1")	-- sic
+place(subgroup, "dichlorobutene-dechlorination", "dc-r2")
+place(subgroup, "liquid-cupric-chloride-solution", "ea")
+place(subgroup, "liquid-dichlorobutene", "eb")
+place(subgroup, "butadiene-chlorination", "eb-r1")
+place(subgroup, "gas-dimethylamine", "ec")
+place(subgroup, "gas-dimethylhydrazine", "fa")
+place(subgroup, "dinitrogen-tetroxide", "fb")
+place(subgroup, "gas-dinitrogen-tetroxide", "fb-a1")
+place(subgroup, "gas-epichlorhydrin", "fc")
+place(subgroup, "liquid-ferric-chloride-solution", "ga")
+place(subgroup, "gas-formaldehyde-catalyst", "gb")
+place(subgroup, "glycerol", "gc")
+place(subgroup, "gas-glycerol", "gc-a1")
+place(subgroup, "liquid-hexafluorosilicic-acid", "ha")
+place(subgroup, "hydrazine", "hb")
+place(subgroup, "gas-hydrazine", "hb-a1")
+place(subgroup, "liquid-hydrochloric-acid", "hc")
+place(subgroup, "catalytic-water-separation-hydrogen", "ia")	-- hydrogen
+place(subgroup, "hydrogen-chloride", "ib")
+place(subgroup, "gas-hydrogen-chloride", "ib-a1")
+place(subgroup, "hydrogen-cyanide-synthesis", "ic")
+place(subgroup, "hydrogen-peroxide", "id")
+place(subgroup, "hydrogen-sulfide", "ja")
+place(subgroup, "water-thermal-lithia", "ib")
+place(subgroup, "lubricant", "ic")
+place(subgroup, "mineral-oil-lubricant", "ic-r1")
+place(subgroup, "gas-melamine", "ja")
+place(subgroup, "gas-methanol-catalyst", "jb")
+place(subgroup, "gas-synthesis-methanol", "jb-r1")
+place(subgroup, "gas-methylamine", "jc")
+place(subgroup, "liquid-mineral-oil", "ka")
+place(subgroup, "liquid-mineral-oil-catalyst", "ka-r1")
+place(subgroup, "gas-monochloramine", "kb")
+place(subgroup, "liquid-naphtha-catalyst", "kc")
+place(subgroup, "nitric-acid", "la")
+place(subgroup, "liquid-nitric-acid", "la-a1")
+place(subgroup, "nitric-oxide", "lb")
+place(subgroup, "nitrogen", "lc")
+place(subgroup, "catalytic-air-separation-nitrogen", "lc-r1")
+place(subgroup, "nitrogen-dioxide", "ma")
+place(subgroup, "gas-nitrogen-dioxide", "ma-a1")
+place(subgroup, "gas-nitrogen-monoxide", "mb")
+place(subgroup, "nitroglycerin", "mc")
+place(subgroup, "gas-nitrous-oxide", "md")
+place(subgroup, "nitrous-oxide-synthesis-2", "md-r1")
+place(subgroup, "catalytic-air-separation-oxygen", "na")	-- oxygen
+place(subgroup, "catalytic-water-separation-oxygen", "na-r1")
+place(subgroup, "liquid-perchloric-acid", "nb")
+place(subgroup, "gas-phenol-catalyst", "nc")
+place(subgroup, "gas-phosgene", "oa")
+place(subgroup, "phosgene-synthesis", "oa-r1")
+place(subgroup, "gas-polyehtylene-catalyst", "ob")	-- sic
+place(subgroup, "catalyst-steam-cracking-naphtha", "oc")	-- propene
+place(subgroup, "steam-cracking-oil-residual", "pa")
+place(subgroup, "liquid-aqueous-sodium-hydroxide", "pb")
+place(subgroup, "gas-styrene-catalyst", "pc")
+place(subgroup, "sulfur-dioxide", "qa")
+place(subgroup, "gas-sulfur-dioxide", "qa-a1")
+place(subgroup, "gas-sulfur-dioxide-calcium-sulfate", "qa-a1-r1")
+place(subgroup, "sulfuric-acid", "qb")
+place(subgroup, "sulfuric-acid-2", "qb-r1")
+place(subgroup, "sulfuric-acid-3", "qb-r2")
+place(subgroup, "liquid-sulfuric-acid", "qb-r3")
+place(subgroup, "sulfuric-nitric-acid", "qc")
+place(subgroup, "angels-sulfur-scrubber", "ra")		-- sulfuric waste water
+place(subgroup, "gas-synthesis", "rb")
+place(subgroup, "gas-synthesis-reforming", "rb-r1")
+place(subgroup, "steam-cracking-gas-residual", "rb-r2")
+place(subgroup, "liquid-toluene-from-naphtha", "rc")
+place(subgroup, "tungstic-acid", "sa")
+place(subgroup, "gas-urea", "sb")
+place(subgroup, "gas-vinyl-acetylene", "sc")
+place(subgroup, "acetylene-diomerisation", "sc-r1")
+place(subgroup, "vinyl-chloride-synthesis", "ta")
 
 subgroup = "ts-mat-chemicals-fluid-water"
 place(subgroup, "water-mineralized", "aa")
@@ -1713,6 +1771,10 @@ place(subgroup, "thermal-filtering-mercury", "kb")
 place(subgroup, "dimethylmercury-synthesis", "kc")
 place(subgroup, "hydrochloric-acid-separation", "la")
 place(subgroup, "hydrofluoric-acid-separation", "lb")
+place(subgroup, "nitrous-oxide-synthesis-1", "lc")
+place(subgroup, "catalyst-steam-cracking-acetylene", "ma")
+place(subgroup, "catalyst-steam-cracking-butane-2", "mb")
+place(subgroup, "methyl-methacrylate-synthesis", "mc")
 
 subgroup = "ts-mat-slag-slurry1"
 place(subgroup, "crystal-slurry", "a")

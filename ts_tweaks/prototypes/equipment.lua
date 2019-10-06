@@ -357,11 +357,12 @@ place(subgroup, "angels-heavy-energy-shield-vequip", "e")
 
 subgroup = "ts-equip-walls"
 place(subgroup, "stone-wall", "a")
-place(subgroup, "reinforced-wall", "b")
-place(subgroup, "concrete-wall", "c")
-place(subgroup, "steel-wall", "d")
-place(subgroup, "gate", "e")
-place(subgroup, "reinforced-gate", "f")
+place(subgroup, "plaswall", "b")
+place(subgroup, "reinforced-wall", "c")
+place(subgroup, "concrete-wall", "d")
+place(subgroup, "steel-wall", "e")
+place(subgroup, "gate", "f")
+place(subgroup, "reinforced-gate", "g")
 
 subgroup = "ts-equip-gun-turrets"
 place(subgroup, "gun-turret", "a")
@@ -374,7 +375,7 @@ place(subgroup, "bob-sniper-turret-2", "g")
 place(subgroup, "bob-sniper-turret-3", "h")
 
 subgroup = "ts-equip-energy-turrets"
-place(subgroup, "laser-turret", "h")
+place(subgroup, "laser-turret", "a")
 place(subgroup, "bob-laser-turret-2", "b")
 place(subgroup, "bob-laser-turret-3", "c")
 place(subgroup, "bob-laser-turret-4", "d")
