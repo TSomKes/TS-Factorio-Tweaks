@@ -10,6 +10,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-research-labs", order = "aa" },
 	{ type = "item-subgroup", group = g, name = "ts-research-labs-sct", order = "ab" },
 	{ type = "item-subgroup", group = g, name = "ts-research-labs-sct-components", order = "ac" },
+	{ type = "item-subgroup", group = g, name = "ts-research-erp-ground", order = "ad" },
 
 	{ type = "item-subgroup", group = g, name = "ts-research-sct-waste", order = "b" },
 	
@@ -35,8 +36,7 @@ place(subgroup, "lab", "b")
 place(subgroup, "lab-2", "c")
 place(subgroup, "lab-module", "d")
 place(subgroup, "lab-alien", "e")
-place(subgroup, "rocket-silo", "f")
-place(subgroup, "rsc-excavation-site", "g")
+place(subgroup, "erp-lab", "f")
 
 subgroup = "ts-research-labs-sct"
 place(subgroup, "sct-lab-t1", "a")
@@ -53,6 +53,18 @@ place(subgroup, "sct-lab3-construction", "e")
 place(subgroup, "sct-lab3-optics", "f")
 place(subgroup, "sct-lab4-construction", "g")
 place(subgroup, "sct-lab4-manipulators", "h")
+
+subgroup = "ts-research-erp-ground"
+place(subgroup, "ground-telescope", "a")
+place(subgroup, "space-telescope-uplink-station", "b")
+place(subgroup, "station-science", "c")
+place(subgroup, "planetary-data", "d")
+place(subgroup, "study-the-planet", "d-r1")
+place(subgroup, "probe-data", "e")
+place(subgroup, "space-science-pack", "f")
+place(subgroup, "study-the-stars", "f-r1")
+place(subgroup, "space-study-the-stars", "f-r2")
+place(subgroup, "probe-data-processing", "f-r3")
 
 subgroup = "ts-research-sct-waste"
 place(subgroup, "sct-waste-processing-copper", "a")

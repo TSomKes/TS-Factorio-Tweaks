@@ -161,7 +161,12 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-bullets", order = "oc" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-ammo-rocket-warheads", order = "od" },
 
-	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads", order = "p" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-erp-satellite-components", order = "pa" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-erp-shuttle-maint", order = "pb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads", order = "pc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads-spacex", order = "pd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads-erp", order = "pe" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-space-goodies", order = "pf" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-bio", order = "q" },
 	
@@ -192,6 +197,7 @@ place(subgroup, "stone-crushed", "a-r1")
 place(subgroup, "slag-processing-stone", "b")
 place(subgroup, "crushed-stone-sorting", "b-u1")
 place(subgroup, "stone-brick", "d")
+place(subgroup, "stone-delivery", "d-r1")
 place(subgroup, "stone-tablet", "e")
 
 subgroup = "ts-mat-sand"
@@ -489,6 +495,7 @@ place(subgroup, "aluminium-plate", "j")
 place(subgroup, "bob-aluminium-plate", "j-r1")
 place(subgroup, "angels-roll-aluminium-converting", "j-r2")
 place(subgroup, "angels-plate-aluminium", "j-r3")
+place(subgroup, "aluminium-plate-delivery", "j-r4")
 
 subgroup = "ts-mat-brass"
 place(subgroup, "liquid-molten-brass", "a")
@@ -590,6 +597,7 @@ place(subgroup, "copper-plate", "i")
 place(subgroup, "angelsore3-crushed-smelting", "i-r1")
 place(subgroup, "angels-roll-copper-converting", "i-r2")
 place(subgroup, "angels-plate-copper", "i-r3")
+place(subgroup, "copper-delivery", "i-r4")
 place(subgroup, "angels-wire-coil-copper", "j")
 place(subgroup, "angels-wire-coil-copper-casting", "j-r1")
 place(subgroup, "angels-wire-coil-copper-casting-fast", "j-r2")
@@ -693,6 +701,7 @@ place(subgroup, "iron-plate", "h")
 place(subgroup, "angelsore1-crushed-smelting", "h-r1")
 place(subgroup, "angels-roll-iron-converting", "h-r2")
 place(subgroup, "angels-plate-iron", "h-r3")
+place(subgroup, "iron-delivery", "h-r4")
 
 subgroup = "ts-mat-lead"
 place(subgroup, "lead-ore", "a")
@@ -926,7 +935,9 @@ place(subgroup, "angels-roll-steel-casting-fast", "d-r2")
 place(subgroup, "steel-plate", "e")
 place(subgroup, "angels-plate-steel", "e-r1")
 place(subgroup, "angels-roll-steel-converting", "e-r2")
-place_all(subgroup, "^omnirec%-steel%-plate%-", "e-rx")
+place_all(subgroup, "^omnirec%-steel%-plate%-", "e-r2x")
+place(subgroup, "steel-delivery", "e-r3")
+place_all(subgroup, "^omnirec%-steel%-delivery%-", "e-r3x")
 
 subgroup = "ts-mat-thorium"
 place(subgroup, "thorium-ore", "a")
@@ -986,6 +997,7 @@ place(subgroup, "titanium-plate", "g")
 place(subgroup, "bob-titanium-plate", "g-r1")
 place(subgroup, "angels-roll-titanium-converting", "g-r2")
 place(subgroup, "angels-plate-titanium", "g-r3")
+place(subgroup, "titanium-plate-delivery", "g-r4")
 
 subgroup = "ts-mat-tungsten"
 place(subgroup, "tungsten-ore", "a")
@@ -1034,6 +1046,7 @@ subgroup = "ts-mat-uranium"
 place(subgroup, "uranium-ore", "a")
 place(subgroup, "angelsore-crystal-mix5-processing", "a-r1")
 place(subgroup, "depleted-uranium-reprocessing", "a-r2")
+place(subgroup, "uranium-delivery", "a-r3")
 place(subgroup, "uranium-235", "c")
 place(subgroup, "uranium-processing", "d")
 place(subgroup, "solid-uranyl-nitrate", "e")
@@ -2351,25 +2364,68 @@ place(subgroup, "flame-rocket-warhead", "f")
 place(subgroup, "poison-rocket-warhead", "g")
 place(subgroup, "plasma-rocket-warhead", "h")
 
+subgroup = "ts-mat-erp-satellite-components"
+place(subgroup, "satellite-flight-computer", "a")
+place(subgroup, "satellite-radar", "b")
+place(subgroup, "telescope-components", "c")
+place(subgroup, "radioisotope-thermoelectric-generator", "d")
+place(subgroup, "radioisotope-thermoelectric-generator-thorium", "d-r1")
+place(subgroup, "satellite-battery", "e")
+place(subgroup, "satellite-bus", "f")
+place(subgroup, "satellite-communications", "g")
+place(subgroup, "satellite-solar-array", "h")
+place(subgroup, "satellite-thruster", "i")
+place(subgroup, "space-lab-payload", "j")
+
+subgroup = "ts-mat-erp-shuttle-maint"
+place(subgroup, "shuttle-hull", "a")
+place(subgroup, "shuttle-hull-recipe", "a-r1")
+place(subgroup, "autonomous-space-mining-drone", "b")
+place(subgroup, "orbital-fabricator-component", "c")
+place(subgroup, "refurbish-fabricator-shuttle", "d")
+place(subgroup, "refurbish-mining-shuttle", "e")
+place(subgroup, "refurbish-space-shuttle", "f")
+place(subgroup, "refurbish-spy-shuttle", "g")
+place(subgroup, "repurpose-fabricator-shuttle", "h")
+place(subgroup, "repurpose-mining-shuttle", "i")
+place(subgroup, "repurpose-space-shuttle", "j")
+place(subgroup, "repurpose-spy-shuttle", "k")
+
 subgroup = "ts-mat-rocket-payloads"
 place(subgroup, "satellite", "a")
 place(subgroup, "orbital-ion-cannon", "b")
-place(subgroup, "assembly-robot", "c")
-place(subgroup, "drydock-assembly", "d")
-place(subgroup, "drydock-structural", "e")
-place(subgroup, "fusion-reactor", "f")
-place(subgroup, "hull-component", "g")
-place(subgroup, "protection-field", "h")
-place(subgroup, "protection-field-goopless", "i")
-place(subgroup, "space-thruster", "j")
-place(subgroup, "fuel-cell", "k")
-place(subgroup, "habitation", "l")
-place(subgroup, "life-support", "m")
-place(subgroup, "command", "n")
-place(subgroup, "astrometrics", "o")
-place(subgroup, "ftl-drive", "p")
+
+subgroup = "ts-mat-rocket-payloads-spacex"
+place(subgroup, "assembly-robot", "a")
+place(subgroup, "drydock-assembly", "b")
+place(subgroup, "drydock-structural", "c")
+place(subgroup, "fusion-reactor", "d")
+place(subgroup, "hull-component", "e")
+place(subgroup, "protection-field", "f")
+place(subgroup, "protection-field-goopless", "g")
+place(subgroup, "space-thruster", "h")
+place(subgroup, "fuel-cell", "i")
+place(subgroup, "habitation", "j")
+place(subgroup, "life-support", "k")
+place(subgroup, "command", "l")
+place(subgroup, "astrometrics", "m")
+place(subgroup, "ftl-drive", "n")
+
+subgroup = "ts-mat-rocket-payloads-erp"
+place(subgroup, "advanced-probe", "a")
+place(subgroup, "space-telescope", "b")
+place(subgroup, "observation-satellite", "c")
+place(subgroup, "orbital-solar-collector", "d")
+place(subgroup, "space-lab", "e")
+place(subgroup, "fabricator-shuttle", "f")
+place(subgroup, "mining-shuttle", "g")
+place(subgroup, "space-shuttle", "h")
+place(subgroup, "spy-shuttle", "i")
+
+subgroup = "ts-mat-space-goodies"
+place(subgroup, "random-dropship", "a")
+place(subgroup, "random-dropship-unboxing", "b")
 
 subgroup = "ts-mat-bio"
 place(subgroup, "raw-fish", "a")
 place(subgroup, "diammonium-phosphate-fertilizer", "b")
-

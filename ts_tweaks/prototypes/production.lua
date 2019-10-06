@@ -46,11 +46,12 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-assemblers", order = "ea" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-mini-assemblers", order = "eb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "ec" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "ed" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "ee" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "ef" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-hydro", order = "eg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-erp-assemblers", order = "ec" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electronics-assemblers", order = "ed" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-chemical-plants", order = "ee" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-distilleries", order = "ef" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-electrolysers", order = "eg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-hydro", order = "eh" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "f" },
 
@@ -66,6 +67,8 @@ data:extend({
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-mini-beacons", order = "hb" },
+	
+	{ type = "item-subgroup", group = g, name = "ts-prod-rocket-silos", order = "ia" },
 })
 
 
@@ -319,6 +322,10 @@ place(subgroup, "mini-assembler-4", "d")
 place(subgroup, "mini-assembler-5", "e")
 place(subgroup, "mini-assembler-6", "f")
 
+subgroup = "ts-prod-erp-assemblers"
+place(subgroup, "advanced-assembler", "a")
+place(subgroup, "ground-auto-fabricator", "b")
+
 subgroup = "ts-prod-electronics-assemblers"
 place(subgroup, "electronics-machine-1", "a")
 place(subgroup, "electronics-machine-2", "b")
@@ -460,3 +467,7 @@ subgroup = "ts-prod-mini-beacons"
 place(subgroup, "mini-beacon-1", "a")
 place(subgroup, "mini-beacon-2", "b")
 place(subgroup, "mini-beacon-3", "c")
+
+subgroup = "ts-prod-rocket-silos"
+place(subgroup, "rocket-silo", "a")
+place(subgroup, "rsc-excavation-site", "b")

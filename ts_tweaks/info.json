@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.51",
+	"version": "0.0.52",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -48,6 +48,8 @@
 		"? deadlock-integrations >= 2.0.11",
 		"? deadlock-stacking-crating-bobs >= 0.7.6",
 		"? Energy_Efficient_Beacons >= 0.17.3",
+		"? ERPTbaAB >= 0.1.13",
+		"? expanded-rocket-payloads >= 0.17.2",
 		"? extendedangels >= 0.2.3",
 		"? Factorissimo2 >= 2.3.7",
 		"? Flow Control >= 3.0.5",
