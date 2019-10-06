@@ -11,6 +11,9 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-splitters", order = "ac" },
 	{ type = "item-subgroup", group = g, name = "ts-log-miniloaders", order = "ad" },
 	{ type = "item-subgroup", group = g, name = "ts-log-filter-miniloaders", order = "ae" },
+	{ type = "item-subgroup", group = g, name = "ts-log-loaders", order = "af" },
+	{ type = "item-subgroup", group = g, name = "ts-log-beltboxes", order = "ag" },
+	{ type = "item-subgroup", group = g, name = "ts-log-crating", order = "ah" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-inserters", order = "ba" },
 	{ type = "item-subgroup", group = g, name = "ts-log-filter-inserters", order = "bb" },
@@ -115,6 +118,31 @@ place(subgroup, "fast-filter-miniloader", "d")
 place(subgroup, "express-filter-miniloader", "d")
 place(subgroup, "turbo-filter-miniloader", "e")
 place(subgroup, "ultimate-filter-miniloader", "f")
+
+-- Note:  	Deadlock loaders use the order value "deadlock-loader" for snapping magic.  
+-- 			Hence the unusual orders below.
+
+subgroup = "ts-log-loaders"
+place(subgroup, "basic-transport-belt-loader", "a-deadlock-loader")
+place(subgroup, "transport-belt-loader", "b-deadlock-loader")
+place(subgroup, "fast-transport-belt-loader", "c-deadlock-loader")
+place(subgroup, "express-transport-belt-loader", "d-deadlock-loader")
+place(subgroup, "turbo-transport-belt-loader", "e-deadlock-loader")
+place(subgroup, "ultimate-transport-belt-loader", "f-deadlock-loader")
+
+subgroup = "ts-log-beltboxes"
+place(subgroup, "basic-transport-belt-beltbox", "a")
+place(subgroup, "transport-belt-beltbox", "b")
+place(subgroup, "fast-transport-belt-beltbox", "c")
+place(subgroup, "express-transport-belt-beltbox", "d")
+place(subgroup, "turbo-transport-belt-beltbox", "e")
+place(subgroup, "ultimate-transport-belt-beltbox", "f")
+
+subgroup = "ts-log-crating"
+place(subgroup, "deadlock-crating-machine-1", "a")
+place(subgroup, "deadlock-crating-machine-2", "b")
+place(subgroup, "deadlock-crating-machine-3", "c")
+
 
 -- Note:  Some of Bob's Logistics inserter names seem to be out of order, but work this way.
 

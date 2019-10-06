@@ -1,6 +1,7 @@
 local TSL = require("data-util")
 
 local place = TSL.place
+local place_all = TSL.place_all
 
 local g = "ts-tab-misc"
 
@@ -9,6 +10,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-misc-hidden-stuffs", order = "a" },
 	{ type = "item-subgroup", group = g, name = "ts-misc-lamps", order = "b" },
 	{ type = "item-subgroup", group = g, name = "ts-misc-redundant-valves", order = "c" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-deadlock-crating", order = "d" },
 })
 
 
@@ -38,3 +40,8 @@ place(subgroup, "bob-topup-valve", "c")
 place(subgroup, "check-valve", "d")
 place(subgroup, "overflow-valve", "e")
 place(subgroup, "underflow-valve", "f")
+
+subgroup = "ts-misc-deadlock-crating"
+place_all(subgroup, "^deadlock%-crate", "a")
+place_all(subgroup, "^deadlock%-packrecipe", "b")
+place_all(subgroup, "^deadlock%-unpackrecipe", "c")

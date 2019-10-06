@@ -164,6 +164,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-rocket-payloads", order = "p" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-bio", order = "q" },
+	
+	{ type = "item-subgroup", group = g, name = "stacks-ts-tab-materials", order = "zzzz_trying_to_fix_deadlock" },
 })
 
 
