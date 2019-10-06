@@ -25,6 +25,13 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-bio", order = "ci" },
 	{ type = "item-subgroup", group = g, name = "ts-research-science-pack-space", order = "cj" },
 	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-bob", order = "ck" },
+
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-msp-1-5", order = "da" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-msp-6-10", order = "db" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-msp-11-15", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-msp-16-20", order = "dd" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-msp-21-25", order = "de" },
+	{ type = "item-subgroup", group = g, name = "ts-research-science-packs-msp-26-30", order = "df" },
 })
 
 
@@ -144,11 +151,83 @@ subgroup = "ts-research-science-pack-space"
 place(subgroup, "space-science-pack", "a")
 
 subgroup = "ts-research-science-packs-bob"
-place(subgroup, "science-pack-gold", "b")
-place(subgroup, "alien-science-pack", "c")
-place(subgroup, "alien-science-pack-blue", "d")
-place(subgroup, "alien-science-pack-orange", "e")
-place(subgroup, "alien-science-pack-purple", "f")
-place(subgroup, "alien-science-pack-yellow", "g")
-place(subgroup, "alien-science-pack-green", "h")
-place(subgroup, "alien-science-pack-red", "i")
+place(subgroup, "science-pack-gold", "a")
+place(subgroup, "alien-science-pack", "b")
+place(subgroup, "alien-science-pack-blue", "c")
+place(subgroup, "alien-science-pack-orange", "d")
+place(subgroup, "alien-science-pack-purple", "e")
+place(subgroup, "alien-science-pack-yellow", "f")
+place(subgroup, "alien-science-pack-green", "g")
+place(subgroup, "alien-science-pack-red", "h")
+
+subgroup = "ts-research-science-packs-msp-1-5"
+place(subgroup, "more-science-pack-1", "a")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-1%-", "a-rx")
+place(subgroup, "more-science-pack-2", "b")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-2%-", "b-rx")
+place(subgroup, "more-science-pack-3", "c")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-3%-", "c-rx")
+place(subgroup, "more-science-pack-4", "d")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-4%-", "d-rx")
+place(subgroup, "more-science-pack-5", "e")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-5%-", "e-rx")
+
+subgroup = "ts-research-science-packs-msp-6-10"
+place(subgroup, "more-science-pack-6", "a")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-6%-", "a-rx")
+place(subgroup, "more-science-pack-7", "b")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-7%-", "b-rx")
+place(subgroup, "more-science-pack-8", "c")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-8%-", "c-rx")
+place(subgroup, "more-science-pack-9", "d")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-9%-", "d-rx")
+place(subgroup, "more-science-pack-10", "e")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-10%-", "e-rx")
+
+subgroup = "ts-research-science-packs-msp-11-15"
+place(subgroup, "more-science-pack-11", "a")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-11%-", "a-rx")
+place(subgroup, "more-science-pack-12", "b")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-12%-", "b-rx")
+place(subgroup, "more-science-pack-13", "c")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-13%-", "c-rx")
+place(subgroup, "more-science-pack-14", "d")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-14%-", "d-rx")
+place(subgroup, "more-science-pack-15", "e")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-15%-", "e-rx")
+
+subgroup = "ts-research-science-packs-msp-16-20"
+place(subgroup, "more-science-pack-16", "a")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-16%-", "a-rx")
+place(subgroup, "more-science-pack-17", "b")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-17%-", "b-rx")
+place(subgroup, "more-science-pack-18", "c")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-18%-", "c-rx")
+place(subgroup, "more-science-pack-19", "d")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-19%-", "d-rx")
+place(subgroup, "more-science-pack-20", "e")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-20%-", "e-rx")
+
+subgroup = "ts-research-science-packs-msp-21-25"
+place(subgroup, "more-science-pack-21", "a")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-21%-", "a-rx")
+place(subgroup, "more-science-pack-22", "b")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-22%-", "b-rx")
+place(subgroup, "more-science-pack-23", "c")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-23%-", "c-rx")
+place(subgroup, "more-science-pack-24", "d")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-24%-", "d-rx")
+place(subgroup, "more-science-pack-25", "e")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-25%-", "e-rx")
+
+subgroup = "ts-research-science-packs-msp-26-30"
+place(subgroup, "more-science-pack-26", "a")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-26%-", "a-rx")
+place(subgroup, "more-science-pack-27", "b")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-27%-", "b-rx")
+place(subgroup, "more-science-pack-28", "c")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-28%-", "c-rx")
+place(subgroup, "more-science-pack-29", "d")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-29%-", "d-rx")
+place(subgroup, "more-science-pack-30", "e")
+place_all(subgroup, "^omnirec%-more%-science%-pack%-30%-", "e-rx")
