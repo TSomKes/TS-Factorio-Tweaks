@@ -17,7 +17,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-misc-barrel-fill", order = "db" },
 	{ type = "item-subgroup", group = g, name = "ts-misc-barrel-empty", order = "dc" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-misc-deadlock-crating", order = "e" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-deadlock-stacking", order = "e1" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-deadlock-crating", order = "e2" },
 })
 
 
@@ -57,6 +58,11 @@ place_all(subgroup, "^fill%-.+%-barrel$", "a")
 
 subgroup = "ts-misc-barrel-empty"
 place_all(subgroup, "^empty%-.+%-barrel$", "a")
+
+subgroup = "ts-misc-deadlock-stacking"
+place_all(subgroup, "^deadlock%-stack%-", "a")
+place_all(subgroup, "^deadlock%-stacks%-stack%-", "b")
+place_all(subgroup, "^deadlock%-stacks%-unstack%-", "c")
 
 subgroup = "ts-misc-deadlock-crating"
 place_all(subgroup, "^deadlock%-crate", "a")
