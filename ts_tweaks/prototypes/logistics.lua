@@ -453,9 +453,10 @@ place(subgroup, "programmable-speaker", "g")
 place(subgroup, "spacex-combinator", "h")
 
 subgroup = "ts-log-bots-angels"
-place(subgroup, "cargo-robot", "a")
-place(subgroup, "cargo-robot-2", "b")
-place(subgroup, "angels-construction-robot", "c")
+place(subgroup, "Construction Drone", "a")
+place(subgroup, "cargo-robot", "b")
+place(subgroup, "cargo-robot-2", "c")
+place(subgroup, "angels-construction-robot", "d")
 
 subgroup = "ts-log-bots-angels-roboport"
 place(subgroup, "cargo-hub", "a")
