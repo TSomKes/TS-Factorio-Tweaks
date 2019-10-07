@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.53",
+	"version": "0.0.54",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -58,6 +58,7 @@
 		"? Manganese_Chrome_Sorting >= 0.17.2",
 		"? miniloader >= 1.8.3",
 		"? mini-machines >= 6.2.10",
+		"? MomoTweak >= 0.17.28",
 		"? MoreSciencePacks >= 0.1.12",
 		"? Nanobots >= 3.1.0",
 		"? Orbital Ion Cannon >= 1.7.2",
