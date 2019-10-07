@@ -313,6 +313,7 @@ place(subgroup, "assembling-machine-3", "e")
 place(subgroup, "assembling-machine-4", "f")
 place(subgroup, "assembling-machine-5", "g")
 place(subgroup, "assembling-machine-6", "h")
+place(subgroup, "assembling-machine-7", "i")
 
 subgroup = "ts-prod-mini-assemblers"
 place(subgroup, "mini-assembler-1", "a")
@@ -330,6 +331,7 @@ subgroup = "ts-prod-electronics-assemblers"
 place(subgroup, "electronics-machine-1", "a")
 place(subgroup, "electronics-machine-2", "b")
 place(subgroup, "electronics-machine-3", "c")
+place(subgroup, "electronics-machine-4", "d")
 
 subgroup = "ts-prod-chemical-plants"
 place(subgroup, "chemical-plant", "a")

@@ -142,7 +142,8 @@ subgroup = "ts-log-crating"
 place(subgroup, "deadlock-crating-machine-1", "a")
 place(subgroup, "deadlock-crating-machine-2", "b")
 place(subgroup, "deadlock-crating-machine-3", "c")
-
+place(subgroup, "deadlock-crating-machine-4", "d")
+place(subgroup, "deadlock-crating-machine-5", "e")
 
 -- Note:  Some of Bob's Logistics inserter names seem to be out of order, but work this way.
 

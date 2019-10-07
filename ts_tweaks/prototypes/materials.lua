@@ -60,9 +60,11 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-platinum", order = "cgb" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-plutonium", order = "cgc" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-silicon", order = "cgd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-silicon-nitride", order = "cge" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-silver", order = "cha" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-solder", order = "chb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-steel", order = "chc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-sodium-lead", order = "chb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-solder", order = "chc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-steel", order = "chd" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-thorium", order = "cia" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-tin", order = "cib" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-titanium", order = "cic" },
@@ -120,7 +122,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-green2", order = "jm" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity1", order = "jn" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-module-raw-productivity2", order = "jo" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-module-god", order = "jp" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-module-rich-god", order = "jp" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-solid-fuel", order = "ka" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-solid-fuel-enriched", order = "kb" },
@@ -227,6 +229,11 @@ place(subgroup, "liquid-rubber-2", "a-r2")
 place(subgroup, "rubber", "b")
 place(subgroup, "bob-rubber", "b-r1")
 place(subgroup, "solid-rubber", "b-r2")
+place(subgroup, "angels-wire-coil-insulated", "c")
+place(subgroup, "angels-wire-coil-insulated-casting", "c-r1")
+place(subgroup, "angels-wire-coil-insulated-fast", "c-r2")
+place(subgroup, "insulated-cable", "d")
+place(subgroup, "angels-wire-coil-insulated-converting", "d-r1")
 
 subgroup = "ts-mat-plastic"
 place(subgroup, "liquid-plastic", "a")
@@ -623,6 +630,8 @@ place(subgroup, "copper-tungsten-smelting-1", "a-r1")
 place(subgroup, "copper-tungsten-smelting-2", "a-r2")
 place(subgroup, "copper-tungsten-alloy", "b")
 place(subgroup, "molten-copper-tungsten-smelting-1", "b-r1")
+place(subgroup, "copper-tungsten-casting-1", "b-r2")
+place(subgroup, "copper-tungsten-casting-2", "b-r3")
 
 subgroup = "ts-mat-fluorite"
 place(subgroup, "fluorite-ore", "a")
@@ -850,12 +859,28 @@ place(subgroup, "solid-tetrasodium-pyrophosphate", "f")
 subgroup = "ts-mat-platinum"
 place(subgroup, "platinum-ore", "a")
 place(subgroup, "platinum-pure-processing", "a-r1")
+place(subgroup, "eab-platinum-pure-processing", "a-r2")
 place(subgroup, "processed-platinum", "b")
+place(subgroup, "platinum-ore-processing", "b-r1")
 place(subgroup, "pellet-platinum", "c")
-place(subgroup, "ingot-platinum", "d")
-place(subgroup, "angels-roll-platinum", "e")
-place(subgroup, "angels-plate-platinum", "f")
-place(subgroup, "angels-wire-coil-platinum", "g")
+place(subgroup, "platinum-processed-processing", "c-r1")
+place(subgroup, "liquid-hexachloroplatinic-acid", "d")
+place(subgroup, "pellet-platinum-smelting", "d-r1")
+place(subgroup, "solid-ammonium-chloroplatinate", "e")
+place(subgroup, "liquid-hexachloroplatinic-acid-smelting", "e-r1")
+place(subgroup, "ingot-platinum", "f")
+place(subgroup, "platinum-ore-smelting", "f-r1")
+place(subgroup, "processed-platinum-smelting", "f-r2")
+place(subgroup, "solid-ammonium-chloroplatinate-smelting", "f-r3")
+place(subgroup, "liquid-molten-platinum", "g")
+place(subgroup, "molten-platinum-smelting", "g-r1")
+place(subgroup, "angels-roll-platinum", "h")
+place(subgroup, "angels-plate-platinum", "i")
+place(subgroup, "angels-wire-coil-platinum", "j")
+place(subgroup, "angels-wire-coil-platinum-casting", "j-r1")
+place(subgroup, "angels-wire-coil-platinum-casting-fast", "j-r2")
+place(subgroup, "angels-wire-platinum", "k")
+place(subgroup, "angels-wire-coil-platinum-converting", "k-r1")
 
 subgroup = "ts-mat-plutonium"
 place(subgroup, "plutonium-239", "a")
@@ -878,19 +903,28 @@ place(subgroup, "liquid-trichlorosilane-smelting", "f-r2")
 place(subgroup, "gas-silane-smelting", "f-r3")
 place(subgroup, "liquid-molten-silicon", "g")
 place(subgroup, "molten-silicon-smelting", "g-r1")
-place(subgroup, "angels-mono-silicon-seed", "h")
-place(subgroup, "angels-quartz-crucible", "i")
-place(subgroup, "angels-mono-silicon", "j")
-place(subgroup, "angels-mono-silicon-1", "j-r1")
-place(subgroup, "angels-mono-silicon-2", "j-r2")
-place(subgroup, "silicon-powder", "k")
-place(subgroup, "silicon-carbide", "l")
-place(subgroup, "silicon-nitride", "m")
+place(subgroup, "powder-silicon", "h")
+place(subgroup, "angels-mono-silicon-seed", "i")
+place(subgroup, "angels-quartz-crucible", "j")
+place(subgroup, "angels-mono-silicon", "k")
+place(subgroup, "angels-mono-silicon-1", "k-r1")
+place(subgroup, "angels-mono-silicon-2", "k-r2")
+place(subgroup, "silicon-powder", "l")
+place(subgroup, "silicon-carbide", "m")
 place(subgroup, "silicon-wafer", "n")
 place(subgroup, "silicon-plate", "o")
 place(subgroup, "bob-silicon-plate", "o-r1")
 place(subgroup, "silicon", "p")
 place(subgroup, "momo-silicon-plate", "p-r1")
+
+subgroup = "ts-mat-silicon-nitride"
+place(subgroup, "gas-silicon-tetrachloride", "a")
+place(subgroup, "powder-silicon-smelting-2", "a-r1")
+place(subgroup, "silicon-nitride", "b")
+place(subgroup, "powder-silicon-smelting-1", "b-r1")
+place(subgroup, "gas-silicon-tetrachloride-smelting", "b-r2")
+place(subgroup, "plate-silicon-nitride", "c")
+place(subgroup, "silicon-nitride-casting", "c-r1")
 
 subgroup = "ts-mat-silver"
 place(subgroup, "silver-ore", "a")
@@ -920,6 +954,10 @@ place(subgroup, "angels-wire-coil-silver-casting-fast", "j-r2")
 place(subgroup, "angels-wire-silver", "k")
 place(subgroup, "angels-wire-coil-silver-converting", "k-r1")
 place(subgroup, "momo-angels-wire-silver", "k-r2")
+
+subgroup = "ts-mat-sodium-lead"
+place(subgroup, "ingot-sodium-lead-alloy", "a")
+place(subgroup, "sodium-lead-alloy", "a-r1")
 
 subgroup = "ts-mat-solder"
 place(subgroup, "liquid-molten-solder", "a")
@@ -1054,9 +1092,15 @@ place(subgroup, "powder-tungsten-carbide", "b")
 place(subgroup, "tungsten-carbide-smelting-1", "b-r1")
 place(subgroup, "tungsten-carbide-smelting-2", "b-r2")
 place(subgroup, "tungsten-carbide-smelting-3", "b-r3")
-place(subgroup, "tungsten-carbide", "c")
-place(subgroup, "tungsten-carbide-2", "c-r1")
-place(subgroup, "angels-plate-tungsten-carbide", "c-r2")
+place(subgroup, "powder-tungsten-carbide-smelting-1", "b-r4")
+place(subgroup, "powder-tungsten-carbide-smelting-2", "b-r5")
+place(subgroup, "casting-powder-tungsten-carbide", "c")
+place(subgroup, "casting-powder-tungsten-carbide-1", "c-r1")
+place(subgroup, "casting-powder-tungsten-carbide-2", "c-r2")
+place(subgroup, "tungsten-carbide", "d")
+place(subgroup, "tungsten-carbide-2", "d-r1")
+place(subgroup, "angels-plate-tungsten-carbide", "d-r2")
+place(subgroup, "tungsten-carbide-casting", "d-r3")
 
 subgroup = "ts-mat-uranium"
 place(subgroup, "uranium-ore", "a")
@@ -1286,11 +1330,10 @@ place(subgroup, "lithium-ion-battery", "b")
 place(subgroup, "silver-zinc-battery", "c")
 
 subgroup = "ts-mat-circuit-components"
-place(subgroup, "insulated-cable", "a")
-place(subgroup, "basic-electronic-components", "c")
-place(subgroup, "electronic-components", "d")
-place(subgroup, "intergrated-electronics", "e")		-- sic
-place(subgroup, "processing-electronics", "f")
+place(subgroup, "basic-electronic-components", "a")
+place(subgroup, "electronic-components", "b")
+place(subgroup, "intergrated-electronics", "c")		-- sic
+place(subgroup, "processing-electronics", "d")
 
 subgroup = "ts-mat-circuit-boards"
 place(subgroup, "wooden-board", "a")
@@ -1301,6 +1344,7 @@ place(subgroup, "basic-circuit-board", "d")
 place(subgroup, "circuit-board", "e")
 place(subgroup, "superior-circuit-board", "f")
 place(subgroup, "multi-layer-circuit-board", "g")
+place(subgroup, "platin-trace-circuit-board", "h")
 
 subgroup = "ts-mat-circuits"
 place(subgroup, "cp-electronic-circuit-board", "a")
@@ -1314,6 +1358,7 @@ place_all(subgroup, "^omnirec%-advanced%-circuit%-", "f-rx")
 place(subgroup, "processing-unit", "g")
 place_all(subgroup, "^omnirec%-processing%-unit%-", "g-rx")
 place(subgroup, "advanced-processing-unit", "h")
+place(subgroup, "platin-processing-unit", "i")
 
 subgroup = "ts-mat-bots-frames"
 place(subgroup, "flying-robot-frame", "a")
@@ -1514,12 +1559,15 @@ place(subgroup, "raw-productivity-module-6-combine", "f")
 place(subgroup, "raw-productivity-module-7-combine", "g")
 place(subgroup, "raw-productivity-module-8-combine", "h")
 
-subgroup = "ts-mat-module-god"
-place(subgroup, "god-module-1", "a")
-place(subgroup, "god-module-2", "b")
-place(subgroup, "god-module-3", "c")
-place(subgroup, "god-module-4", "d")
-place(subgroup, "god-module-5", "e")
+subgroup = "ts-mat-module-rich-god"
+place(subgroup, "rich-productivity-module-1", "a")
+place(subgroup, "rich-productivity-module-2", "b")
+place(subgroup, "rich-productivity-module-3", "c")
+place(subgroup, "god-module-1", "d")
+place(subgroup, "god-module-2", "e")
+place(subgroup, "god-module-3", "f")
+place(subgroup, "god-module-4", "g")
+place(subgroup, "god-module-5", "h")
 
 subgroup = "ts-mat-solid-fuel"
 place(subgroup, "solid-fuel", "a")
@@ -1537,12 +1585,13 @@ subgroup = "ts-mat-solid-fuel-enriched"
 place(subgroup, "enriched-fuel", "a")
 place(subgroup, "enriched-fuel-from-liquid-fuel", "a-r1")
 place(subgroup, "enriched-fuel-from-hydrazine", "a-r2")
-place(subgroup, "rocket-oxidizer-capsule", "b")
-place(subgroup, "rocket-fuel-capsule", "c")
-place(subgroup, "rocket-fuel", "d")
-place(subgroup, "rocket-booster", "d")
-place(subgroup, "rocket-booster-1", "d-r1")
-place(subgroup, "rocket-booster-2", "d-r2")
+place(subgroup, "high-octane-enriched-fuel", "b")
+place(subgroup, "rocket-oxidizer-capsule", "c")
+place(subgroup, "rocket-fuel-capsule", "d")
+place(subgroup, "rocket-fuel", "e")
+place(subgroup, "rocket-booster", "f")
+place(subgroup, "rocket-booster-1", "f-r1")
+place(subgroup, "rocket-booster-2", "f-r2")
 
 subgroup = "ts-mat-fuel-nuclear"
 place(subgroup, "nuclear-fuel", "a")
@@ -1675,6 +1724,7 @@ place(subgroup, "gas-chlor-methane", "db")
 place(subgroup, "liquid-chlorobutadiene", "dc")
 place(subgroup, "vinyl-acetlyene-chlorination", "dc-r1")	-- sic
 place(subgroup, "dichlorobutene-dechlorination", "dc-r2")
+place(subgroup, "gas-chloroethane", "dd")
 place(subgroup, "liquid-cupric-chloride-solution", "ea")
 place(subgroup, "liquid-dichlorobutene", "eb")
 place(subgroup, "butadiene-chlorination", "eb-r1")
@@ -1742,12 +1792,13 @@ place(subgroup, "angels-sulfur-scrubber", "ra")		-- sulfuric waste water
 place(subgroup, "gas-synthesis", "rb")
 place(subgroup, "gas-synthesis-reforming", "rb-r1")
 place(subgroup, "steam-cracking-gas-residual", "rb-r2")
-place(subgroup, "liquid-toluene-from-naphtha", "rc")
-place(subgroup, "tungstic-acid", "sa")
-place(subgroup, "gas-urea", "sb")
-place(subgroup, "gas-vinyl-acetylene", "sc")
-place(subgroup, "acetylene-diomerisation", "sc-r1")
-place(subgroup, "vinyl-chloride-synthesis", "ta")
+place(subgroup, "fluid-tetraethyllead", "rc")
+place(subgroup, "liquid-toluene-from-naphtha", "sa")
+place(subgroup, "tungstic-acid", "sb")
+place(subgroup, "gas-urea", "sc")
+place(subgroup, "gas-vinyl-acetylene", "ta")
+place(subgroup, "acetylene-diomerisation", "ta-r1")
+place(subgroup, "vinyl-chloride-synthesis", "tb")
 
 subgroup = "ts-mat-chemicals-fluid-water"
 place(subgroup, "water-mineralized", "aa")

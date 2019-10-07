@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.55
+Date: 2019-10-07
+  Features:
+    - Added support for Deadlock's Crating Machine Integrations for Bob's mods - Continuation
+    - Added support for Expanded AngelBob
+    - Added support for More Petrochem Hell
+    - Added support for Angel's Smelting Complete
+    - Added support for Angel's Addons - Insulated Cable Coil Fix
+---------------------------------------------------------------------------------------------------
 Version: 0.0.54
 Date: 2019-10-06
   Features:
