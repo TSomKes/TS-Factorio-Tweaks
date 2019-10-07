@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.58",
+	"version": "0.0.59",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -73,7 +73,8 @@
 		"? Repair_Turret >= 0.2.0",
 		"? Rocket-Silo-Construction >= 0.17.13",
 		"? ScienceCostTweakerM >= 0.17.10",
-		"? SpaceMod >= 0.4.4"
+		"? SpaceMod >= 0.4.4",
+		"? TinyStart >= 0.17.3"
 	],
 	"factorio_version": "0.17"
 }
