@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.56",
+	"version": "0.0.57",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -57,6 +57,7 @@
 		"? extendedangels >= 0.2.3",
 		"? Factorissimo2 >= 2.3.7",
 		"? Flow Control >= 3.0.5",
+		"? Hexy_AngelBob_Tweaks >= 0.17.11",
 		"? KS_Power >= 0.3.5",
 		"? LogisticTrainNetwork >= 1.11.1",
 		"? Manganese_Chrome_Sorting >= 0.17.2",

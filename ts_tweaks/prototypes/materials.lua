@@ -769,8 +769,9 @@ place(subgroup, "angels-titanium-concrete-brick", "k-r1")
 
 subgroup = "ts-mat-lithium"
 place(subgroup, "lithium-chloride", "a")
-place(subgroup, "lithium-cobalt-oxide", "b")
-place(subgroup, "lithium", "c")
+place(subgroup, "lithium-perchlorate", "b")
+place(subgroup, "lithium-cobalt-oxide", "c")
+place(subgroup, "lithium", "d")
 
 subgroup = "ts-mat-magnesium"
 place(subgroup, "processed-magnesium", "a")
