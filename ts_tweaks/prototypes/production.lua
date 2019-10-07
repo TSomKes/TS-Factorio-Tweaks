@@ -56,14 +56,16 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-prod-botany", order = "f" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-accumulators", order = "ga" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-solar-wind", order = "gb" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-generators", order = "gc" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-boilers", order = "gd" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-steam-engines", order = "ge" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-heat", order = "gf" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-heat-reactor", order = "gg" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "gh" },
-	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "gi" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-accumulators-yuoki", order = "gb" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-solar", order = "gc" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-solar-yuoki", order = "gd" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-generators", order = "ge" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-boilers", order = "gf" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-steam-engines", order = "gg" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat", order = "gh" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat-reactor", order = "gi" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-heat-exhchangers-turbines", order = "gj" },
+	{ type = "item-subgroup", group = g, name = "ts-prod-fuel", order = "gk" },
 
 	{ type = "item-subgroup", group = g, name = "ts-prod-beacons", order = "ha" },
 	{ type = "item-subgroup", group = g, name = "ts-prod-mini-beacons", order = "hb" },
@@ -389,7 +391,25 @@ place(subgroup, "slow-accumulator-3", "h")
 place(subgroup, "fast-accumulator-3", "i")
 place(subgroup, "large-accumulator-3", "j")
 
-subgroup = "ts-prod-solar-wind"
+subgroup = "ts-prod-accumulators-yuoki"
+place(subgroup, "y-accumulator-m", "a")
+place(subgroup, "y-accumulator-m-recipe", "a-r1")
+place(subgroup, "y-accumulator-m-t2", "b")
+place(subgroup, "y-accumulator-mt2-recipe", "b-r1")
+place(subgroup, "y-accumulator-b", "c")
+place(subgroup, "y-accumulator-b-recipe", "c-r1")
+place(subgroup, "y-accumulator-b-t2", "d")
+place(subgroup, "y-accumulator-bt2-recipe", "d-r1")
+place(subgroup, "y-accumulator-b-tx", "e")
+place(subgroup, "y-accumulator-btx-recipe", "e-r1")
+place(subgroup, "y-accumulator-crystal-m", "f")
+place(subgroup, "y-accumulator-crystal-m-recipe", "f-r1")
+place(subgroup, "y-ups-flywheel-b", "g")
+place(subgroup, "y-ups-flywheel-b-recipe", "g-r1")
+place(subgroup, "y_compensator_25", "h")
+place(subgroup, "y_compensator_25_recipe", "h-r1")
+
+subgroup = "ts-prod-solar"
 place(subgroup, "wind-turbine-2", "a")
 place(subgroup, "solar-panel-small", "b")
 place(subgroup, "solar-panel", "c")
@@ -400,6 +420,14 @@ place(subgroup, "solar-panel-large-2", "g")
 place(subgroup, "solar-panel-small-3", "h")
 place(subgroup, "solar-panel-3", "i")
 place(subgroup, "solar-panel-large-3", "j")
+
+subgroup = "ts-prod-solar-yuoki"
+place(subgroup, "y-stirling-solar-dish", "a")
+place(subgroup, "y-solar-dish-recipe", "a-r1")
+place(subgroup, "y_alien_solar", "b")
+place(subgroup, "y_alien_solar_recipe", "b-r1")
+place(subgroup, "y_alien_solar2", "c")
+place(subgroup, "y_alien_solar2_recipe", "c-r1")
 
 subgroup = "ts-prod-generators"
 place(subgroup, "burner-generator", "a")

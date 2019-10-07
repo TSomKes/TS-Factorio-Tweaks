@@ -8,7 +8,9 @@ local g = "ts-tab-materials"
 
 data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-wood", order = "aa" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-wood-yuoki", order = "aay" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-coal", order = "ab" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-coal-yuoki", order = "aby" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-stone", order = "ac" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-sand", order = "ad" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-resin", order = "ae" },
@@ -33,6 +35,8 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-elionagate", order = "bo" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-alluvium", order = "bp" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-oil-sand", order = "bq" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-N4", order = "br" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-F7", order = "bs" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-aluminium", order = "caa" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-brass", order = "cab" },
@@ -95,9 +99,10 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-mat-containers", order = "gf" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-batteries", order = "ha" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-components", order = "ha" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-boards", order = "hb" },
-	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "hc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-batteries-yuoki", order = "hb" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-components", order = "hc" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuit-boards", order = "hd" },
+	{ type = "item-subgroup", group = g, name = "ts-mat-circuits", order = "he" },
 
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-frames", order = "ia" },
 	{ type = "item-subgroup", group = g, name = "ts-mat-bots-logistic", order = "ib" },
@@ -176,7 +181,14 @@ local subgroup
 
 subgroup = "ts-mat-wood"
 place(subgroup, "wood", "a")
+place(subgroup, "y_unlimited_wood", "a-r1")
 place(subgroup, "synthetic-wood", "b")
+
+subgroup = "ts-mat-wood-yuoki"
+place(subgroup, "y-wooden-brikett", "a")
+place(subgroup, "y-wooden-brikett-recipe", "a-r1")
+place(subgroup, "y-wooden-brikett-packed", "b")
+place(subgroup, "y-wooden-brikett-packed-recipe", "b-r1")
 
 subgroup = "ts-mat-coal"
 place(subgroup, "coal", "a")
@@ -190,6 +202,14 @@ place(subgroup, "carbon", "e")
 place(subgroup, "solid-carbon", "f")
 place(subgroup, "coke-purification", "f-r1")
 place(subgroup, "coke-purification-2", "f-r2")
+
+subgroup = "ts-mat-coal-yuoki"
+place(subgroup, "y-coal-dust", "a")
+place(subgroup, "y-coaldust-recipe", "a-r1")
+place(subgroup, "y-coal-brikett", "b")
+place(subgroup, "y-coal-brikett-recipe", "b-r1")
+place(subgroup, "y-coal-stack", "c")
+place(subgroup, "y-coal-stack-recipe", "c-r1")
 
 subgroup = "ts-mat-stone"
 place(subgroup, "stone", "a")
@@ -473,6 +493,14 @@ place(subgroup, "clowns-resource1-sluicing-advanced", "c")
 subgroup = "ts-mat-oil-sand"
 place(subgroup, "clowns-resource2", "a")
 place(subgroup, "clowns-resource2-liquification", "b")
+
+subgroup = "ts-mat-N4"
+place(subgroup, "y-res1", "a")
+place(subgroup, "angelsore-chunk-mix-yi1-processing", "a-r1")
+
+subgroup = "ts-mat-F7"
+place(subgroup, "y-res2", "a")
+place(subgroup, "angelsore-chunk-mix-yi2-processing", "a-r1")
 
 subgroup = "ts-mat-aluminium"
 place(subgroup, "bauxite-ore", "a")
@@ -1322,9 +1350,21 @@ place(subgroup, "empty-canister", "c")
 
 subgroup = "ts-mat-batteries"
 place(subgroup, "battery", "a")
-place_all(subgroup, "^omnirec%-battery%-", "a-rx")
+place_all(subgroup, "^omnirec%-battery%-", "a-r1x")
+place(subgroup, "y-battery-rip1-recipe", "a-r2")
+place_all(subgroup, "^omnirec%-y%-battery%-rip1%-recipe%-", "a-r2x")
 place(subgroup, "lithium-ion-battery", "b")
 place(subgroup, "silver-zinc-battery", "c")
+
+subgroup = "ts-mat-batteries-yuoki"
+place(subgroup, "y-battery-single-use1", "a")
+place(subgroup, "y-battery-singleuse1-recipe", "a-r1")
+place(subgroup, "y-battery-single-use2", "b")
+place(subgroup, "y-battery-singleuse2-recipe", "b-r1")
+place(subgroup, "y-battery-single-use3", "c")
+place(subgroup, "y-battery-single-use3-recipe", "c-r1")
+place(subgroup, "y_blocked_capa", "d")
+place(subgroup, "y_blocked_capa_recipe", "d-r1")
 
 subgroup = "ts-mat-circuit-components"
 place(subgroup, "basic-electronic-components", "a")
@@ -1577,6 +1617,7 @@ place(subgroup, "solid-fuel-naphtha", "a-r6")
 place(subgroup, "solid-fuel-fuel-oil", "a-r7")
 place(subgroup, "solid-fuel-synthesis", "a-r8")
 place(subgroup, "solid-fuel-hydrazine", "a-r9")
+place(subgroup, "y_mud2solidfuel_recipe", "a-r10")
 
 subgroup = "ts-mat-solid-fuel-enriched"
 place(subgroup, "enriched-fuel", "a")
@@ -1586,6 +1627,7 @@ place(subgroup, "high-octane-enriched-fuel", "b")
 place(subgroup, "rocket-oxidizer-capsule", "c")
 place(subgroup, "rocket-fuel-capsule", "d")
 place(subgroup, "rocket-fuel", "e")
+place(subgroup, "y_mixedfuel2rocketfuel_recipe", "e-r1")
 place(subgroup, "rocket-booster", "f")
 place(subgroup, "rocket-booster-1", "f-r1")
 place(subgroup, "rocket-booster-2", "f-r2")
@@ -1825,8 +1867,9 @@ place(subgroup, "water-separation-2", "ae")
 place(subgroup, "water-gas-shift-1", "ba")
 place(subgroup, "water-gas-shift-2", "bb")
 place(subgroup, "yellow-waste-water-purification", "bc")
-place(subgroup, "red-waste-water-purification", "bd")
-place(subgroup, "green-waste-water-purification", "be")
+place(subgroup, "yellow-waste-water-purification-yi", "bd")
+place(subgroup, "red-waste-water-purification", "be")
+place(subgroup, "green-waste-water-purification", "bf")
 place(subgroup, "greenyellow-waste-water-purification", "ca")
 place(subgroup, "heavy-water-electrolysis", "cb")
 place(subgroup, "lithium-water-electrolysis", "cc")
@@ -1864,6 +1907,7 @@ place(subgroup, "nitrous-oxide-synthesis-1", "lc")
 place(subgroup, "catalyst-steam-cracking-acetylene", "ma")
 place(subgroup, "catalyst-steam-cracking-butane-2", "mb")
 place(subgroup, "methyl-methacrylate-synthesis", "mc")
+place(subgroup, "slag-processing-yi", "na")
 
 subgroup = "ts-mat-slag-slurry1"
 place(subgroup, "crystal-slurry", "a")

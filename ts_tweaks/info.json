@@ -1,6 +1,6 @@
 {
 	"name": "ts_tweaks",
-	"version": "0.0.61",
+	"version": "0.0.62",
 	"title": "TS Tweaks",
 	"author": "TSomKes",
 	"description": "Arbitrary, contentious UI tweaks.  Rearrange crafting item locations to fit my own preferences.",
@@ -75,7 +75,10 @@
 		"? Rocket-Silo-Construction >= 0.17.13",
 		"? ScienceCostTweakerM >= 0.17.10",
 		"? SpaceMod >= 0.4.4",
-		"? TinyStart >= 0.17.3"
+		"? TinyStart >= 0.17.3",
+		"? yi_engines >= 0.7.35",
+		"? Yi_Tech_Tree >= 0.17.0",
+		"? Yuoki >= 0.7.83"
 	],
 	"factorio_version": "0.17"
 }
