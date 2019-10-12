@@ -9,7 +9,8 @@ local g = "ts-tab-misc"
 data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-misc-hidden-stuffs", order = "a" },
 	
-	{ type = "item-subgroup", group = g, name = "ts-misc-lamps", order = "b" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-lamps", order = "ba" },
+	{ type = "item-subgroup", group = g, name = "ts-misc-lamps-yuoki", order = "bb" },
 	
 	{ type = "item-subgroup", group = g, name = "ts-misc-redundant-valves", order = "c" },
 	
@@ -41,6 +42,16 @@ place(subgroup, "small-lamp-magenta", "h")
 place(subgroup, "small-lamp-white", "i")
 place(subgroup, "small-lamp-black", "j")
 
+subgroup = "ts-misc-lamps-yuoki"
+place(subgroup, "y_old_bodenlampe", "a")
+place(subgroup, "y_old_bodenlampe_recipe", "a-r1")
+place(subgroup, "y_lampe_neotix", "b")
+place(subgroup, "y_lampe_neotix_recipe", "b-r1")
+place(subgroup, "y_lampe_yuoki", "c")
+place(subgroup, "y_lampe_yuoki_recipe", "c-r1")
+place(subgroup, "yi-monument1", "d")
+place(subgroup, "yi-monument1-recipe", "d-r1")
+
 subgroup = "ts-misc-redundant-valves"
 place(subgroup, "bob-valve", "a")
 place(subgroup, "bob-overflow-valve", "b")
@@ -48,6 +59,9 @@ place(subgroup, "bob-topup-valve", "c")
 place(subgroup, "check-valve", "d")
 place(subgroup, "overflow-valve", "e")
 place(subgroup, "underflow-valve", "f")
+place(subgroup, "y-pipe-h", "g")
+place(subgroup, "y-pipe-v", "h")
+
 
 -- Might cause us to touch the fill- and empty- recipes twice?  Acceptable.
 subgroup = "ts-misc-barrel"

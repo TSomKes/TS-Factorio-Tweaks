@@ -26,8 +26,7 @@ data:extend({
 	{ type = "item-subgroup", group = g, name = "ts-log-power-substation", order = "cd" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-lamps", order = "da" },
-	{ type = "item-subgroup", group = g, name = "ts-log-lamps-yuoki1", order = "db" },
-	{ type = "item-subgroup", group = g, name = "ts-log-lamps-yuoki2", order = "dc" },
+	{ type = "item-subgroup", group = g, name = "ts-log-lamps-yuoki", order = "db" },
 
 	{ type = "item-subgroup", group = g, name = "ts-log-pipe-stone", order = "ea" },
 	{ type = "item-subgroup", group = g, name = "ts-log-pipe-iron", order = "eb" },
@@ -210,7 +209,7 @@ place(subgroup, "small-lamp", "a")
 place(subgroup, "balloon-light", "b")
 place(subgroup, "short-balloon-light", "c")
 
-subgroup = "ts-log-lamps-yuoki1"
+subgroup = "ts-log-lamps-yuoki"
 place(subgroup, "y_lamp_red", "a")
 place(subgroup, "y_lamp_red_recipe", "a-r1")
 place(subgroup, "y_lamp_green", "b")
@@ -225,24 +224,14 @@ place(subgroup, "y-powerlamp", "f")
 place(subgroup, "y-powerlamp-recipe", "f-r1")
 place(subgroup, "y-lamp-alien", "g")
 place(subgroup, "y-lamp-alien-recipe", "g-r1")
-
-subgroup = "ts-log-lamps-yuoki2"
-place(subgroup, "y_lampe_corner", "a")
-place(subgroup, "y_lampe_corner_recipe", "a-r1")
-place(subgroup, "y_lampe_44basement_a", "b")
-place(subgroup, "y_lampe_44basement_a_recipe", "b-r1")
-place(subgroup, "y_lampe_44basement_b", "c")
-place(subgroup, "y_lampe_44basement_b_recipe", "c-r1")
-place(subgroup, "y_lampe_66basement", "d")
-place(subgroup, "y_lampe_66basement_recipe", "d-r1")
-place(subgroup, "y_old_bodenlampe", "e")
-place(subgroup, "y_old_bodenlampe_recipe", "e-r1")
-place(subgroup, "y_lampe_neotix", "f")
-place(subgroup, "y_lampe_neotix_recipe", "f-r1")
-place(subgroup, "y_lampe_yuoki", "g")
-place(subgroup, "y_lampe_yuoki_recipe", "g-r1")
-place(subgroup, "yi-monument1", "h")
-place(subgroup, "yi-monument1-recipe", "h-r1")
+place(subgroup, "y_lampe_corner", "h")
+place(subgroup, "y_lampe_corner_recipe", "h-r1")
+place(subgroup, "y_lampe_44basement_a", "i")
+place(subgroup, "y_lampe_44basement_a_recipe", "i-r1")
+place(subgroup, "y_lampe_44basement_b", "j")
+place(subgroup, "y_lampe_44basement_b_recipe", "j-r1")
+place(subgroup, "y_lampe_66basement", "k")
+place(subgroup, "y_lampe_66basement_recipe", "k-r1")
 
 subgroup = "ts-log-pipe-stone"
 place(subgroup, "stone-pipe", "a")

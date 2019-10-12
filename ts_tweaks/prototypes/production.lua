@@ -142,6 +142,10 @@ place(subgroup, "ore-crusher", "b")
 place(subgroup, "ore-crusher-2", "c")
 place(subgroup, "ore-crusher-3", "d")
 place(subgroup, "ore-crusher-4", "e")
+place(subgroup, "y-crusher", "f")
+place(subgroup, "y-crusher-recipe", "f-r1")
+place(subgroup, "y_crusher2", "g")
+place(subgroup, "y_crusher2_recipe", "g-r1")
 
 subgroup = "ts-prod-ore-sorters"
 place(subgroup, "ore-sorting-facility", "a")
